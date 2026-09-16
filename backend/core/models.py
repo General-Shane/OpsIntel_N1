@@ -98,6 +98,7 @@ class User(Base):
     implemented_changes = relationship("Change", back_populates="implementer", foreign_keys="Change.implementer_user_id")
     owned_services = relationship("Service", back_populates="owner", foreign_keys="Service.owner_user_id")
     audit_events = relationship("AuditEvent", back_populates="actor", foreign_keys="AuditEvent.actor_user_id")
+    ai_conversations = relationship("AIConversation", back_populates="user", cascade="all, delete-orphan", foreign_keys="AIConversation.user_id")
 
     @property
     def role_names(self):
@@ -513,5 +514,41 @@ class NotificationDelivery(Base):
 
     def __repr__(self):
         return f"<NotificationDelivery {self.channel}:{self.recipient} [{self.status}]>"
+
+
+# ============================================================================
+# Stage 11: Persistent AI Conversation Memory Models
+# ============================================================================
+
+class AIConversation(Base):
+    __tablename__ = "ai_conversations"
+
+    id = Column(String, primary_key=True, default=_generate_uuid, index=True)
+    user_id = Column(String, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    title = Column(String, default="Operational Inquiry", nullable=False)
+    created_at = Column(DateTime, default=_utcnow, nullable=False)
+    updated_at = Column(DateTime, default=_utcnow, onupdate=_utcnow, nullable=False)
+
+    user = relationship("User", back_populates="ai_conversations", foreign_keys=[user_id])
+    messages = relationship("AIMessage", back_populates="conversation", cascade="all, delete-orphan", order_by="AIMessage.created_at")
+
+    def __repr__(self):
+        return f"<AIConversation {self.id} [{self.title}] user={self.user_id}>"
+
+
+class AIMessage(Base):
+    __tablename__ = "ai_messages"
+
+    id = Column(String, primary_key=True, default=_generate_uuid, index=True)
+    conversation_id = Column(String, ForeignKey("ai_conversations.id", ondelete="CASCADE"), nullable=False, index=True)
+    sender = Column(String, nullable=False)  # USER | ASSISTANT
+    content = Column(Text, nullable=False)
+    sources_json = Column(Text, nullable=True)
+    created_at = Column(DateTime, default=_utcnow, nullable=False)
+
+    conversation = relationship("AIConversation", back_populates="messages")
+
+    def __repr__(self):
+        return f"<AIMessage {self.id} [{self.sender}] in conv={self.conversation_id}>"
 
 
