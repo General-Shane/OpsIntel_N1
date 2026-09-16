@@ -1,0 +1,6 @@
+service_id,service_name,criticality
+SVC_PAYMENT,Payment Gateway,CRITICAL
+SVC_AUTH,Authentication,CRITICAL
+SVC_WEB,Web Frontend,HIGH
+SVC_DB,Core Database,CRITICAL
+SVC_EMAIL,Email Service,LOW

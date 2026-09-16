@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root,
+[data-theme="light"] {
+  /* ==========================================================================
+     Capgemini Enterprise Light Theme (Authoritative)
+     ========================================================================== */
+  --cg-bg-app: #F5F7FA;               /* Application Light Background */
+  --cg-surface-card: #FFFFFF;         /* Crisp White Card Surface */
+  --cg-surface-secondary: #EEF3F7;    /* Secondary Surface / Tabs / Headers */
+  --cg-surface-elevated: #FFFFFF;     /* Modals / Drawers / Tooltips */
+  --cg-surface-hover: #F8FAFC;        /* Table Row Hover */
+  --cg-surface-input: #FFFFFF;        /* Input Field Background */
+
+  /* Text & Typography */
+  --text-primary: #132238;            /* Primary Deep Navy-Slate */
+  --text-secondary: #5F7185;          /* Secondary Slate Text */
+  --text-muted: #8291A3;              /* Muted Auxiliary Text & Timestamps */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Structure & Brand Primary */
+  --cg-navy-deep: #001B36;            /* Deep Navy */
+  --cg-navy-sidebar: #06243D;         /* Deep Navy Sidebar */
+  --cg-navy-sidebar-hover: #0c3354;   /* Sidebar Item Hover */
+  --cg-navy-sidebar-active: #0D3356;  /* Sidebar Item Active */
+  --cg-blue-primary: #0070AD;         /* Capgemini Primary Blue */
+  --cg-blue-hover: #005a8c;           /* Primary Hover */
+  --cg-blue-secondary: #2F80C9;       /* Secondary Blue */
+  --cg-blue-soft: #EAF4FB;            /* Soft Blue (active tabs / soft pills) */
+  --cg-cyan-accent: #12ABDB;          /* Vibrant Cyan Accent */
+
+  /* Borders & Dividers */
+  --cg-border: #D9E2EA;               /* Standard Card & Element Border */
+  --cg-border-strong: #C4D3E0;        /* Stronger Border */
+  --cg-border-active: #0070AD;        /* Active Border */
+
+  /* Semantic Operational Status */
+  --status-healthy: #168A63;          /* Healthy Green */
+  --status-healthy-bg: #E7F6F0;
+  --status-healthy-border: #BCE6D7;
+
+  --status-warning: #C88719;          /* Warning Amber */
+  --status-warning-bg: #FEF6E8;
+  --status-warning-border: #F9DFB0;
+
+  --status-critical: #C94A4A;         /* Critical Red */
+  --status-critical-bg: #FDEEEE;
+  --status-critical-border: #F7C6C6;
+
+  --status-info: #2F80C9;             /* Informational Blue */
+  --status-info-bg: #EAF4FB;
+  --status-info-border: #B7D9EE;
+
+  /* Charts / Visuals */
+  --chart-grid: #EEF3F7;
+  --chart-tooltip-bg: #FFFFFF;
+  --chart-tooltip-border: #D9E2EA;
+  --chart-tooltip-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  /* Legacy Mappings */
+  --cg-navy-dark: var(--cg-bg-app);
+  --cg-navy-structural: var(--cg-navy-sidebar);
+  --cg-blue-vibrant: var(--cg-cyan-accent);
+  --cg-border-card: var(--cg-border);
+  --cg-surface-subtle: var(--cg-surface-secondary);
+}
+
+[data-theme="dark"],
+.dark {
+  /* ==========================================================================
+     Capgemini Enterprise Dark Theme (Layered Navy NOC Command Center)
+     ========================================================================== */
+  --cg-bg-app: #071521;               /* Deepest Operations Canvas */
+  --cg-surface-card: #0B1F31;         /* Primary Surface Cards */
+  --cg-surface-secondary: #102A40;    /* Secondary Surface / Tabs / Headers */
+  --cg-surface-elevated: #14344D;     /* Elevated Surfaces / Modals / Tooltips */
+  --cg-surface-hover: #10283d;        /* Table Row Hover */
+  --cg-surface-input: #081927;        /* Input Field Background */
+
+  /* Text & Typography */
+  --text-primary: #F4F7FA;            /* Crisp High-Contrast Light Slate */
+  --text-secondary: #A9BAC8;          /* Soft Slate Secondary */
+  --text-muted: #7F95A6;              /* Muted Timestamps & Secondary */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Structure & Brand Primary */
+  --cg-navy-deep: #030F1A;            /* Deepest Navy Base */
+  --cg-navy-sidebar: #041827;         /* Operations Sidebar */
+  --cg-navy-sidebar-hover: #0a253a;   /* Sidebar Item Hover */
+  --cg-navy-sidebar-active: #0f3554;  /* Sidebar Item Active */
+  --cg-blue-primary: #0070AD;         /* Capgemini Primary Blue */
+  --cg-blue-hover: #228ecc;           /* Primary Hover */
+  --cg-blue-secondary: #2F80C9;       /* Secondary Blue */
+  --cg-blue-soft: rgba(0, 112, 173, 0.18); /* Soft Blue Highlight */
+  --cg-cyan-accent: #12ABDB;          /* Vibrant Cyan Accent */
+
+  /* Borders & Dividers */
+  --cg-border: rgba(255, 255, 255, 0.10); /* Subtle Border */
+  --cg-border-strong: rgba(255, 255, 255, 0.18); /* Strong Border */
+  --cg-border-active: #0070AD;
+
+  /* Semantic Operational Status */
+  --status-healthy: #168A63;
+  --status-healthy-bg: rgba(22, 138, 99, 0.18);
+  --status-healthy-border: rgba(22, 138, 99, 0.35);
+
+  --status-warning: #C88719;
+  --status-warning-bg: rgba(200, 135, 25, 0.18);
+  --status-warning-border: rgba(200, 135, 25, 0.35);
+
+  --status-critical: #C94A4A;
+  --status-critical-bg: rgba(201, 74, 74, 0.18);
+  --status-critical-border: rgba(201, 74, 74, 0.35);
+
+  --status-info: #2F80C9;
+  --status-info-bg: rgba(47, 128, 201, 0.18);
+  --status-info-border: rgba(47, 128, 201, 0.35);
+
+  /* Charts / Visuals */
+  --chart-grid: rgba(255, 255, 255, 0.07);
+  --chart-tooltip-bg: #14344D;
+  --chart-tooltip-border: rgba(255, 255, 255, 0.15);
+  --chart-tooltip-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+
+  /* Legacy Mappings */
+  --cg-navy-dark: var(--cg-bg-app);
+  --cg-navy-structural: var(--cg-navy-sidebar);
+  --cg-blue-vibrant: var(--cg-cyan-accent);
+  --cg-border-card: var(--cg-border);
+  --cg-surface-subtle: var(--cg-surface-secondary);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--cg-bg-app);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a {
+  color: var(--cg-blue-secondary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--cg-cyan-accent);
+}
+
+/* Custom Clean Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cg-bg-app);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  opacity: 0.3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Enterprise Card & Layout Styles
+   ========================================================================== */
+.card {
+  background: var(--cg-surface-card);
+  border: 1px solid var(--cg-border);
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--cg-border-strong);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 0.925rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.2px;
+}
+
+.page-title {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: -0.3px;
+}
+
+.page-subtitle {
+  font-size: 0.825rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+/* Tab Navigation System */
+.tab-container {
+  display: flex;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  background-color: var(--cg-surface-secondary);
+  border: 1px solid var(--cg-border);
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.tab-button:hover {
+  color: var(--text-primary);
+  background-color: var(--cg-surface-hover);
+}
+
+.tab-button.active {
+  color: var(--cg-blue-primary);
+  background-color: var(--cg-surface-card);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .tab-button.active {
+  color: #FFFFFF;
+  background-color: var(--cg-surface-elevated);
+}
+
+/* ==========================================================================
+   Buttons & Interactive Elements
+   ========================================================================== */
+.btn-cg-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.15rem;
+  border-radius: 7px;
+  background-color: var(--cg-blue-primary);
+  color: #FFFFFF;
+  font-size: 0.825rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 112, 173, 0.25);
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-cg-primary:hover {
+  background-color: var(--cg-blue-hover);
+  box-shadow: 0 2px 6px rgba(0, 112, 173, 0.35);
+}
+
+.btn-cg-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 7px;
+  background-color: var(--cg-surface-card);
+  color: var(--text-primary);
+  font-size: 0.825rem;
+  font-weight: 600;
+  border: 1px solid var(--cg-border);
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-cg-secondary:hover {
+  background-color: var(--cg-surface-secondary);
+  border-color: var(--cg-border-strong);
+}
+
+.btn-cg-danger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1.1rem;
+  border-radius: 7px;
+  background-color: var(--status-critical);
+  color: #FFFFFF;
+  font-size: 0.825rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(201, 74, 74, 0.25);
+  transition: background-color 0.15s ease;
+}
+
+.btn-cg-danger:hover {
+  background-color: #b03e3e;
+}
+
+/* ==========================================================================
+   Utility Classes & Badges
+   ========================================================================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+
+.badge-critical {
+  background-color: var(--status-critical-bg);
+  color: var(--status-critical);
+  border: 1px solid var(--status-critical-border);
+}
+
+.badge-warning {
+  background-color: var(--status-warning-bg);
+  color: var(--status-warning);
+  border: 1px solid var(--status-warning-border);
+}
+
+.badge-healthy {
+  background-color: var(--status-healthy-bg);
+  color: var(--status-healthy);
+  border: 1px solid var(--status-healthy-border);
+}
+
+.badge-info {
+  background-color: var(--status-info-bg);
+  color: var(--status-info);
+  border: 1px solid var(--status-info-border);
+}
+
+/* Animations */
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Print Styles */
+@media print {
+  @page {
+    margin: 15mm;
+    size: portrait;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+  }
+  aside, header, footer, nav, button, .no-print, .tab-container {
+    display: none !important;
+  }
+  div, main, section {
+    margin-left: 0 !important;
+    padding: 0 !important;
+    background: #ffffff !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+}

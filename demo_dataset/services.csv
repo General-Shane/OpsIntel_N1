@@ -1,0 +1,21 @@
+service_id,service_name,criticality
+SVC_PAYMENT,Payment Gateway,CRITICAL
+SVC_AUTH,Authentication Service,CRITICAL
+SVC_WEB,Web Frontend,HIGH
+SVC_DB,Core Database Cluster,CRITICAL
+SVC_EMAIL,Email Service,MEDIUM
+SVC_ECOM,E-Commerce Platform,HIGH
+SVC_ORD,Order Management,HIGH
+SVC_INV,Inventory Service,HIGH
+SVC_REP,Reporting Service,MEDIUM
+SVC_SHIP,Shipping Service,MEDIUM
+SVC_NET,Core Network Switch,CRITICAL
+SVC_SEC,Security Gateway,CRITICAL
+SVC_CRM,CRM System,HIGH
+SVC_ERP,ERP Enterprise Core,CRITICAL
+SVC_NOTIF,Push Notification Engine,MEDIUM
+SVC_SEARCH,Elastic Search Cluster,HIGH
+SVC_LOG,Log Analytics Platform,MEDIUM
+SVC_CACHE,Redis Distributed Cache,HIGH
+SVC_API,API Gateway,CRITICAL
+SVC_STORAGE,Blob Storage Cluster,HIGH

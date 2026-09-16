@@ -1,0 +1,2501 @@
+sla_id,service_id,service_name,target_hours,actual_hours,breached
+SLA_00001,SVC_REP,Reporting Service,2.0,1.27,false
+SLA_00002,SVC_REP,Reporting Service,8.0,16.63,true
+SLA_00003,SVC_DB,Core Database Cluster,2.0,1.45,false
+SLA_00004,SVC_PAYMENT,Payment Gateway,2.0,0.6,false
+SLA_00005,SVC_REP,Reporting Service,8.0,0.9,false
+SLA_00006,SVC_PAYMENT,Payment Gateway,24.0,19.73,false
+SLA_00007,SVC_EMAIL,Email Service,2.0,1.52,false
+SLA_00008,SVC_REP,Reporting Service,2.0,1.34,false
+SLA_00009,SVC_AUTH,Authentication Service,8.0,2.88,false
+SLA_00010,SVC_SHIP,Shipping Service,8.0,3.2,false
+SLA_00011,SVC_PAYMENT,Payment Gateway,2.0,0.81,false
+SLA_00012,SVC_ECOM,E-Commerce Platform,24.0,18.6,false
+SLA_00013,SVC_ORD,Order Management,24.0,7.51,false
+SLA_00014,SVC_ECOM,E-Commerce Platform,8.0,5.97,false
+SLA_00015,SVC_ORD,Order Management,4.0,2.77,false
+SLA_00016,SVC_ORD,Order Management,24.0,12.74,false
+SLA_00017,SVC_ECOM,E-Commerce Platform,2.0,0.54,false
+SLA_00018,SVC_EMAIL,Email Service,4.0,2.77,false
+SLA_00019,SVC_AUTH,Authentication Service,24.0,7.9,false
+SLA_00020,SVC_EMAIL,Email Service,8.0,0.91,false
+SLA_00021,SVC_ORD,Order Management,2.0,1.53,false
+SLA_00022,SVC_REP,Reporting Service,4.0,2.48,false
+SLA_00023,SVC_REP,Reporting Service,2.0,1.33,false
+SLA_00024,SVC_DB,Core Database Cluster,2.0,0.32,false
+SLA_00025,SVC_DB,Core Database Cluster,2.0,0.5,false
+SLA_00026,SVC_ORD,Order Management,2.0,1.62,false
+SLA_00027,SVC_PAYMENT,Payment Gateway,4.0,1.13,false
+SLA_00028,SVC_DB,Core Database Cluster,8.0,6.65,false
+SLA_00029,SVC_SHIP,Shipping Service,4.0,2.59,false
+SLA_00030,SVC_DB,Core Database Cluster,2.0,0.77,false
+SLA_00031,SVC_SHIP,Shipping Service,24.0,18.0,false
+SLA_00032,SVC_ECOM,E-Commerce Platform,8.0,3.65,false
+SLA_00033,SVC_EMAIL,Email Service,4.0,2.23,false
+SLA_00034,SVC_ECOM,E-Commerce Platform,24.0,10.86,false
+SLA_00035,SVC_EMAIL,Email Service,24.0,17.68,false
+SLA_00036,SVC_DB,Core Database Cluster,24.0,12.89,false
+SLA_00037,SVC_AUTH,Authentication Service,24.0,7.1,false
+SLA_00038,SVC_INV,Inventory Service,2.0,0.96,false
+SLA_00039,SVC_DB,Core Database Cluster,8.0,2.37,false
+SLA_00040,SVC_AUTH,Authentication Service,2.0,0.59,false
+SLA_00041,SVC_ECOM,E-Commerce Platform,2.0,1.62,false
+SLA_00042,SVC_WEB,Web Frontend,8.0,6.28,false
+SLA_00043,SVC_REP,Reporting Service,24.0,11.25,false
+SLA_00044,SVC_PAYMENT,Payment Gateway,2.0,4.57,true
+SLA_00045,SVC_AUTH,Authentication Service,24.0,17.01,false
+SLA_00046,SVC_ORD,Order Management,8.0,0.97,false
+SLA_00047,SVC_EMAIL,Email Service,8.0,1.82,false
+SLA_00048,SVC_ECOM,E-Commerce Platform,4.0,2.82,false
+SLA_00049,SVC_ORD,Order Management,2.0,1.61,false
+SLA_00050,SVC_AUTH,Authentication Service,24.0,6.24,false
+SLA_00051,SVC_AUTH,Authentication Service,8.0,1.7,false
+SLA_00052,SVC_INV,Inventory Service,24.0,10.66,false
+SLA_00053,SVC_PAYMENT,Payment Gateway,2.0,0.31,false
+SLA_00054,SVC_INV,Inventory Service,2.0,0.21,false
+SLA_00055,SVC_AUTH,Authentication Service,8.0,0.87,false
+SLA_00056,SVC_EMAIL,Email Service,8.0,4.05,false
+SLA_00057,SVC_AUTH,Authentication Service,8.0,4.76,false
+SLA_00058,SVC_ECOM,E-Commerce Platform,8.0,1.45,false
+SLA_00059,SVC_INV,Inventory Service,4.0,0.32,false
+SLA_00060,SVC_INV,Inventory Service,4.0,1.56,false
+SLA_00061,SVC_AUTH,Authentication Service,2.0,0.56,false
+SLA_00062,SVC_REP,Reporting Service,2.0,1.01,false
+SLA_00063,SVC_REP,Reporting Service,4.0,2.48,false
+SLA_00064,SVC_DB,Core Database Cluster,2.0,1.11,false
+SLA_00065,SVC_INV,Inventory Service,2.0,1.29,false
+SLA_00066,SVC_ORD,Order Management,8.0,0.22,false
+SLA_00067,SVC_PAYMENT,Payment Gateway,2.0,0.2,false
+SLA_00068,SVC_ECOM,E-Commerce Platform,2.0,1.12,false
+SLA_00069,SVC_REP,Reporting Service,2.0,0.92,false
+SLA_00070,SVC_DB,Core Database Cluster,2.0,0.94,false
+SLA_00071,SVC_ORD,Order Management,4.0,0.64,false
+SLA_00072,SVC_INV,Inventory Service,4.0,2.7,false
+SLA_00073,SVC_DB,Core Database Cluster,24.0,6.74,false
+SLA_00074,SVC_EMAIL,Email Service,4.0,2.28,false
+SLA_00075,SVC_PAYMENT,Payment Gateway,8.0,1.92,false
+SLA_00076,SVC_DB,Core Database Cluster,8.0,5.77,false
+SLA_00077,SVC_WEB,Web Frontend,24.0,13.47,false
+SLA_00078,SVC_ECOM,E-Commerce Platform,8.0,0.55,false
+SLA_00079,SVC_ECOM,E-Commerce Platform,4.0,7.55,true
+SLA_00080,SVC_DB,Core Database Cluster,8.0,0.84,false
+SLA_00081,SVC_ECOM,E-Commerce Platform,24.0,8.7,false
+SLA_00082,SVC_ORD,Order Management,2.0,1.12,false
+SLA_00083,SVC_SHIP,Shipping Service,24.0,5.36,false
+SLA_00084,SVC_PAYMENT,Payment Gateway,8.0,4.52,false
+SLA_00085,SVC_DB,Core Database Cluster,2.0,3.28,true
+SLA_00086,SVC_AUTH,Authentication Service,2.0,1.48,false
+SLA_00087,SVC_DB,Core Database Cluster,24.0,6.47,false
+SLA_00088,SVC_PAYMENT,Payment Gateway,4.0,3.16,false
+SLA_00089,SVC_WEB,Web Frontend,24.0,8.54,false
+SLA_00090,SVC_REP,Reporting Service,4.0,1.87,false
+SLA_00091,SVC_DB,Core Database Cluster,8.0,4.22,false
+SLA_00092,SVC_SHIP,Shipping Service,4.0,2.11,false
+SLA_00093,SVC_SHIP,Shipping Service,8.0,6.17,false
+SLA_00094,SVC_SHIP,Shipping Service,4.0,0.4,false
+SLA_00095,SVC_INV,Inventory Service,8.0,2.33,false
+SLA_00096,SVC_SHIP,Shipping Service,8.0,3.23,false
+SLA_00097,SVC_ORD,Order Management,8.0,1.27,false
+SLA_00098,SVC_REP,Reporting Service,8.0,11.06,true
+SLA_00099,SVC_DB,Core Database Cluster,24.0,8.75,false
+SLA_00100,SVC_INV,Inventory Service,2.0,1.3,false
+SLA_00101,SVC_AUTH,Authentication Service,4.0,0.43,false
+SLA_00102,SVC_DB,Core Database Cluster,24.0,4.45,false
+SLA_00103,SVC_EMAIL,Email Service,4.0,1.12,false
+SLA_00104,SVC_REP,Reporting Service,4.0,1.27,false
+SLA_00105,SVC_ECOM,E-Commerce Platform,24.0,10.43,false
+SLA_00106,SVC_DB,Core Database Cluster,24.0,19.81,false
+SLA_00107,SVC_REP,Reporting Service,4.0,1.39,false
+SLA_00108,SVC_EMAIL,Email Service,4.0,2.94,false
+SLA_00109,SVC_ECOM,E-Commerce Platform,4.0,6.3,true
+SLA_00110,SVC_AUTH,Authentication Service,8.0,1.49,false
+SLA_00111,SVC_EMAIL,Email Service,24.0,17.37,false
+SLA_00112,SVC_ORD,Order Management,4.0,5.83,true
+SLA_00113,SVC_AUTH,Authentication Service,8.0,2.32,false
+SLA_00114,SVC_AUTH,Authentication Service,2.0,1.2,false
+SLA_00115,SVC_AUTH,Authentication Service,2.0,1.43,false
+SLA_00116,SVC_WEB,Web Frontend,4.0,2.49,false
+SLA_00117,SVC_DB,Core Database Cluster,8.0,9.99,true
+SLA_00118,SVC_AUTH,Authentication Service,24.0,4.73,false
+SLA_00119,SVC_DB,Core Database Cluster,4.0,3.12,false
+SLA_00120,SVC_AUTH,Authentication Service,8.0,19.28,true
+SLA_00121,SVC_ORD,Order Management,4.0,1.52,false
+SLA_00122,SVC_WEB,Web Frontend,2.0,0.68,false
+SLA_00123,SVC_INV,Inventory Service,2.0,0.25,false
+SLA_00124,SVC_ECOM,E-Commerce Platform,2.0,0.79,false
+SLA_00125,SVC_REP,Reporting Service,24.0,10.3,false
+SLA_00126,SVC_PAYMENT,Payment Gateway,2.0,1.16,false
+SLA_00127,SVC_SHIP,Shipping Service,2.0,0.83,false
+SLA_00128,SVC_EMAIL,Email Service,4.0,0.76,false
+SLA_00129,SVC_ORD,Order Management,4.0,2.74,false
+SLA_00130,SVC_ORD,Order Management,2.0,1.28,false
+SLA_00131,SVC_SHIP,Shipping Service,4.0,3.0,false
+SLA_00132,SVC_ECOM,E-Commerce Platform,24.0,9.39,false
+SLA_00133,SVC_WEB,Web Frontend,4.0,0.52,false
+SLA_00134,SVC_EMAIL,Email Service,8.0,3.2,false
+SLA_00135,SVC_REP,Reporting Service,24.0,15.92,false
+SLA_00136,SVC_ORD,Order Management,2.0,1.52,false
+SLA_00137,SVC_ECOM,E-Commerce Platform,24.0,20.15,false
+SLA_00138,SVC_SHIP,Shipping Service,4.0,2.16,false
+SLA_00139,SVC_SHIP,Shipping Service,24.0,19.96,false
+SLA_00140,SVC_SHIP,Shipping Service,8.0,4.79,false
+SLA_00141,SVC_ORD,Order Management,24.0,59.7,true
+SLA_00142,SVC_SHIP,Shipping Service,4.0,3.24,false
+SLA_00143,SVC_SHIP,Shipping Service,2.0,1.14,false
+SLA_00144,SVC_EMAIL,Email Service,24.0,2.58,false
+SLA_00145,SVC_DB,Core Database Cluster,2.0,1.19,false
+SLA_00146,SVC_PAYMENT,Payment Gateway,4.0,1.36,false
+SLA_00147,SVC_AUTH,Authentication Service,24.0,6.8,false
+SLA_00148,SVC_ORD,Order Management,4.0,3.15,false
+SLA_00149,SVC_DB,Core Database Cluster,8.0,1.29,false
+SLA_00150,SVC_INV,Inventory Service,2.0,1.36,false
+SLA_00151,SVC_SHIP,Shipping Service,24.0,8.98,false
+SLA_00152,SVC_ORD,Order Management,8.0,5.7,false
+SLA_00153,SVC_EMAIL,Email Service,4.0,1.43,false
+SLA_00154,SVC_AUTH,Authentication Service,2.0,1.24,false
+SLA_00155,SVC_ECOM,E-Commerce Platform,2.0,1.12,false
+SLA_00156,SVC_INV,Inventory Service,4.0,3.19,false
+SLA_00157,SVC_ECOM,E-Commerce Platform,8.0,0.72,false
+SLA_00158,SVC_ECOM,E-Commerce Platform,8.0,0.64,false
+SLA_00159,SVC_PAYMENT,Payment Gateway,4.0,3.39,false
+SLA_00160,SVC_WEB,Web Frontend,24.0,8.57,false
+SLA_00161,SVC_REP,Reporting Service,8.0,4.22,false
+SLA_00162,SVC_SHIP,Shipping Service,4.0,9.26,true
+SLA_00163,SVC_EMAIL,Email Service,4.0,0.72,false
+SLA_00164,SVC_AUTH,Authentication Service,8.0,5.28,false
+SLA_00165,SVC_WEB,Web Frontend,2.0,1.26,false
+SLA_00166,SVC_REP,Reporting Service,24.0,3.01,false
+SLA_00167,SVC_PAYMENT,Payment Gateway,2.0,1.22,false
+SLA_00168,SVC_PAYMENT,Payment Gateway,2.0,1.4,false
+SLA_00169,SVC_EMAIL,Email Service,2.0,0.74,false
+SLA_00170,SVC_PAYMENT,Payment Gateway,8.0,0.72,false
+SLA_00171,SVC_DB,Core Database Cluster,8.0,2.0,false
+SLA_00172,SVC_WEB,Web Frontend,24.0,16.03,false
+SLA_00173,SVC_EMAIL,Email Service,2.0,0.46,false
+SLA_00174,SVC_ORD,Order Management,8.0,2.31,false
+SLA_00175,SVC_EMAIL,Email Service,4.0,2.57,false
+SLA_00176,SVC_WEB,Web Frontend,8.0,4.16,false
+SLA_00177,SVC_ORD,Order Management,2.0,0.39,false
+SLA_00178,SVC_PAYMENT,Payment Gateway,2.0,1.26,false
+SLA_00179,SVC_EMAIL,Email Service,4.0,0.96,false
+SLA_00180,SVC_SHIP,Shipping Service,24.0,7.02,false
+SLA_00181,SVC_WEB,Web Frontend,24.0,19.33,false
+SLA_00182,SVC_ORD,Order Management,4.0,0.51,false
+SLA_00183,SVC_REP,Reporting Service,2.0,0.66,false
+SLA_00184,SVC_ORD,Order Management,24.0,5.45,false
+SLA_00185,SVC_WEB,Web Frontend,2.0,0.93,false
+SLA_00186,SVC_WEB,Web Frontend,2.0,1.46,false
+SLA_00187,SVC_SHIP,Shipping Service,2.0,1.21,false
+SLA_00188,SVC_ECOM,E-Commerce Platform,2.0,1.23,false
+SLA_00189,SVC_SHIP,Shipping Service,2.0,0.71,false
+SLA_00190,SVC_DB,Core Database Cluster,4.0,0.38,false
+SLA_00191,SVC_ECOM,E-Commerce Platform,4.0,2.12,false
+SLA_00192,SVC_PAYMENT,Payment Gateway,24.0,18.34,false
+SLA_00193,SVC_DB,Core Database Cluster,24.0,18.8,false
+SLA_00194,SVC_REP,Reporting Service,24.0,7.63,false
+SLA_00195,SVC_INV,Inventory Service,2.0,0.25,false
+SLA_00196,SVC_AUTH,Authentication Service,8.0,1.7,false
+SLA_00197,SVC_PAYMENT,Payment Gateway,4.0,5.44,true
+SLA_00198,SVC_ORD,Order Management,24.0,15.62,false
+SLA_00199,SVC_AUTH,Authentication Service,4.0,5.72,true
+SLA_00200,SVC_AUTH,Authentication Service,8.0,2.94,false
+SLA_00201,SVC_DB,Core Database Cluster,8.0,17.21,true
+SLA_00202,SVC_EMAIL,Email Service,4.0,2.3,false
+SLA_00203,SVC_DB,Core Database Cluster,2.0,1.52,false
+SLA_00204,SVC_PAYMENT,Payment Gateway,2.0,4.0,true
+SLA_00205,SVC_EMAIL,Email Service,2.0,0.73,false
+SLA_00206,SVC_ORD,Order Management,8.0,5.61,false
+SLA_00207,SVC_ORD,Order Management,24.0,4.38,false
+SLA_00208,SVC_EMAIL,Email Service,24.0,14.46,false
+SLA_00209,SVC_ECOM,E-Commerce Platform,2.0,0.65,false
+SLA_00210,SVC_WEB,Web Frontend,4.0,2.24,false
+SLA_00211,SVC_DB,Core Database Cluster,4.0,2.4,false
+SLA_00212,SVC_EMAIL,Email Service,8.0,5.64,false
+SLA_00213,SVC_SHIP,Shipping Service,24.0,11.68,false
+SLA_00214,SVC_EMAIL,Email Service,24.0,9.05,false
+SLA_00215,SVC_ECOM,E-Commerce Platform,4.0,5.64,true
+SLA_00216,SVC_WEB,Web Frontend,2.0,0.94,false
+SLA_00217,SVC_ORD,Order Management,8.0,3.06,false
+SLA_00218,SVC_AUTH,Authentication Service,4.0,2.41,false
+SLA_00219,SVC_AUTH,Authentication Service,8.0,1.23,false
+SLA_00220,SVC_EMAIL,Email Service,24.0,0.37,false
+SLA_00221,SVC_INV,Inventory Service,8.0,2.84,false
+SLA_00222,SVC_WEB,Web Frontend,24.0,19.56,false
+SLA_00223,SVC_EMAIL,Email Service,2.0,1.5,false
+SLA_00224,SVC_ECOM,E-Commerce Platform,4.0,2.14,false
+SLA_00225,SVC_ORD,Order Management,4.0,1.52,false
+SLA_00226,SVC_EMAIL,Email Service,4.0,0.69,false
+SLA_00227,SVC_AUTH,Authentication Service,4.0,6.67,true
+SLA_00228,SVC_EMAIL,Email Service,8.0,11.07,true
+SLA_00229,SVC_INV,Inventory Service,24.0,19.28,false
+SLA_00230,SVC_INV,Inventory Service,24.0,6.38,false
+SLA_00231,SVC_INV,Inventory Service,4.0,1.84,false
+SLA_00232,SVC_DB,Core Database Cluster,2.0,0.33,false
+SLA_00233,SVC_DB,Core Database Cluster,4.0,1.76,false
+SLA_00234,SVC_REP,Reporting Service,4.0,2.86,false
+SLA_00235,SVC_PAYMENT,Payment Gateway,4.0,1.53,false
+SLA_00236,SVC_INV,Inventory Service,2.0,0.78,false
+SLA_00237,SVC_EMAIL,Email Service,8.0,5.86,false
+SLA_00238,SVC_ECOM,E-Commerce Platform,2.0,0.89,false
+SLA_00239,SVC_ORD,Order Management,2.0,4.27,true
+SLA_00240,SVC_DB,Core Database Cluster,8.0,2.35,false
+SLA_00241,SVC_WEB,Web Frontend,24.0,8.66,false
+SLA_00242,SVC_WEB,Web Frontend,4.0,6.97,true
+SLA_00243,SVC_ECOM,E-Commerce Platform,24.0,15.93,false
+SLA_00244,SVC_PAYMENT,Payment Gateway,24.0,13.78,false
+SLA_00245,SVC_ECOM,E-Commerce Platform,4.0,0.81,false
+SLA_00246,SVC_ECOM,E-Commerce Platform,24.0,1.13,false
+SLA_00247,SVC_REP,Reporting Service,8.0,0.49,false
+SLA_00248,SVC_SHIP,Shipping Service,2.0,1.42,false
+SLA_00249,SVC_DB,Core Database Cluster,8.0,6.51,false
+SLA_00250,SVC_AUTH,Authentication Service,2.0,0.41,false
+SLA_00251,SVC_DB,Core Database Cluster,2.0,1.17,false
+SLA_00252,SVC_DB,Core Database Cluster,8.0,5.69,false
+SLA_00253,SVC_AUTH,Authentication Service,4.0,0.69,false
+SLA_00254,SVC_PAYMENT,Payment Gateway,24.0,4.18,false
+SLA_00255,SVC_DB,Core Database Cluster,4.0,1.97,false
+SLA_00256,SVC_DB,Core Database Cluster,4.0,2.18,false
+SLA_00257,SVC_ECOM,E-Commerce Platform,2.0,0.38,false
+SLA_00258,SVC_DB,Core Database Cluster,24.0,9.69,false
+SLA_00259,SVC_DB,Core Database Cluster,24.0,9.07,false
+SLA_00260,SVC_INV,Inventory Service,24.0,58.06,true
+SLA_00261,SVC_WEB,Web Frontend,4.0,2.23,false
+SLA_00262,SVC_EMAIL,Email Service,4.0,2.67,false
+SLA_00263,SVC_ORD,Order Management,8.0,1.89,false
+SLA_00264,SVC_EMAIL,Email Service,24.0,5.67,false
+SLA_00265,SVC_PAYMENT,Payment Gateway,24.0,0.67,false
+SLA_00266,SVC_REP,Reporting Service,2.0,1.21,false
+SLA_00267,SVC_REP,Reporting Service,8.0,4.26,false
+SLA_00268,SVC_AUTH,Authentication Service,24.0,3.7,false
+SLA_00269,SVC_SHIP,Shipping Service,2.0,0.22,false
+SLA_00270,SVC_PAYMENT,Payment Gateway,8.0,4.47,false
+SLA_00271,SVC_SHIP,Shipping Service,2.0,4.72,true
+SLA_00272,SVC_SHIP,Shipping Service,2.0,0.31,false
+SLA_00273,SVC_INV,Inventory Service,24.0,4.14,false
+SLA_00274,SVC_ECOM,E-Commerce Platform,2.0,4.31,true
+SLA_00275,SVC_EMAIL,Email Service,8.0,2.06,false
+SLA_00276,SVC_DB,Core Database Cluster,4.0,2.84,false
+SLA_00277,SVC_SHIP,Shipping Service,4.0,3.04,false
+SLA_00278,SVC_PAYMENT,Payment Gateway,4.0,1.1,false
+SLA_00279,SVC_EMAIL,Email Service,2.0,0.81,false
+SLA_00280,SVC_ORD,Order Management,4.0,9.78,true
+SLA_00281,SVC_WEB,Web Frontend,8.0,3.63,false
+SLA_00282,SVC_REP,Reporting Service,8.0,10.08,true
+SLA_00283,SVC_ORD,Order Management,4.0,1.82,false
+SLA_00284,SVC_DB,Core Database Cluster,24.0,18.38,false
+SLA_00285,SVC_ECOM,E-Commerce Platform,24.0,6.14,false
+SLA_00286,SVC_PAYMENT,Payment Gateway,4.0,3.17,false
+SLA_00287,SVC_WEB,Web Frontend,24.0,6.96,false
+SLA_00288,SVC_EMAIL,Email Service,2.0,0.39,false
+SLA_00289,SVC_REP,Reporting Service,4.0,0.47,false
+SLA_00290,SVC_ORD,Order Management,4.0,1.85,false
+SLA_00291,SVC_AUTH,Authentication Service,24.0,15.88,false
+SLA_00292,SVC_ORD,Order Management,24.0,5.75,false
+SLA_00293,SVC_INV,Inventory Service,2.0,0.46,false
+SLA_00294,SVC_SHIP,Shipping Service,2.0,0.35,false
+SLA_00295,SVC_PAYMENT,Payment Gateway,4.0,2.28,false
+SLA_00296,SVC_ECOM,E-Commerce Platform,8.0,5.74,false
+SLA_00297,SVC_REP,Reporting Service,8.0,6.24,false
+SLA_00298,SVC_PAYMENT,Payment Gateway,2.0,0.27,false
+SLA_00299,SVC_DB,Core Database Cluster,8.0,2.43,false
+SLA_00300,SVC_SHIP,Shipping Service,24.0,10.51,false
+SLA_00301,SVC_PAYMENT,Payment Gateway,2.0,1.64,false
+SLA_00302,SVC_REP,Reporting Service,2.0,1.24,false
+SLA_00303,SVC_ECOM,E-Commerce Platform,24.0,1.85,false
+SLA_00304,SVC_INV,Inventory Service,24.0,3.09,false
+SLA_00305,SVC_AUTH,Authentication Service,24.0,3.84,false
+SLA_00306,SVC_REP,Reporting Service,8.0,3.58,false
+SLA_00307,SVC_INV,Inventory Service,2.0,1.48,false
+SLA_00308,SVC_DB,Core Database Cluster,4.0,2.34,false
+SLA_00309,SVC_INV,Inventory Service,2.0,0.33,false
+SLA_00310,SVC_EMAIL,Email Service,24.0,0.23,false
+SLA_00311,SVC_REP,Reporting Service,2.0,0.98,false
+SLA_00312,SVC_AUTH,Authentication Service,4.0,0.45,false
+SLA_00313,SVC_EMAIL,Email Service,4.0,3.04,false
+SLA_00314,SVC_AUTH,Authentication Service,8.0,0.34,false
+SLA_00315,SVC_EMAIL,Email Service,8.0,3.27,false
+SLA_00316,SVC_SHIP,Shipping Service,8.0,2.36,false
+SLA_00317,SVC_ORD,Order Management,4.0,3.18,false
+SLA_00318,SVC_PAYMENT,Payment Gateway,2.0,3.85,true
+SLA_00319,SVC_ORD,Order Management,4.0,1.35,false
+SLA_00320,SVC_PAYMENT,Payment Gateway,8.0,2.6,false
+SLA_00321,SVC_AUTH,Authentication Service,4.0,0.89,false
+SLA_00322,SVC_INV,Inventory Service,24.0,1.62,false
+SLA_00323,SVC_PAYMENT,Payment Gateway,24.0,2.35,false
+SLA_00324,SVC_ORD,Order Management,8.0,2.25,false
+SLA_00325,SVC_REP,Reporting Service,4.0,3.32,false
+SLA_00326,SVC_SHIP,Shipping Service,24.0,6.45,false
+SLA_00327,SVC_REP,Reporting Service,2.0,1.0,false
+SLA_00328,SVC_SHIP,Shipping Service,24.0,4.77,false
+SLA_00329,SVC_EMAIL,Email Service,8.0,0.57,false
+SLA_00330,SVC_ECOM,E-Commerce Platform,24.0,18.86,false
+SLA_00331,SVC_INV,Inventory Service,24.0,16.18,false
+SLA_00332,SVC_SHIP,Shipping Service,24.0,13.33,false
+SLA_00333,SVC_ORD,Order Management,4.0,3.31,false
+SLA_00334,SVC_AUTH,Authentication Service,24.0,13.55,false
+SLA_00335,SVC_EMAIL,Email Service,8.0,14.14,true
+SLA_00336,SVC_WEB,Web Frontend,4.0,2.2,false
+SLA_00337,SVC_AUTH,Authentication Service,24.0,16.4,false
+SLA_00338,SVC_ORD,Order Management,24.0,9.05,false
+SLA_00339,SVC_AUTH,Authentication Service,8.0,4.0,false
+SLA_00340,SVC_ECOM,E-Commerce Platform,8.0,6.29,false
+SLA_00341,SVC_PAYMENT,Payment Gateway,8.0,5.34,false
+SLA_00342,SVC_ECOM,E-Commerce Platform,24.0,18.3,false
+SLA_00343,SVC_WEB,Web Frontend,24.0,19.62,false
+SLA_00344,SVC_ORD,Order Management,8.0,3.03,false
+SLA_00345,SVC_ORD,Order Management,24.0,2.12,false
+SLA_00346,SVC_INV,Inventory Service,2.0,4.5,true
+SLA_00347,SVC_WEB,Web Frontend,2.0,2.25,true
+SLA_00348,SVC_REP,Reporting Service,2.0,1.14,false
+SLA_00349,SVC_SHIP,Shipping Service,4.0,2.02,false
+SLA_00350,SVC_INV,Inventory Service,4.0,3.03,false
+SLA_00351,SVC_WEB,Web Frontend,8.0,2.44,false
+SLA_00352,SVC_ECOM,E-Commerce Platform,24.0,7.26,false
+SLA_00353,SVC_DB,Core Database Cluster,4.0,2.84,false
+SLA_00354,SVC_REP,Reporting Service,8.0,5.75,false
+SLA_00355,SVC_ORD,Order Management,2.0,1.21,false
+SLA_00356,SVC_REP,Reporting Service,4.0,2.82,false
+SLA_00357,SVC_DB,Core Database Cluster,8.0,10.6,true
+SLA_00358,SVC_SHIP,Shipping Service,24.0,4.58,false
+SLA_00359,SVC_AUTH,Authentication Service,2.0,0.56,false
+SLA_00360,SVC_SHIP,Shipping Service,4.0,0.24,false
+SLA_00361,SVC_PAYMENT,Payment Gateway,2.0,1.6,false
+SLA_00362,SVC_ORD,Order Management,8.0,5.7,false
+SLA_00363,SVC_SHIP,Shipping Service,2.0,0.66,false
+SLA_00364,SVC_ECOM,E-Commerce Platform,24.0,0.21,false
+SLA_00365,SVC_ECOM,E-Commerce Platform,24.0,0.95,false
+SLA_00366,SVC_SHIP,Shipping Service,2.0,1.12,false
+SLA_00367,SVC_WEB,Web Frontend,24.0,11.59,false
+SLA_00368,SVC_EMAIL,Email Service,24.0,12.41,false
+SLA_00369,SVC_AUTH,Authentication Service,2.0,0.49,false
+SLA_00370,SVC_REP,Reporting Service,24.0,10.92,false
+SLA_00371,SVC_REP,Reporting Service,4.0,1.51,false
+SLA_00372,SVC_ORD,Order Management,2.0,0.49,false
+SLA_00373,SVC_INV,Inventory Service,24.0,9.4,false
+SLA_00374,SVC_INV,Inventory Service,8.0,2.91,false
+SLA_00375,SVC_SHIP,Shipping Service,8.0,17.63,true
+SLA_00376,SVC_ORD,Order Management,2.0,0.61,false
+SLA_00377,SVC_REP,Reporting Service,24.0,44.68,true
+SLA_00378,SVC_AUTH,Authentication Service,8.0,1.11,false
+SLA_00379,SVC_ECOM,E-Commerce Platform,4.0,2.61,false
+SLA_00380,SVC_INV,Inventory Service,2.0,1.39,false
+SLA_00381,SVC_INV,Inventory Service,8.0,9.26,true
+SLA_00382,SVC_ORD,Order Management,4.0,2.9,false
+SLA_00383,SVC_REP,Reporting Service,2.0,1.63,false
+SLA_00384,SVC_REP,Reporting Service,24.0,19.61,false
+SLA_00385,SVC_ECOM,E-Commerce Platform,2.0,1.53,false
+SLA_00386,SVC_AUTH,Authentication Service,4.0,0.4,false
+SLA_00387,SVC_EMAIL,Email Service,2.0,0.45,false
+SLA_00388,SVC_AUTH,Authentication Service,4.0,2.19,false
+SLA_00389,SVC_REP,Reporting Service,8.0,6.7,false
+SLA_00390,SVC_WEB,Web Frontend,2.0,3.07,true
+SLA_00391,SVC_EMAIL,Email Service,24.0,9.79,false
+SLA_00392,SVC_ORD,Order Management,4.0,2.89,false
+SLA_00393,SVC_WEB,Web Frontend,4.0,0.72,false
+SLA_00394,SVC_DB,Core Database Cluster,4.0,2.31,false
+SLA_00395,SVC_PAYMENT,Payment Gateway,4.0,2.69,false
+SLA_00396,SVC_EMAIL,Email Service,24.0,5.92,false
+SLA_00397,SVC_DB,Core Database Cluster,4.0,3.32,false
+SLA_00398,SVC_PAYMENT,Payment Gateway,8.0,4.17,false
+SLA_00399,SVC_REP,Reporting Service,24.0,9.5,false
+SLA_00400,SVC_DB,Core Database Cluster,2.0,0.91,false
+SLA_00401,SVC_PAYMENT,Payment Gateway,2.0,1.28,false
+SLA_00402,SVC_SHIP,Shipping Service,8.0,2.97,false
+SLA_00403,SVC_INV,Inventory Service,2.0,0.76,false
+SLA_00404,SVC_AUTH,Authentication Service,2.0,1.46,false
+SLA_00405,SVC_ORD,Order Management,4.0,2.42,false
+SLA_00406,SVC_WEB,Web Frontend,2.0,1.69,false
+SLA_00407,SVC_SHIP,Shipping Service,2.0,0.24,false
+SLA_00408,SVC_INV,Inventory Service,8.0,0.36,false
+SLA_00409,SVC_PAYMENT,Payment Gateway,8.0,0.69,false
+SLA_00410,SVC_ORD,Order Management,24.0,1.03,false
+SLA_00411,SVC_ECOM,E-Commerce Platform,24.0,10.24,false
+SLA_00412,SVC_ORD,Order Management,4.0,3.1,false
+SLA_00413,SVC_WEB,Web Frontend,2.0,0.88,false
+SLA_00414,SVC_REP,Reporting Service,4.0,2.0,false
+SLA_00415,SVC_SHIP,Shipping Service,2.0,0.89,false
+SLA_00416,SVC_AUTH,Authentication Service,4.0,2.47,false
+SLA_00417,SVC_PAYMENT,Payment Gateway,24.0,13.77,false
+SLA_00418,SVC_DB,Core Database Cluster,4.0,1.09,false
+SLA_00419,SVC_SHIP,Shipping Service,4.0,0.65,false
+SLA_00420,SVC_INV,Inventory Service,24.0,40.53,true
+SLA_00421,SVC_INV,Inventory Service,8.0,13.15,true
+SLA_00422,SVC_REP,Reporting Service,8.0,1.43,false
+SLA_00423,SVC_AUTH,Authentication Service,8.0,1.23,false
+SLA_00424,SVC_REP,Reporting Service,2.0,0.86,false
+SLA_00425,SVC_INV,Inventory Service,8.0,2.47,false
+SLA_00426,SVC_ECOM,E-Commerce Platform,24.0,8.17,false
+SLA_00427,SVC_EMAIL,Email Service,8.0,4.79,false
+SLA_00428,SVC_WEB,Web Frontend,8.0,3.95,false
+SLA_00429,SVC_EMAIL,Email Service,24.0,2.77,false
+SLA_00430,SVC_SHIP,Shipping Service,8.0,2.48,false
+SLA_00431,SVC_WEB,Web Frontend,24.0,33.38,true
+SLA_00432,SVC_AUTH,Authentication Service,2.0,0.92,false
+SLA_00433,SVC_ORD,Order Management,4.0,2.21,false
+SLA_00434,SVC_EMAIL,Email Service,8.0,3.36,false
+SLA_00435,SVC_INV,Inventory Service,24.0,19.2,false
+SLA_00436,SVC_DB,Core Database Cluster,24.0,1.76,false
+SLA_00437,SVC_PAYMENT,Payment Gateway,4.0,1.92,false
+SLA_00438,SVC_WEB,Web Frontend,24.0,11.68,false
+SLA_00439,SVC_ORD,Order Management,2.0,1.2,false
+SLA_00440,SVC_REP,Reporting Service,24.0,14.63,false
+SLA_00441,SVC_EMAIL,Email Service,4.0,6.25,true
+SLA_00442,SVC_PAYMENT,Payment Gateway,8.0,6.59,false
+SLA_00443,SVC_ORD,Order Management,4.0,0.42,false
+SLA_00444,SVC_DB,Core Database Cluster,8.0,2.38,false
+SLA_00445,SVC_REP,Reporting Service,24.0,15.79,false
+SLA_00446,SVC_ECOM,E-Commerce Platform,4.0,0.4,false
+SLA_00447,SVC_AUTH,Authentication Service,4.0,0.6,false
+SLA_00448,SVC_SHIP,Shipping Service,24.0,10.94,false
+SLA_00449,SVC_ORD,Order Management,24.0,2.38,false
+SLA_00450,SVC_EMAIL,Email Service,24.0,16.52,false
+SLA_00451,SVC_AUTH,Authentication Service,24.0,15.68,false
+SLA_00452,SVC_ECOM,E-Commerce Platform,4.0,1.68,false
+SLA_00453,SVC_AUTH,Authentication Service,8.0,5.92,false
+SLA_00454,SVC_WEB,Web Frontend,24.0,15.11,false
+SLA_00455,SVC_EMAIL,Email Service,24.0,38.97,true
+SLA_00456,SVC_WEB,Web Frontend,8.0,3.9,false
+SLA_00457,SVC_DB,Core Database Cluster,8.0,3.78,false
+SLA_00458,SVC_WEB,Web Frontend,2.0,2.7,true
+SLA_00459,SVC_INV,Inventory Service,2.0,1.18,false
+SLA_00460,SVC_REP,Reporting Service,2.0,0.32,false
+SLA_00461,SVC_EMAIL,Email Service,2.0,1.35,false
+SLA_00462,SVC_REP,Reporting Service,8.0,4.73,false
+SLA_00463,SVC_ECOM,E-Commerce Platform,8.0,3.41,false
+SLA_00464,SVC_EMAIL,Email Service,4.0,0.78,false
+SLA_00465,SVC_SHIP,Shipping Service,2.0,1.69,false
+SLA_00466,SVC_AUTH,Authentication Service,4.0,2.06,false
+SLA_00467,SVC_EMAIL,Email Service,4.0,1.84,false
+SLA_00468,SVC_PAYMENT,Payment Gateway,8.0,3.61,false
+SLA_00469,SVC_INV,Inventory Service,4.0,3.34,false
+SLA_00470,SVC_INV,Inventory Service,8.0,5.2,false
+SLA_00471,SVC_ORD,Order Management,4.0,3.08,false
+SLA_00472,SVC_DB,Core Database Cluster,24.0,3.1,false
+SLA_00473,SVC_EMAIL,Email Service,24.0,10.81,false
+SLA_00474,SVC_ECOM,E-Commerce Platform,2.0,0.77,false
+SLA_00475,SVC_PAYMENT,Payment Gateway,8.0,1.51,false
+SLA_00476,SVC_PAYMENT,Payment Gateway,24.0,17.26,false
+SLA_00477,SVC_EMAIL,Email Service,24.0,6.9,false
+SLA_00478,SVC_REP,Reporting Service,24.0,5.61,false
+SLA_00479,SVC_EMAIL,Email Service,24.0,19.79,false
+SLA_00480,SVC_AUTH,Authentication Service,4.0,2.39,false
+SLA_00481,SVC_WEB,Web Frontend,2.0,0.46,false
+SLA_00482,SVC_EMAIL,Email Service,4.0,2.85,false
+SLA_00483,SVC_SHIP,Shipping Service,2.0,0.41,false
+SLA_00484,SVC_PAYMENT,Payment Gateway,4.0,4.81,true
+SLA_00485,SVC_AUTH,Authentication Service,4.0,1.82,false
+SLA_00486,SVC_AUTH,Authentication Service,4.0,1.09,false
+SLA_00487,SVC_ECOM,E-Commerce Platform,8.0,4.92,false
+SLA_00488,SVC_ECOM,E-Commerce Platform,4.0,7.14,true
+SLA_00489,SVC_PAYMENT,Payment Gateway,24.0,7.71,false
+SLA_00490,SVC_SHIP,Shipping Service,2.0,0.51,false
+SLA_00491,SVC_WEB,Web Frontend,24.0,5.09,false
+SLA_00492,SVC_INV,Inventory Service,8.0,3.01,false
+SLA_00493,SVC_EMAIL,Email Service,8.0,6.78,false
+SLA_00494,SVC_DB,Core Database Cluster,2.0,1.43,false
+SLA_00495,SVC_DB,Core Database Cluster,4.0,0.94,false
+SLA_00496,SVC_ECOM,E-Commerce Platform,8.0,4.92,false
+SLA_00497,SVC_INV,Inventory Service,4.0,1.34,false
+SLA_00498,SVC_ECOM,E-Commerce Platform,4.0,1.55,false
+SLA_00499,SVC_EMAIL,Email Service,8.0,4.24,false
+SLA_00500,SVC_REP,Reporting Service,4.0,0.86,false
+SLA_00501,SVC_WEB,Web Frontend,2.0,1.63,false
+SLA_00502,SVC_ECOM,E-Commerce Platform,4.0,0.74,false
+SLA_00503,SVC_DB,Core Database Cluster,2.0,0.38,false
+SLA_00504,SVC_AUTH,Authentication Service,4.0,8.7,true
+SLA_00505,SVC_INV,Inventory Service,2.0,0.88,false
+SLA_00506,SVC_PAYMENT,Payment Gateway,24.0,12.72,false
+SLA_00507,SVC_WEB,Web Frontend,8.0,4.9,false
+SLA_00508,SVC_ECOM,E-Commerce Platform,8.0,6.47,false
+SLA_00509,SVC_ECOM,E-Commerce Platform,24.0,4.86,false
+SLA_00510,SVC_AUTH,Authentication Service,8.0,4.78,false
+SLA_00511,SVC_ORD,Order Management,24.0,13.81,false
+SLA_00512,SVC_WEB,Web Frontend,8.0,5.51,false
+SLA_00513,SVC_ECOM,E-Commerce Platform,24.0,11.75,false
+SLA_00514,SVC_EMAIL,Email Service,24.0,7.7,false
+SLA_00515,SVC_DB,Core Database Cluster,2.0,1.4,false
+SLA_00516,SVC_PAYMENT,Payment Gateway,4.0,1.98,false
+SLA_00517,SVC_ECOM,E-Commerce Platform,24.0,4.05,false
+SLA_00518,SVC_WEB,Web Frontend,24.0,17.14,false
+SLA_00519,SVC_INV,Inventory Service,2.0,0.78,false
+SLA_00520,SVC_WEB,Web Frontend,2.0,0.46,false
+SLA_00521,SVC_REP,Reporting Service,24.0,18.97,false
+SLA_00522,SVC_REP,Reporting Service,2.0,0.85,false
+SLA_00523,SVC_ORD,Order Management,8.0,3.46,false
+SLA_00524,SVC_ORD,Order Management,8.0,4.3,false
+SLA_00525,SVC_AUTH,Authentication Service,24.0,16.71,false
+SLA_00526,SVC_DB,Core Database Cluster,4.0,0.66,false
+SLA_00527,SVC_SHIP,Shipping Service,8.0,1.34,false
+SLA_00528,SVC_AUTH,Authentication Service,2.0,1.68,false
+SLA_00529,SVC_INV,Inventory Service,2.0,1.64,false
+SLA_00530,SVC_PAYMENT,Payment Gateway,4.0,3.36,false
+SLA_00531,SVC_ECOM,E-Commerce Platform,4.0,0.73,false
+SLA_00532,SVC_REP,Reporting Service,4.0,1.35,false
+SLA_00533,SVC_PAYMENT,Payment Gateway,2.0,0.77,false
+SLA_00534,SVC_INV,Inventory Service,2.0,0.22,false
+SLA_00535,SVC_AUTH,Authentication Service,8.0,3.74,false
+SLA_00536,SVC_EMAIL,Email Service,24.0,18.32,false
+SLA_00537,SVC_SHIP,Shipping Service,2.0,1.56,false
+SLA_00538,SVC_DB,Core Database Cluster,2.0,0.83,false
+SLA_00539,SVC_PAYMENT,Payment Gateway,24.0,12.92,false
+SLA_00540,SVC_REP,Reporting Service,8.0,3.04,false
+SLA_00541,SVC_PAYMENT,Payment Gateway,4.0,3.14,false
+SLA_00542,SVC_AUTH,Authentication Service,24.0,16.95,false
+SLA_00543,SVC_ECOM,E-Commerce Platform,2.0,0.66,false
+SLA_00544,SVC_ECOM,E-Commerce Platform,2.0,1.65,false
+SLA_00545,SVC_DB,Core Database Cluster,4.0,2.71,false
+SLA_00546,SVC_PAYMENT,Payment Gateway,8.0,6.19,false
+SLA_00547,SVC_AUTH,Authentication Service,24.0,5.39,false
+SLA_00548,SVC_ECOM,E-Commerce Platform,24.0,7.91,false
+SLA_00549,SVC_ORD,Order Management,24.0,15.82,false
+SLA_00550,SVC_EMAIL,Email Service,24.0,19.15,false
+SLA_00551,SVC_EMAIL,Email Service,4.0,1.18,false
+SLA_00552,SVC_PAYMENT,Payment Gateway,2.0,4.54,true
+SLA_00553,SVC_AUTH,Authentication Service,4.0,3.28,false
+SLA_00554,SVC_EMAIL,Email Service,4.0,1.07,false
+SLA_00555,SVC_AUTH,Authentication Service,2.0,0.56,false
+SLA_00556,SVC_WEB,Web Frontend,4.0,5.22,true
+SLA_00557,SVC_REP,Reporting Service,4.0,1.57,false
+SLA_00558,SVC_WEB,Web Frontend,4.0,0.87,false
+SLA_00559,SVC_DB,Core Database Cluster,8.0,0.96,false
+SLA_00560,SVC_EMAIL,Email Service,2.0,0.81,false
+SLA_00561,SVC_INV,Inventory Service,24.0,41.09,true
+SLA_00562,SVC_PAYMENT,Payment Gateway,2.0,1.53,false
+SLA_00563,SVC_SHIP,Shipping Service,2.0,0.38,false
+SLA_00564,SVC_ORD,Order Management,4.0,1.06,false
+SLA_00565,SVC_SHIP,Shipping Service,4.0,2.2,false
+SLA_00566,SVC_DB,Core Database Cluster,8.0,4.01,false
+SLA_00567,SVC_EMAIL,Email Service,2.0,1.66,false
+SLA_00568,SVC_ORD,Order Management,4.0,1.22,false
+SLA_00569,SVC_ECOM,E-Commerce Platform,8.0,0.52,false
+SLA_00570,SVC_PAYMENT,Payment Gateway,24.0,15.8,false
+SLA_00571,SVC_INV,Inventory Service,8.0,4.75,false
+SLA_00572,SVC_AUTH,Authentication Service,4.0,1.97,false
+SLA_00573,SVC_DB,Core Database Cluster,24.0,15.19,false
+SLA_00574,SVC_EMAIL,Email Service,8.0,3.74,false
+SLA_00575,SVC_ECOM,E-Commerce Platform,2.0,0.5,false
+SLA_00576,SVC_REP,Reporting Service,2.0,0.75,false
+SLA_00577,SVC_EMAIL,Email Service,2.0,0.66,false
+SLA_00578,SVC_SHIP,Shipping Service,4.0,1.49,false
+SLA_00579,SVC_EMAIL,Email Service,8.0,0.63,false
+SLA_00580,SVC_INV,Inventory Service,4.0,2.99,false
+SLA_00581,SVC_PAYMENT,Payment Gateway,2.0,0.74,false
+SLA_00582,SVC_ORD,Order Management,2.0,1.38,false
+SLA_00583,SVC_SHIP,Shipping Service,24.0,9.75,false
+SLA_00584,SVC_DB,Core Database Cluster,2.0,1.0,false
+SLA_00585,SVC_ORD,Order Management,4.0,1.74,false
+SLA_00586,SVC_ECOM,E-Commerce Platform,24.0,18.87,false
+SLA_00587,SVC_SHIP,Shipping Service,2.0,0.23,false
+SLA_00588,SVC_AUTH,Authentication Service,24.0,8.04,false
+SLA_00589,SVC_SHIP,Shipping Service,8.0,5.9,false
+SLA_00590,SVC_AUTH,Authentication Service,2.0,1.49,false
+SLA_00591,SVC_WEB,Web Frontend,4.0,2.46,false
+SLA_00592,SVC_INV,Inventory Service,8.0,2.21,false
+SLA_00593,SVC_ECOM,E-Commerce Platform,4.0,1.78,false
+SLA_00594,SVC_DB,Core Database Cluster,4.0,0.83,false
+SLA_00595,SVC_EMAIL,Email Service,4.0,2.09,false
+SLA_00596,SVC_SHIP,Shipping Service,2.0,0.81,false
+SLA_00597,SVC_INV,Inventory Service,8.0,3.8,false
+SLA_00598,SVC_DB,Core Database Cluster,8.0,4.55,false
+SLA_00599,SVC_SHIP,Shipping Service,24.0,48.83,true
+SLA_00600,SVC_WEB,Web Frontend,4.0,2.79,false
+SLA_00601,SVC_SHIP,Shipping Service,4.0,1.3,false
+SLA_00602,SVC_DB,Core Database Cluster,2.0,1.4,false
+SLA_00603,SVC_ECOM,E-Commerce Platform,2.0,1.26,false
+SLA_00604,SVC_INV,Inventory Service,8.0,6.71,false
+SLA_00605,SVC_DB,Core Database Cluster,8.0,4.27,false
+SLA_00606,SVC_PAYMENT,Payment Gateway,8.0,2.12,false
+SLA_00607,SVC_REP,Reporting Service,4.0,9.4,true
+SLA_00608,SVC_WEB,Web Frontend,24.0,3.5,false
+SLA_00609,SVC_INV,Inventory Service,24.0,4.44,false
+SLA_00610,SVC_PAYMENT,Payment Gateway,24.0,14.05,false
+SLA_00611,SVC_DB,Core Database Cluster,4.0,7.21,true
+SLA_00612,SVC_REP,Reporting Service,2.0,0.91,false
+SLA_00613,SVC_INV,Inventory Service,24.0,2.61,false
+SLA_00614,SVC_DB,Core Database Cluster,8.0,0.55,false
+SLA_00615,SVC_INV,Inventory Service,4.0,1.79,false
+SLA_00616,SVC_ECOM,E-Commerce Platform,24.0,5.49,false
+SLA_00617,SVC_INV,Inventory Service,2.0,1.16,false
+SLA_00618,SVC_PAYMENT,Payment Gateway,2.0,0.24,false
+SLA_00619,SVC_PAYMENT,Payment Gateway,2.0,0.29,false
+SLA_00620,SVC_WEB,Web Frontend,2.0,1.02,false
+SLA_00621,SVC_PAYMENT,Payment Gateway,8.0,9.69,true
+SLA_00622,SVC_DB,Core Database Cluster,4.0,2.31,false
+SLA_00623,SVC_REP,Reporting Service,2.0,0.9,false
+SLA_00624,SVC_INV,Inventory Service,4.0,1.0,false
+SLA_00625,SVC_INV,Inventory Service,24.0,37.23,true
+SLA_00626,SVC_AUTH,Authentication Service,8.0,3.98,false
+SLA_00627,SVC_AUTH,Authentication Service,8.0,4.39,false
+SLA_00628,SVC_DB,Core Database Cluster,4.0,9.69,true
+SLA_00629,SVC_SHIP,Shipping Service,24.0,18.06,false
+SLA_00630,SVC_SHIP,Shipping Service,2.0,0.89,false
+SLA_00631,SVC_AUTH,Authentication Service,4.0,2.15,false
+SLA_00632,SVC_PAYMENT,Payment Gateway,4.0,1.87,false
+SLA_00633,SVC_WEB,Web Frontend,24.0,2.65,false
+SLA_00634,SVC_INV,Inventory Service,24.0,1.62,false
+SLA_00635,SVC_ORD,Order Management,24.0,12.66,false
+SLA_00636,SVC_AUTH,Authentication Service,24.0,11.8,false
+SLA_00637,SVC_SHIP,Shipping Service,4.0,3.33,false
+SLA_00638,SVC_INV,Inventory Service,2.0,0.95,false
+SLA_00639,SVC_ORD,Order Management,24.0,18.79,false
+SLA_00640,SVC_EMAIL,Email Service,24.0,12.26,false
+SLA_00641,SVC_INV,Inventory Service,8.0,6.2,false
+SLA_00642,SVC_INV,Inventory Service,24.0,14.18,false
+SLA_00643,SVC_REP,Reporting Service,2.0,0.89,false
+SLA_00644,SVC_PAYMENT,Payment Gateway,24.0,4.08,false
+SLA_00645,SVC_DB,Core Database Cluster,24.0,18.4,false
+SLA_00646,SVC_SHIP,Shipping Service,4.0,2.67,false
+SLA_00647,SVC_AUTH,Authentication Service,4.0,2.0,false
+SLA_00648,SVC_ORD,Order Management,8.0,3.15,false
+SLA_00649,SVC_REP,Reporting Service,8.0,2.86,false
+SLA_00650,SVC_ECOM,E-Commerce Platform,4.0,1.67,false
+SLA_00651,SVC_DB,Core Database Cluster,4.0,0.9,false
+SLA_00652,SVC_ECOM,E-Commerce Platform,24.0,11.99,false
+SLA_00653,SVC_REP,Reporting Service,2.0,4.95,true
+SLA_00654,SVC_WEB,Web Frontend,8.0,5.16,false
+SLA_00655,SVC_INV,Inventory Service,24.0,4.6,false
+SLA_00656,SVC_REP,Reporting Service,4.0,2.39,false
+SLA_00657,SVC_INV,Inventory Service,2.0,1.21,false
+SLA_00658,SVC_PAYMENT,Payment Gateway,24.0,14.04,false
+SLA_00659,SVC_AUTH,Authentication Service,8.0,1.68,false
+SLA_00660,SVC_EMAIL,Email Service,8.0,3.92,false
+SLA_00661,SVC_INV,Inventory Service,8.0,3.2,false
+SLA_00662,SVC_REP,Reporting Service,8.0,2.82,false
+SLA_00663,SVC_AUTH,Authentication Service,2.0,1.33,false
+SLA_00664,SVC_WEB,Web Frontend,8.0,4.37,false
+SLA_00665,SVC_SHIP,Shipping Service,24.0,4.28,false
+SLA_00666,SVC_ECOM,E-Commerce Platform,2.0,2.9,true
+SLA_00667,SVC_ORD,Order Management,4.0,2.69,false
+SLA_00668,SVC_ORD,Order Management,24.0,0.42,false
+SLA_00669,SVC_SHIP,Shipping Service,24.0,13.63,false
+SLA_00670,SVC_PAYMENT,Payment Gateway,2.0,0.57,false
+SLA_00671,SVC_AUTH,Authentication Service,8.0,2.83,false
+SLA_00672,SVC_INV,Inventory Service,2.0,1.5,false
+SLA_00673,SVC_AUTH,Authentication Service,24.0,2.45,false
+SLA_00674,SVC_EMAIL,Email Service,8.0,3.98,false
+SLA_00675,SVC_SHIP,Shipping Service,4.0,0.34,false
+SLA_00676,SVC_AUTH,Authentication Service,2.0,0.32,false
+SLA_00677,SVC_AUTH,Authentication Service,24.0,0.91,false
+SLA_00678,SVC_EMAIL,Email Service,24.0,18.85,false
+SLA_00679,SVC_AUTH,Authentication Service,24.0,2.02,false
+SLA_00680,SVC_INV,Inventory Service,8.0,11.92,true
+SLA_00681,SVC_ECOM,E-Commerce Platform,8.0,0.77,false
+SLA_00682,SVC_WEB,Web Frontend,4.0,3.19,false
+SLA_00683,SVC_ECOM,E-Commerce Platform,8.0,2.94,false
+SLA_00684,SVC_EMAIL,Email Service,2.0,0.82,false
+SLA_00685,SVC_DB,Core Database Cluster,2.0,0.77,false
+SLA_00686,SVC_DB,Core Database Cluster,24.0,10.48,false
+SLA_00687,SVC_ECOM,E-Commerce Platform,2.0,1.61,false
+SLA_00688,SVC_EMAIL,Email Service,4.0,3.08,false
+SLA_00689,SVC_ECOM,E-Commerce Platform,2.0,1.05,false
+SLA_00690,SVC_ORD,Order Management,8.0,1.91,false
+SLA_00691,SVC_PAYMENT,Payment Gateway,24.0,12.59,false
+SLA_00692,SVC_INV,Inventory Service,24.0,2.2,false
+SLA_00693,SVC_DB,Core Database Cluster,8.0,5.46,false
+SLA_00694,SVC_WEB,Web Frontend,8.0,11.89,true
+SLA_00695,SVC_ORD,Order Management,8.0,0.63,false
+SLA_00696,SVC_ECOM,E-Commerce Platform,4.0,0.28,false
+SLA_00697,SVC_PAYMENT,Payment Gateway,8.0,2.52,false
+SLA_00698,SVC_AUTH,Authentication Service,8.0,6.06,false
+SLA_00699,SVC_DB,Core Database Cluster,4.0,1.02,false
+SLA_00700,SVC_ORD,Order Management,8.0,6.17,false
+SLA_00701,SVC_WEB,Web Frontend,24.0,0.9,false
+SLA_00702,SVC_SHIP,Shipping Service,2.0,0.84,false
+SLA_00703,SVC_EMAIL,Email Service,4.0,5.89,true
+SLA_00704,SVC_INV,Inventory Service,2.0,1.04,false
+SLA_00705,SVC_SHIP,Shipping Service,4.0,1.36,false
+SLA_00706,SVC_SHIP,Shipping Service,2.0,4.6,true
+SLA_00707,SVC_DB,Core Database Cluster,4.0,2.82,false
+SLA_00708,SVC_ORD,Order Management,4.0,3.39,false
+SLA_00709,SVC_WEB,Web Frontend,24.0,15.29,false
+SLA_00710,SVC_AUTH,Authentication Service,2.0,4.62,true
+SLA_00711,SVC_SHIP,Shipping Service,4.0,3.33,false
+SLA_00712,SVC_AUTH,Authentication Service,4.0,2.58,false
+SLA_00713,SVC_DB,Core Database Cluster,2.0,0.84,false
+SLA_00714,SVC_DB,Core Database Cluster,2.0,1.57,false
+SLA_00715,SVC_SHIP,Shipping Service,4.0,0.57,false
+SLA_00716,SVC_INV,Inventory Service,2.0,0.8,false
+SLA_00717,SVC_SHIP,Shipping Service,24.0,12.73,false
+SLA_00718,SVC_AUTH,Authentication Service,2.0,1.12,false
+SLA_00719,SVC_WEB,Web Frontend,4.0,3.35,false
+SLA_00720,SVC_ECOM,E-Commerce Platform,2.0,0.51,false
+SLA_00721,SVC_DB,Core Database Cluster,2.0,0.57,false
+SLA_00722,SVC_ORD,Order Management,4.0,1.94,false
+SLA_00723,SVC_INV,Inventory Service,4.0,3.34,false
+SLA_00724,SVC_PAYMENT,Payment Gateway,8.0,6.78,false
+SLA_00725,SVC_PAYMENT,Payment Gateway,8.0,5.44,false
+SLA_00726,SVC_INV,Inventory Service,2.0,0.84,false
+SLA_00727,SVC_WEB,Web Frontend,4.0,2.28,false
+SLA_00728,SVC_EMAIL,Email Service,8.0,1.26,false
+SLA_00729,SVC_AUTH,Authentication Service,24.0,2.83,false
+SLA_00730,SVC_INV,Inventory Service,2.0,0.85,false
+SLA_00731,SVC_EMAIL,Email Service,24.0,3.06,false
+SLA_00732,SVC_WEB,Web Frontend,4.0,3.27,false
+SLA_00733,SVC_EMAIL,Email Service,4.0,0.84,false
+SLA_00734,SVC_REP,Reporting Service,4.0,2.59,false
+SLA_00735,SVC_WEB,Web Frontend,8.0,2.14,false
+SLA_00736,SVC_WEB,Web Frontend,24.0,44.59,true
+SLA_00737,SVC_INV,Inventory Service,8.0,2.03,false
+SLA_00738,SVC_INV,Inventory Service,8.0,3.12,false
+SLA_00739,SVC_EMAIL,Email Service,4.0,0.45,false
+SLA_00740,SVC_ECOM,E-Commerce Platform,24.0,13.69,false
+SLA_00741,SVC_PAYMENT,Payment Gateway,24.0,3.89,false
+SLA_00742,SVC_ECOM,E-Commerce Platform,4.0,0.99,false
+SLA_00743,SVC_WEB,Web Frontend,8.0,1.97,false
+SLA_00744,SVC_REP,Reporting Service,4.0,1.4,false
+SLA_00745,SVC_SHIP,Shipping Service,8.0,0.23,false
+SLA_00746,SVC_REP,Reporting Service,24.0,18.83,false
+SLA_00747,SVC_EMAIL,Email Service,24.0,11.18,false
+SLA_00748,SVC_AUTH,Authentication Service,8.0,0.38,false
+SLA_00749,SVC_ORD,Order Management,24.0,16.19,false
+SLA_00750,SVC_PAYMENT,Payment Gateway,2.0,1.61,false
+SLA_00751,SVC_WEB,Web Frontend,2.0,1.19,false
+SLA_00752,SVC_INV,Inventory Service,24.0,35.1,true
+SLA_00753,SVC_EMAIL,Email Service,24.0,10.66,false
+SLA_00754,SVC_SHIP,Shipping Service,4.0,1.32,false
+SLA_00755,SVC_REP,Reporting Service,4.0,2.6,false
+SLA_00756,SVC_REP,Reporting Service,4.0,2.95,false
+SLA_00757,SVC_REP,Reporting Service,2.0,0.23,false
+SLA_00758,SVC_INV,Inventory Service,2.0,0.97,false
+SLA_00759,SVC_WEB,Web Frontend,4.0,7.65,true
+SLA_00760,SVC_WEB,Web Frontend,8.0,0.96,false
+SLA_00761,SVC_SHIP,Shipping Service,8.0,1.49,false
+SLA_00762,SVC_ECOM,E-Commerce Platform,8.0,0.74,false
+SLA_00763,SVC_PAYMENT,Payment Gateway,4.0,2.69,false
+SLA_00764,SVC_WEB,Web Frontend,2.0,0.33,false
+SLA_00765,SVC_PAYMENT,Payment Gateway,4.0,2.11,false
+SLA_00766,SVC_WEB,Web Frontend,8.0,3.98,false
+SLA_00767,SVC_SHIP,Shipping Service,4.0,2.16,false
+SLA_00768,SVC_EMAIL,Email Service,4.0,2.73,false
+SLA_00769,SVC_DB,Core Database Cluster,4.0,1.16,false
+SLA_00770,SVC_REP,Reporting Service,2.0,0.9,false
+SLA_00771,SVC_PAYMENT,Payment Gateway,2.0,1.36,false
+SLA_00772,SVC_AUTH,Authentication Service,24.0,7.21,false
+SLA_00773,SVC_ORD,Order Management,8.0,2.72,false
+SLA_00774,SVC_REP,Reporting Service,8.0,1.27,false
+SLA_00775,SVC_PAYMENT,Payment Gateway,8.0,2.56,false
+SLA_00776,SVC_WEB,Web Frontend,4.0,1.83,false
+SLA_00777,SVC_ORD,Order Management,2.0,1.06,false
+SLA_00778,SVC_SHIP,Shipping Service,24.0,36.14,true
+SLA_00779,SVC_EMAIL,Email Service,2.0,0.86,false
+SLA_00780,SVC_ECOM,E-Commerce Platform,2.0,0.64,false
+SLA_00781,SVC_REP,Reporting Service,24.0,2.74,false
+SLA_00782,SVC_ECOM,E-Commerce Platform,2.0,0.42,false
+SLA_00783,SVC_SHIP,Shipping Service,24.0,10.73,false
+SLA_00784,SVC_DB,Core Database Cluster,8.0,4.81,false
+SLA_00785,SVC_SHIP,Shipping Service,24.0,13.54,false
+SLA_00786,SVC_INV,Inventory Service,2.0,1.67,false
+SLA_00787,SVC_WEB,Web Frontend,8.0,6.29,false
+SLA_00788,SVC_SHIP,Shipping Service,8.0,0.74,false
+SLA_00789,SVC_SHIP,Shipping Service,8.0,5.94,false
+SLA_00790,SVC_INV,Inventory Service,2.0,1.68,false
+SLA_00791,SVC_SHIP,Shipping Service,2.0,1.26,false
+SLA_00792,SVC_PAYMENT,Payment Gateway,4.0,0.9,false
+SLA_00793,SVC_DB,Core Database Cluster,8.0,0.96,false
+SLA_00794,SVC_INV,Inventory Service,4.0,0.24,false
+SLA_00795,SVC_ECOM,E-Commerce Platform,2.0,1.0,false
+SLA_00796,SVC_REP,Reporting Service,24.0,16.72,false
+SLA_00797,SVC_AUTH,Authentication Service,8.0,3.78,false
+SLA_00798,SVC_PAYMENT,Payment Gateway,24.0,7.13,false
+SLA_00799,SVC_WEB,Web Frontend,2.0,1.55,false
+SLA_00800,SVC_REP,Reporting Service,8.0,4.14,false
+SLA_00801,SVC_AUTH,Authentication Service,4.0,1.44,false
+SLA_00802,SVC_SHIP,Shipping Service,8.0,1.55,false
+SLA_00803,SVC_ORD,Order Management,24.0,11.28,false
+SLA_00804,SVC_EMAIL,Email Service,4.0,2.72,false
+SLA_00805,SVC_EMAIL,Email Service,2.0,4.28,true
+SLA_00806,SVC_AUTH,Authentication Service,2.0,1.44,false
+SLA_00807,SVC_PAYMENT,Payment Gateway,24.0,3.53,false
+SLA_00808,SVC_EMAIL,Email Service,8.0,2.74,false
+SLA_00809,SVC_EMAIL,Email Service,8.0,3.59,false
+SLA_00810,SVC_REP,Reporting Service,2.0,0.93,false
+SLA_00811,SVC_ECOM,E-Commerce Platform,8.0,3.17,false
+SLA_00812,SVC_AUTH,Authentication Service,8.0,1.77,false
+SLA_00813,SVC_SHIP,Shipping Service,2.0,1.55,false
+SLA_00814,SVC_EMAIL,Email Service,8.0,1.89,false
+SLA_00815,SVC_SHIP,Shipping Service,4.0,3.39,false
+SLA_00816,SVC_SHIP,Shipping Service,8.0,0.51,false
+SLA_00817,SVC_AUTH,Authentication Service,2.0,3.37,true
+SLA_00818,SVC_ECOM,E-Commerce Platform,24.0,2.09,false
+SLA_00819,SVC_REP,Reporting Service,4.0,3.31,false
+SLA_00820,SVC_DB,Core Database Cluster,2.0,1.08,false
+SLA_00821,SVC_WEB,Web Frontend,24.0,6.02,false
+SLA_00822,SVC_DB,Core Database Cluster,2.0,0.2,false
+SLA_00823,SVC_SHIP,Shipping Service,2.0,0.85,false
+SLA_00824,SVC_PAYMENT,Payment Gateway,2.0,0.87,false
+SLA_00825,SVC_PAYMENT,Payment Gateway,2.0,0.76,false
+SLA_00826,SVC_AUTH,Authentication Service,2.0,1.69,false
+SLA_00827,SVC_SHIP,Shipping Service,4.0,0.28,false
+SLA_00828,SVC_ORD,Order Management,8.0,3.49,false
+SLA_00829,SVC_SHIP,Shipping Service,8.0,2.56,false
+SLA_00830,SVC_REP,Reporting Service,4.0,0.47,false
+SLA_00831,SVC_ECOM,E-Commerce Platform,24.0,14.68,false
+SLA_00832,SVC_EMAIL,Email Service,4.0,1.68,false
+SLA_00833,SVC_REP,Reporting Service,2.0,1.35,false
+SLA_00834,SVC_ORD,Order Management,2.0,1.14,false
+SLA_00835,SVC_REP,Reporting Service,24.0,50.09,true
+SLA_00836,SVC_DB,Core Database Cluster,4.0,2.11,false
+SLA_00837,SVC_PAYMENT,Payment Gateway,4.0,2.21,false
+SLA_00838,SVC_REP,Reporting Service,2.0,0.84,false
+SLA_00839,SVC_DB,Core Database Cluster,4.0,3.14,false
+SLA_00840,SVC_REP,Reporting Service,2.0,1.31,false
+SLA_00841,SVC_SHIP,Shipping Service,2.0,0.86,false
+SLA_00842,SVC_ORD,Order Management,2.0,1.48,false
+SLA_00843,SVC_REP,Reporting Service,2.0,0.95,false
+SLA_00844,SVC_EMAIL,Email Service,8.0,2.77,false
+SLA_00845,SVC_ORD,Order Management,2.0,1.5,false
+SLA_00846,SVC_WEB,Web Frontend,8.0,6.02,false
+SLA_00847,SVC_ECOM,E-Commerce Platform,24.0,7.04,false
+SLA_00848,SVC_EMAIL,Email Service,8.0,5.46,false
+SLA_00849,SVC_INV,Inventory Service,8.0,2.78,false
+SLA_00850,SVC_EMAIL,Email Service,2.0,2.39,true
+SLA_00851,SVC_EMAIL,Email Service,2.0,1.08,false
+SLA_00852,SVC_PAYMENT,Payment Gateway,8.0,4.46,false
+SLA_00853,SVC_EMAIL,Email Service,24.0,15.22,false
+SLA_00854,SVC_ECOM,E-Commerce Platform,4.0,1.55,false
+SLA_00855,SVC_DB,Core Database Cluster,24.0,19.41,false
+SLA_00856,SVC_DB,Core Database Cluster,2.0,0.81,false
+SLA_00857,SVC_ORD,Order Management,24.0,3.27,false
+SLA_00858,SVC_EMAIL,Email Service,8.0,6.58,false
+SLA_00859,SVC_DB,Core Database Cluster,2.0,1.35,false
+SLA_00860,SVC_INV,Inventory Service,24.0,18.81,false
+SLA_00861,SVC_ECOM,E-Commerce Platform,2.0,0.4,false
+SLA_00862,SVC_ECOM,E-Commerce Platform,2.0,0.86,false
+SLA_00863,SVC_DB,Core Database Cluster,24.0,1.06,false
+SLA_00864,SVC_SHIP,Shipping Service,24.0,1.19,false
+SLA_00865,SVC_AUTH,Authentication Service,4.0,6.97,true
+SLA_00866,SVC_ORD,Order Management,24.0,17.5,false
+SLA_00867,SVC_SHIP,Shipping Service,4.0,3.09,false
+SLA_00868,SVC_PAYMENT,Payment Gateway,2.0,1.14,false
+SLA_00869,SVC_INV,Inventory Service,4.0,1.3,false
+SLA_00870,SVC_REP,Reporting Service,2.0,0.51,false
+SLA_00871,SVC_ORD,Order Management,2.0,1.18,false
+SLA_00872,SVC_EMAIL,Email Service,4.0,3.15,false
+SLA_00873,SVC_PAYMENT,Payment Gateway,2.0,1.68,false
+SLA_00874,SVC_REP,Reporting Service,4.0,2.27,false
+SLA_00875,SVC_WEB,Web Frontend,2.0,0.69,false
+SLA_00876,SVC_DB,Core Database Cluster,2.0,1.7,false
+SLA_00877,SVC_ORD,Order Management,24.0,0.54,false
+SLA_00878,SVC_INV,Inventory Service,2.0,1.36,false
+SLA_00879,SVC_ECOM,E-Commerce Platform,4.0,2.63,false
+SLA_00880,SVC_ECOM,E-Commerce Platform,24.0,10.44,false
+SLA_00881,SVC_ECOM,E-Commerce Platform,24.0,17.18,false
+SLA_00882,SVC_REP,Reporting Service,24.0,14.07,false
+SLA_00883,SVC_REP,Reporting Service,8.0,6.36,false
+SLA_00884,SVC_DB,Core Database Cluster,4.0,2.0,false
+SLA_00885,SVC_AUTH,Authentication Service,8.0,4.84,false
+SLA_00886,SVC_SHIP,Shipping Service,24.0,19.42,false
+SLA_00887,SVC_INV,Inventory Service,2.0,0.49,false
+SLA_00888,SVC_SHIP,Shipping Service,4.0,0.86,false
+SLA_00889,SVC_WEB,Web Frontend,4.0,2.63,false
+SLA_00890,SVC_REP,Reporting Service,2.0,0.34,false
+SLA_00891,SVC_WEB,Web Frontend,2.0,1.44,false
+SLA_00892,SVC_ECOM,E-Commerce Platform,8.0,6.59,false
+SLA_00893,SVC_AUTH,Authentication Service,4.0,8.62,true
+SLA_00894,SVC_AUTH,Authentication Service,4.0,1.95,false
+SLA_00895,SVC_DB,Core Database Cluster,8.0,4.5,false
+SLA_00896,SVC_INV,Inventory Service,2.0,0.66,false
+SLA_00897,SVC_ECOM,E-Commerce Platform,8.0,6.11,false
+SLA_00898,SVC_ORD,Order Management,24.0,4.27,false
+SLA_00899,SVC_INV,Inventory Service,2.0,0.38,false
+SLA_00900,SVC_WEB,Web Frontend,2.0,1.66,false
+SLA_00901,SVC_INV,Inventory Service,8.0,6.66,false
+SLA_00902,SVC_INV,Inventory Service,8.0,6.66,false
+SLA_00903,SVC_SHIP,Shipping Service,4.0,0.22,false
+SLA_00904,SVC_WEB,Web Frontend,4.0,0.77,false
+SLA_00905,SVC_DB,Core Database Cluster,24.0,20.22,false
+SLA_00906,SVC_EMAIL,Email Service,4.0,8.11,true
+SLA_00907,SVC_DB,Core Database Cluster,8.0,17.88,true
+SLA_00908,SVC_SHIP,Shipping Service,24.0,3.43,false
+SLA_00909,SVC_AUTH,Authentication Service,2.0,0.4,false
+SLA_00910,SVC_SHIP,Shipping Service,4.0,2.9,false
+SLA_00911,SVC_SHIP,Shipping Service,4.0,1.55,false
+SLA_00912,SVC_INV,Inventory Service,24.0,2.74,false
+SLA_00913,SVC_AUTH,Authentication Service,2.0,1.34,false
+SLA_00914,SVC_DB,Core Database Cluster,2.0,0.26,false
+SLA_00915,SVC_AUTH,Authentication Service,2.0,4.34,true
+SLA_00916,SVC_ORD,Order Management,2.0,0.7,false
+SLA_00917,SVC_PAYMENT,Payment Gateway,8.0,5.67,false
+SLA_00918,SVC_ORD,Order Management,24.0,2.0,false
+SLA_00919,SVC_DB,Core Database Cluster,8.0,4.73,false
+SLA_00920,SVC_WEB,Web Frontend,4.0,2.46,false
+SLA_00921,SVC_REP,Reporting Service,4.0,3.1,false
+SLA_00922,SVC_SHIP,Shipping Service,2.0,1.38,false
+SLA_00923,SVC_WEB,Web Frontend,8.0,3.79,false
+SLA_00924,SVC_PAYMENT,Payment Gateway,24.0,8.47,false
+SLA_00925,SVC_ORD,Order Management,8.0,5.44,false
+SLA_00926,SVC_ECOM,E-Commerce Platform,8.0,2.53,false
+SLA_00927,SVC_SHIP,Shipping Service,4.0,0.52,false
+SLA_00928,SVC_ORD,Order Management,4.0,0.73,false
+SLA_00929,SVC_EMAIL,Email Service,8.0,1.91,false
+SLA_00930,SVC_EMAIL,Email Service,2.0,3.34,true
+SLA_00931,SVC_REP,Reporting Service,8.0,3.27,false
+SLA_00932,SVC_AUTH,Authentication Service,4.0,0.88,false
+SLA_00933,SVC_EMAIL,Email Service,8.0,5.47,false
+SLA_00934,SVC_EMAIL,Email Service,24.0,13.69,false
+SLA_00935,SVC_EMAIL,Email Service,8.0,5.38,false
+SLA_00936,SVC_ORD,Order Management,8.0,2.37,false
+SLA_00937,SVC_EMAIL,Email Service,4.0,1.38,false
+SLA_00938,SVC_WEB,Web Frontend,2.0,0.77,false
+SLA_00939,SVC_PAYMENT,Payment Gateway,24.0,4.3,false
+SLA_00940,SVC_SHIP,Shipping Service,2.0,1.56,false
+SLA_00941,SVC_WEB,Web Frontend,24.0,5.89,false
+SLA_00942,SVC_ORD,Order Management,2.0,2.57,true
+SLA_00943,SVC_SHIP,Shipping Service,8.0,2.62,false
+SLA_00944,SVC_WEB,Web Frontend,8.0,5.34,false
+SLA_00945,SVC_DB,Core Database Cluster,24.0,19.67,false
+SLA_00946,SVC_ORD,Order Management,24.0,17.59,false
+SLA_00947,SVC_DB,Core Database Cluster,2.0,4.9,true
+SLA_00948,SVC_INV,Inventory Service,2.0,1.12,false
+SLA_00949,SVC_DB,Core Database Cluster,8.0,2.81,false
+SLA_00950,SVC_PAYMENT,Payment Gateway,24.0,19.33,false
+SLA_00951,SVC_DB,Core Database Cluster,2.0,0.33,false
+SLA_00952,SVC_SHIP,Shipping Service,4.0,0.71,false
+SLA_00953,SVC_SHIP,Shipping Service,2.0,1.28,false
+SLA_00954,SVC_ECOM,E-Commerce Platform,2.0,1.13,false
+SLA_00955,SVC_EMAIL,Email Service,8.0,2.6,false
+SLA_00956,SVC_ORD,Order Management,2.0,1.23,false
+SLA_00957,SVC_EMAIL,Email Service,24.0,19.78,false
+SLA_00958,SVC_ECOM,E-Commerce Platform,24.0,13.02,false
+SLA_00959,SVC_WEB,Web Frontend,2.0,1.61,false
+SLA_00960,SVC_ORD,Order Management,4.0,3.0,false
+SLA_00961,SVC_WEB,Web Frontend,8.0,3.54,false
+SLA_00962,SVC_AUTH,Authentication Service,8.0,2.59,false
+SLA_00963,SVC_ECOM,E-Commerce Platform,2.0,1.49,false
+SLA_00964,SVC_SHIP,Shipping Service,24.0,13.33,false
+SLA_00965,SVC_AUTH,Authentication Service,8.0,5.15,false
+SLA_00966,SVC_DB,Core Database Cluster,8.0,2.07,false
+SLA_00967,SVC_PAYMENT,Payment Gateway,2.0,0.41,false
+SLA_00968,SVC_AUTH,Authentication Service,8.0,1.55,false
+SLA_00969,SVC_WEB,Web Frontend,2.0,4.65,true
+SLA_00970,SVC_DB,Core Database Cluster,2.0,0.98,false
+SLA_00971,SVC_DB,Core Database Cluster,2.0,4.16,true
+SLA_00972,SVC_WEB,Web Frontend,4.0,0.73,false
+SLA_00973,SVC_EMAIL,Email Service,2.0,0.84,false
+SLA_00974,SVC_SHIP,Shipping Service,24.0,16.33,false
+SLA_00975,SVC_ORD,Order Management,4.0,0.71,false
+SLA_00976,SVC_WEB,Web Frontend,24.0,9.26,false
+SLA_00977,SVC_PAYMENT,Payment Gateway,2.0,1.1,false
+SLA_00978,SVC_INV,Inventory Service,24.0,14.15,false
+SLA_00979,SVC_EMAIL,Email Service,24.0,13.65,false
+SLA_00980,SVC_SHIP,Shipping Service,8.0,5.02,false
+SLA_00981,SVC_WEB,Web Frontend,2.0,0.7,false
+SLA_00982,SVC_DB,Core Database Cluster,2.0,0.71,false
+SLA_00983,SVC_EMAIL,Email Service,4.0,1.03,false
+SLA_00984,SVC_ORD,Order Management,4.0,1.56,false
+SLA_00985,SVC_ECOM,E-Commerce Platform,24.0,0.66,false
+SLA_00986,SVC_AUTH,Authentication Service,8.0,1.41,false
+SLA_00987,SVC_AUTH,Authentication Service,8.0,2.38,false
+SLA_00988,SVC_INV,Inventory Service,4.0,2.96,false
+SLA_00989,SVC_ECOM,E-Commerce Platform,8.0,10.62,true
+SLA_00990,SVC_ORD,Order Management,8.0,2.52,false
+SLA_00991,SVC_PAYMENT,Payment Gateway,4.0,3.16,false
+SLA_00992,SVC_EMAIL,Email Service,8.0,6.58,false
+SLA_00993,SVC_DB,Core Database Cluster,24.0,3.41,false
+SLA_00994,SVC_REP,Reporting Service,8.0,4.01,false
+SLA_00995,SVC_SHIP,Shipping Service,4.0,2.84,false
+SLA_00996,SVC_REP,Reporting Service,24.0,10.41,false
+SLA_00997,SVC_REP,Reporting Service,2.0,0.8,false
+SLA_00998,SVC_ECOM,E-Commerce Platform,4.0,1.11,false
+SLA_00999,SVC_EMAIL,Email Service,4.0,0.76,false
+SLA_01000,SVC_DB,Core Database Cluster,24.0,5.34,false
+SLA_01001,SVC_AUTH,Authentication Service,24.0,19.04,false
+SLA_01002,SVC_DB,Core Database Cluster,24.0,13.09,false
+SLA_01003,SVC_INV,Inventory Service,8.0,6.11,false
+SLA_01004,SVC_PAYMENT,Payment Gateway,8.0,4.49,false
+SLA_01005,SVC_EMAIL,Email Service,2.0,0.86,false
+SLA_01006,SVC_SHIP,Shipping Service,4.0,1.62,false
+SLA_01007,SVC_REP,Reporting Service,2.0,0.59,false
+SLA_01008,SVC_ECOM,E-Commerce Platform,2.0,4.36,true
+SLA_01009,SVC_PAYMENT,Payment Gateway,8.0,1.33,false
+SLA_01010,SVC_EMAIL,Email Service,24.0,12.99,false
+SLA_01011,SVC_EMAIL,Email Service,2.0,0.95,false
+SLA_01012,SVC_AUTH,Authentication Service,8.0,3.58,false
+SLA_01013,SVC_REP,Reporting Service,24.0,11.84,false
+SLA_01014,SVC_ECOM,E-Commerce Platform,2.0,1.61,false
+SLA_01015,SVC_SHIP,Shipping Service,4.0,0.57,false
+SLA_01016,SVC_DB,Core Database Cluster,24.0,11.96,false
+SLA_01017,SVC_AUTH,Authentication Service,24.0,5.9,false
+SLA_01018,SVC_PAYMENT,Payment Gateway,8.0,5.79,false
+SLA_01019,SVC_DB,Core Database Cluster,4.0,2.19,false
+SLA_01020,SVC_SHIP,Shipping Service,8.0,4.43,false
+SLA_01021,SVC_AUTH,Authentication Service,8.0,2.28,false
+SLA_01022,SVC_SHIP,Shipping Service,4.0,3.05,false
+SLA_01023,SVC_EMAIL,Email Service,4.0,3.22,false
+SLA_01024,SVC_ORD,Order Management,24.0,9.43,false
+SLA_01025,SVC_AUTH,Authentication Service,24.0,15.93,false
+SLA_01026,SVC_EMAIL,Email Service,24.0,15.62,false
+SLA_01027,SVC_INV,Inventory Service,8.0,1.56,false
+SLA_01028,SVC_INV,Inventory Service,2.0,0.55,false
+SLA_01029,SVC_AUTH,Authentication Service,2.0,0.81,false
+SLA_01030,SVC_REP,Reporting Service,8.0,2.65,false
+SLA_01031,SVC_WEB,Web Frontend,8.0,3.46,false
+SLA_01032,SVC_ORD,Order Management,24.0,11.26,false
+SLA_01033,SVC_ECOM,E-Commerce Platform,24.0,5.71,false
+SLA_01034,SVC_DB,Core Database Cluster,4.0,0.23,false
+SLA_01035,SVC_AUTH,Authentication Service,2.0,1.59,false
+SLA_01036,SVC_REP,Reporting Service,4.0,2.71,false
+SLA_01037,SVC_SHIP,Shipping Service,2.0,0.28,false
+SLA_01038,SVC_AUTH,Authentication Service,4.0,0.46,false
+SLA_01039,SVC_INV,Inventory Service,8.0,4.82,false
+SLA_01040,SVC_AUTH,Authentication Service,8.0,3.95,false
+SLA_01041,SVC_AUTH,Authentication Service,8.0,1.45,false
+SLA_01042,SVC_REP,Reporting Service,2.0,0.3,false
+SLA_01043,SVC_EMAIL,Email Service,8.0,3.76,false
+SLA_01044,SVC_EMAIL,Email Service,24.0,10.48,false
+SLA_01045,SVC_PAYMENT,Payment Gateway,24.0,3.84,false
+SLA_01046,SVC_REP,Reporting Service,8.0,5.03,false
+SLA_01047,SVC_ORD,Order Management,8.0,2.01,false
+SLA_01048,SVC_EMAIL,Email Service,24.0,3.68,false
+SLA_01049,SVC_SHIP,Shipping Service,2.0,1.44,false
+SLA_01050,SVC_EMAIL,Email Service,24.0,12.45,false
+SLA_01051,SVC_WEB,Web Frontend,2.0,1.25,false
+SLA_01052,SVC_SHIP,Shipping Service,24.0,16.03,false
+SLA_01053,SVC_DB,Core Database Cluster,2.0,0.98,false
+SLA_01054,SVC_INV,Inventory Service,2.0,0.82,false
+SLA_01055,SVC_DB,Core Database Cluster,4.0,1.17,false
+SLA_01056,SVC_EMAIL,Email Service,8.0,3.1,false
+SLA_01057,SVC_ECOM,E-Commerce Platform,2.0,1.05,false
+SLA_01058,SVC_PAYMENT,Payment Gateway,4.0,8.43,true
+SLA_01059,SVC_ECOM,E-Commerce Platform,24.0,12.22,false
+SLA_01060,SVC_PAYMENT,Payment Gateway,4.0,1.09,false
+SLA_01061,SVC_WEB,Web Frontend,24.0,8.68,false
+SLA_01062,SVC_WEB,Web Frontend,24.0,18.53,false
+SLA_01063,SVC_EMAIL,Email Service,8.0,5.98,false
+SLA_01064,SVC_EMAIL,Email Service,24.0,5.53,false
+SLA_01065,SVC_INV,Inventory Service,8.0,1.75,false
+SLA_01066,SVC_INV,Inventory Service,4.0,2.24,false
+SLA_01067,SVC_ORD,Order Management,2.0,1.36,false
+SLA_01068,SVC_WEB,Web Frontend,4.0,0.67,false
+SLA_01069,SVC_PAYMENT,Payment Gateway,2.0,0.46,false
+SLA_01070,SVC_INV,Inventory Service,2.0,0.92,false
+SLA_01071,SVC_REP,Reporting Service,4.0,1.55,false
+SLA_01072,SVC_ECOM,E-Commerce Platform,4.0,0.67,false
+SLA_01073,SVC_WEB,Web Frontend,4.0,1.84,false
+SLA_01074,SVC_AUTH,Authentication Service,24.0,4.34,false
+SLA_01075,SVC_ECOM,E-Commerce Platform,4.0,3.1,false
+SLA_01076,SVC_WEB,Web Frontend,4.0,0.66,false
+SLA_01077,SVC_EMAIL,Email Service,8.0,0.67,false
+SLA_01078,SVC_ORD,Order Management,2.0,1.03,false
+SLA_01079,SVC_AUTH,Authentication Service,8.0,4.06,false
+SLA_01080,SVC_SHIP,Shipping Service,8.0,4.62,false
+SLA_01081,SVC_WEB,Web Frontend,4.0,0.81,false
+SLA_01082,SVC_WEB,Web Frontend,8.0,5.86,false
+SLA_01083,SVC_ORD,Order Management,2.0,1.05,false
+SLA_01084,SVC_AUTH,Authentication Service,2.0,0.34,false
+SLA_01085,SVC_REP,Reporting Service,24.0,19.12,false
+SLA_01086,SVC_AUTH,Authentication Service,4.0,1.63,false
+SLA_01087,SVC_ECOM,E-Commerce Platform,4.0,1.03,false
+SLA_01088,SVC_ECOM,E-Commerce Platform,8.0,1.07,false
+SLA_01089,SVC_INV,Inventory Service,2.0,1.51,false
+SLA_01090,SVC_REP,Reporting Service,24.0,15.8,false
+SLA_01091,SVC_WEB,Web Frontend,4.0,2.16,false
+SLA_01092,SVC_INV,Inventory Service,4.0,1.77,false
+SLA_01093,SVC_REP,Reporting Service,8.0,3.66,false
+SLA_01094,SVC_INV,Inventory Service,8.0,1.16,false
+SLA_01095,SVC_PAYMENT,Payment Gateway,2.0,0.21,false
+SLA_01096,SVC_REP,Reporting Service,4.0,3.24,false
+SLA_01097,SVC_INV,Inventory Service,4.0,8.58,true
+SLA_01098,SVC_ORD,Order Management,24.0,19.48,false
+SLA_01099,SVC_ECOM,E-Commerce Platform,24.0,19.49,false
+SLA_01100,SVC_ECOM,E-Commerce Platform,24.0,4.77,false
+SLA_01101,SVC_ECOM,E-Commerce Platform,4.0,1.8,false
+SLA_01102,SVC_SHIP,Shipping Service,2.0,1.0,false
+SLA_01103,SVC_SHIP,Shipping Service,8.0,0.57,false
+SLA_01104,SVC_ORD,Order Management,8.0,3.23,false
+SLA_01105,SVC_AUTH,Authentication Service,4.0,2.56,false
+SLA_01106,SVC_REP,Reporting Service,2.0,1.21,false
+SLA_01107,SVC_PAYMENT,Payment Gateway,24.0,8.3,false
+SLA_01108,SVC_EMAIL,Email Service,2.0,1.4,false
+SLA_01109,SVC_ECOM,E-Commerce Platform,4.0,2.3,false
+SLA_01110,SVC_INV,Inventory Service,8.0,5.94,false
+SLA_01111,SVC_DB,Core Database Cluster,24.0,1.79,false
+SLA_01112,SVC_PAYMENT,Payment Gateway,2.0,0.68,false
+SLA_01113,SVC_ECOM,E-Commerce Platform,8.0,3.2,false
+SLA_01114,SVC_EMAIL,Email Service,24.0,2.46,false
+SLA_01115,SVC_ORD,Order Management,24.0,17.7,false
+SLA_01116,SVC_EMAIL,Email Service,2.0,0.94,false
+SLA_01117,SVC_AUTH,Authentication Service,24.0,10.13,false
+SLA_01118,SVC_REP,Reporting Service,2.0,1.42,false
+SLA_01119,SVC_EMAIL,Email Service,4.0,2.36,false
+SLA_01120,SVC_PAYMENT,Payment Gateway,2.0,0.54,false
+SLA_01121,SVC_AUTH,Authentication Service,24.0,2.63,false
+SLA_01122,SVC_ECOM,E-Commerce Platform,8.0,0.32,false
+SLA_01123,SVC_DB,Core Database Cluster,4.0,2.89,false
+SLA_01124,SVC_REP,Reporting Service,2.0,0.75,false
+SLA_01125,SVC_DB,Core Database Cluster,2.0,0.57,false
+SLA_01126,SVC_DB,Core Database Cluster,2.0,1.27,false
+SLA_01127,SVC_ECOM,E-Commerce Platform,2.0,0.61,false
+SLA_01128,SVC_REP,Reporting Service,2.0,1.01,false
+SLA_01129,SVC_ECOM,E-Commerce Platform,24.0,14.22,false
+SLA_01130,SVC_SHIP,Shipping Service,4.0,1.74,false
+SLA_01131,SVC_PAYMENT,Payment Gateway,4.0,0.95,false
+SLA_01132,SVC_SHIP,Shipping Service,24.0,11.87,false
+SLA_01133,SVC_PAYMENT,Payment Gateway,24.0,5.78,false
+SLA_01134,SVC_ORD,Order Management,24.0,18.6,false
+SLA_01135,SVC_PAYMENT,Payment Gateway,4.0,2.93,false
+SLA_01136,SVC_SHIP,Shipping Service,2.0,4.31,true
+SLA_01137,SVC_REP,Reporting Service,24.0,9.65,false
+SLA_01138,SVC_ORD,Order Management,24.0,16.75,false
+SLA_01139,SVC_EMAIL,Email Service,8.0,0.99,false
+SLA_01140,SVC_ECOM,E-Commerce Platform,2.0,0.71,false
+SLA_01141,SVC_WEB,Web Frontend,24.0,3.74,false
+SLA_01142,SVC_ECOM,E-Commerce Platform,24.0,15.08,false
+SLA_01143,SVC_REP,Reporting Service,2.0,0.4,false
+SLA_01144,SVC_REP,Reporting Service,8.0,1.68,false
+SLA_01145,SVC_WEB,Web Frontend,4.0,1.72,false
+SLA_01146,SVC_WEB,Web Frontend,24.0,16.99,false
+SLA_01147,SVC_WEB,Web Frontend,2.0,1.46,false
+SLA_01148,SVC_WEB,Web Frontend,24.0,14.94,false
+SLA_01149,SVC_WEB,Web Frontend,4.0,0.59,false
+SLA_01150,SVC_EMAIL,Email Service,4.0,2.53,false
+SLA_01151,SVC_ORD,Order Management,4.0,1.54,false
+SLA_01152,SVC_INV,Inventory Service,8.0,3.1,false
+SLA_01153,SVC_INV,Inventory Service,24.0,13.4,false
+SLA_01154,SVC_REP,Reporting Service,8.0,2.53,false
+SLA_01155,SVC_EMAIL,Email Service,24.0,37.53,true
+SLA_01156,SVC_INV,Inventory Service,8.0,5.16,false
+SLA_01157,SVC_SHIP,Shipping Service,24.0,4.89,false
+SLA_01158,SVC_REP,Reporting Service,24.0,12.23,false
+SLA_01159,SVC_INV,Inventory Service,2.0,0.64,false
+SLA_01160,SVC_ORD,Order Management,4.0,2.01,false
+SLA_01161,SVC_INV,Inventory Service,24.0,8.07,false
+SLA_01162,SVC_PAYMENT,Payment Gateway,8.0,5.66,false
+SLA_01163,SVC_PAYMENT,Payment Gateway,2.0,0.22,false
+SLA_01164,SVC_PAYMENT,Payment Gateway,24.0,9.71,false
+SLA_01165,SVC_DB,Core Database Cluster,2.0,3.65,true
+SLA_01166,SVC_WEB,Web Frontend,24.0,13.12,false
+SLA_01167,SVC_AUTH,Authentication Service,24.0,1.16,false
+SLA_01168,SVC_WEB,Web Frontend,4.0,2.55,false
+SLA_01169,SVC_AUTH,Authentication Service,4.0,2.36,false
+SLA_01170,SVC_WEB,Web Frontend,24.0,35.08,true
+SLA_01171,SVC_EMAIL,Email Service,8.0,4.78,false
+SLA_01172,SVC_EMAIL,Email Service,8.0,19.41,true
+SLA_01173,SVC_INV,Inventory Service,24.0,17.1,false
+SLA_01174,SVC_EMAIL,Email Service,8.0,5.59,false
+SLA_01175,SVC_INV,Inventory Service,2.0,0.24,false
+SLA_01176,SVC_ORD,Order Management,24.0,15.77,false
+SLA_01177,SVC_EMAIL,Email Service,4.0,2.38,false
+SLA_01178,SVC_ORD,Order Management,2.0,0.84,false
+SLA_01179,SVC_REP,Reporting Service,4.0,1.4,false
+SLA_01180,SVC_REP,Reporting Service,4.0,2.51,false
+SLA_01181,SVC_DB,Core Database Cluster,2.0,0.98,false
+SLA_01182,SVC_INV,Inventory Service,2.0,0.47,false
+SLA_01183,SVC_AUTH,Authentication Service,4.0,9.68,true
+SLA_01184,SVC_ORD,Order Management,4.0,3.13,false
+SLA_01185,SVC_REP,Reporting Service,2.0,0.92,false
+SLA_01186,SVC_PAYMENT,Payment Gateway,4.0,6.58,true
+SLA_01187,SVC_WEB,Web Frontend,8.0,5.06,false
+SLA_01188,SVC_SHIP,Shipping Service,4.0,1.54,false
+SLA_01189,SVC_REP,Reporting Service,8.0,3.42,false
+SLA_01190,SVC_WEB,Web Frontend,4.0,1.8,false
+SLA_01191,SVC_PAYMENT,Payment Gateway,2.0,0.73,false
+SLA_01192,SVC_WEB,Web Frontend,2.0,0.57,false
+SLA_01193,SVC_PAYMENT,Payment Gateway,2.0,0.95,false
+SLA_01194,SVC_AUTH,Authentication Service,4.0,3.13,false
+SLA_01195,SVC_ORD,Order Management,24.0,16.33,false
+SLA_01196,SVC_INV,Inventory Service,4.0,3.31,false
+SLA_01197,SVC_INV,Inventory Service,4.0,1.05,false
+SLA_01198,SVC_SHIP,Shipping Service,4.0,1.72,false
+SLA_01199,SVC_AUTH,Authentication Service,4.0,3.04,false
+SLA_01200,SVC_REP,Reporting Service,8.0,2.2,false
+SLA_01201,SVC_AUTH,Authentication Service,24.0,12.62,false
+SLA_01202,SVC_AUTH,Authentication Service,8.0,0.65,false
+SLA_01203,SVC_WEB,Web Frontend,2.0,1.67,false
+SLA_01204,SVC_SHIP,Shipping Service,24.0,16.14,false
+SLA_01205,SVC_ECOM,E-Commerce Platform,2.0,0.59,false
+SLA_01206,SVC_ECOM,E-Commerce Platform,24.0,15.43,false
+SLA_01207,SVC_ECOM,E-Commerce Platform,4.0,0.37,false
+SLA_01208,SVC_AUTH,Authentication Service,2.0,0.75,false
+SLA_01209,SVC_WEB,Web Frontend,24.0,19.89,false
+SLA_01210,SVC_SHIP,Shipping Service,24.0,17.65,false
+SLA_01211,SVC_ECOM,E-Commerce Platform,24.0,13.5,false
+SLA_01212,SVC_ECOM,E-Commerce Platform,2.0,0.46,false
+SLA_01213,SVC_SHIP,Shipping Service,4.0,2.8,false
+SLA_01214,SVC_WEB,Web Frontend,4.0,5.34,true
+SLA_01215,SVC_EMAIL,Email Service,8.0,3.96,false
+SLA_01216,SVC_ECOM,E-Commerce Platform,8.0,1.83,false
+SLA_01217,SVC_PAYMENT,Payment Gateway,24.0,11.23,false
+SLA_01218,SVC_ECOM,E-Commerce Platform,8.0,3.3,false
+SLA_01219,SVC_INV,Inventory Service,4.0,1.4,false
+SLA_01220,SVC_INV,Inventory Service,4.0,3.27,false
+SLA_01221,SVC_ECOM,E-Commerce Platform,2.0,1.02,false
+SLA_01222,SVC_ORD,Order Management,24.0,15.45,false
+SLA_01223,SVC_SHIP,Shipping Service,8.0,4.78,false
+SLA_01224,SVC_PAYMENT,Payment Gateway,24.0,14.75,false
+SLA_01225,SVC_WEB,Web Frontend,2.0,0.61,false
+SLA_01226,SVC_PAYMENT,Payment Gateway,4.0,1.11,false
+SLA_01227,SVC_ECOM,E-Commerce Platform,8.0,4.68,false
+SLA_01228,SVC_WEB,Web Frontend,2.0,3.91,true
+SLA_01229,SVC_ORD,Order Management,8.0,5.67,false
+SLA_01230,SVC_REP,Reporting Service,8.0,0.67,false
+SLA_01231,SVC_EMAIL,Email Service,4.0,1.92,false
+SLA_01232,SVC_ECOM,E-Commerce Platform,24.0,2.9,false
+SLA_01233,SVC_SHIP,Shipping Service,4.0,9.45,true
+SLA_01234,SVC_AUTH,Authentication Service,24.0,17.94,false
+SLA_01235,SVC_REP,Reporting Service,24.0,12.76,false
+SLA_01236,SVC_REP,Reporting Service,2.0,0.58,false
+SLA_01237,SVC_PAYMENT,Payment Gateway,24.0,19.3,false
+SLA_01238,SVC_EMAIL,Email Service,4.0,2.43,false
+SLA_01239,SVC_INV,Inventory Service,8.0,0.73,false
+SLA_01240,SVC_WEB,Web Frontend,24.0,28.6,true
+SLA_01241,SVC_PAYMENT,Payment Gateway,8.0,1.53,false
+SLA_01242,SVC_AUTH,Authentication Service,8.0,4.1,false
+SLA_01243,SVC_ORD,Order Management,2.0,0.83,false
+SLA_01244,SVC_PAYMENT,Payment Gateway,24.0,6.97,false
+SLA_01245,SVC_ECOM,E-Commerce Platform,4.0,2.09,false
+SLA_01246,SVC_INV,Inventory Service,2.0,0.83,false
+SLA_01247,SVC_PAYMENT,Payment Gateway,24.0,2.32,false
+SLA_01248,SVC_REP,Reporting Service,24.0,6.32,false
+SLA_01249,SVC_INV,Inventory Service,4.0,0.47,false
+SLA_01250,SVC_INV,Inventory Service,8.0,3.25,false
+SLA_01251,SVC_INV,Inventory Service,24.0,1.0,false
+SLA_01252,SVC_ECOM,E-Commerce Platform,8.0,3.55,false
+SLA_01253,SVC_DB,Core Database Cluster,8.0,2.66,false
+SLA_01254,SVC_ORD,Order Management,8.0,4.95,false
+SLA_01255,SVC_WEB,Web Frontend,24.0,6.43,false
+SLA_01256,SVC_AUTH,Authentication Service,8.0,1.19,false
+SLA_01257,SVC_INV,Inventory Service,2.0,4.81,true
+SLA_01258,SVC_ECOM,E-Commerce Platform,24.0,8.3,false
+SLA_01259,SVC_SHIP,Shipping Service,2.0,1.43,false
+SLA_01260,SVC_WEB,Web Frontend,24.0,46.15,true
+SLA_01261,SVC_PAYMENT,Payment Gateway,2.0,0.58,false
+SLA_01262,SVC_DB,Core Database Cluster,2.0,1.34,false
+SLA_01263,SVC_EMAIL,Email Service,24.0,19.9,false
+SLA_01264,SVC_ORD,Order Management,8.0,1.53,false
+SLA_01265,SVC_WEB,Web Frontend,4.0,1.25,false
+SLA_01266,SVC_REP,Reporting Service,4.0,0.85,false
+SLA_01267,SVC_DB,Core Database Cluster,4.0,1.04,false
+SLA_01268,SVC_DB,Core Database Cluster,4.0,1.11,false
+SLA_01269,SVC_ECOM,E-Commerce Platform,4.0,3.19,false
+SLA_01270,SVC_WEB,Web Frontend,2.0,4.46,true
+SLA_01271,SVC_ORD,Order Management,24.0,5.43,false
+SLA_01272,SVC_SHIP,Shipping Service,24.0,52.23,true
+SLA_01273,SVC_PAYMENT,Payment Gateway,2.0,1.47,false
+SLA_01274,SVC_AUTH,Authentication Service,2.0,0.51,false
+SLA_01275,SVC_WEB,Web Frontend,24.0,17.35,false
+SLA_01276,SVC_INV,Inventory Service,2.0,0.97,false
+SLA_01277,SVC_ORD,Order Management,8.0,4.32,false
+SLA_01278,SVC_SHIP,Shipping Service,2.0,1.66,false
+SLA_01279,SVC_INV,Inventory Service,24.0,7.18,false
+SLA_01280,SVC_WEB,Web Frontend,8.0,10.61,true
+SLA_01281,SVC_PAYMENT,Payment Gateway,2.0,1.42,false
+SLA_01282,SVC_SHIP,Shipping Service,2.0,0.5,false
+SLA_01283,SVC_DB,Core Database Cluster,24.0,12.03,false
+SLA_01284,SVC_WEB,Web Frontend,24.0,12.17,false
+SLA_01285,SVC_ORD,Order Management,24.0,7.79,false
+SLA_01286,SVC_EMAIL,Email Service,4.0,2.72,false
+SLA_01287,SVC_DB,Core Database Cluster,2.0,1.2,false
+SLA_01288,SVC_INV,Inventory Service,2.0,0.89,false
+SLA_01289,SVC_EMAIL,Email Service,8.0,3.76,false
+SLA_01290,SVC_EMAIL,Email Service,24.0,2.57,false
+SLA_01291,SVC_ECOM,E-Commerce Platform,2.0,1.34,false
+SLA_01292,SVC_DB,Core Database Cluster,2.0,4.89,true
+SLA_01293,SVC_DB,Core Database Cluster,2.0,1.48,false
+SLA_01294,SVC_DB,Core Database Cluster,8.0,2.69,false
+SLA_01295,SVC_AUTH,Authentication Service,24.0,13.1,false
+SLA_01296,SVC_DB,Core Database Cluster,24.0,6.22,false
+SLA_01297,SVC_ORD,Order Management,8.0,5.06,false
+SLA_01298,SVC_ORD,Order Management,4.0,5.46,true
+SLA_01299,SVC_INV,Inventory Service,4.0,5.13,true
+SLA_01300,SVC_REP,Reporting Service,24.0,16.61,false
+SLA_01301,SVC_EMAIL,Email Service,24.0,7.47,false
+SLA_01302,SVC_ECOM,E-Commerce Platform,2.0,0.3,false
+SLA_01303,SVC_SHIP,Shipping Service,2.0,1.22,false
+SLA_01304,SVC_SHIP,Shipping Service,8.0,1.46,false
+SLA_01305,SVC_ECOM,E-Commerce Platform,8.0,0.25,false
+SLA_01306,SVC_SHIP,Shipping Service,24.0,11.7,false
+SLA_01307,SVC_INV,Inventory Service,2.0,1.64,false
+SLA_01308,SVC_EMAIL,Email Service,8.0,4.57,false
+SLA_01309,SVC_SHIP,Shipping Service,2.0,0.42,false
+SLA_01310,SVC_AUTH,Authentication Service,2.0,1.16,false
+SLA_01311,SVC_DB,Core Database Cluster,24.0,9.33,false
+SLA_01312,SVC_DB,Core Database Cluster,24.0,6.02,false
+SLA_01313,SVC_WEB,Web Frontend,2.0,1.58,false
+SLA_01314,SVC_PAYMENT,Payment Gateway,2.0,1.01,false
+SLA_01315,SVC_SHIP,Shipping Service,24.0,1.83,false
+SLA_01316,SVC_PAYMENT,Payment Gateway,8.0,2.27,false
+SLA_01317,SVC_WEB,Web Frontend,8.0,2.39,false
+SLA_01318,SVC_ORD,Order Management,24.0,3.89,false
+SLA_01319,SVC_SHIP,Shipping Service,2.0,4.0,true
+SLA_01320,SVC_EMAIL,Email Service,8.0,3.24,false
+SLA_01321,SVC_PAYMENT,Payment Gateway,8.0,13.09,true
+SLA_01322,SVC_DB,Core Database Cluster,4.0,2.43,false
+SLA_01323,SVC_ORD,Order Management,2.0,0.21,false
+SLA_01324,SVC_ORD,Order Management,8.0,4.46,false
+SLA_01325,SVC_WEB,Web Frontend,4.0,1.88,false
+SLA_01326,SVC_DB,Core Database Cluster,8.0,5.98,false
+SLA_01327,SVC_WEB,Web Frontend,2.0,0.92,false
+SLA_01328,SVC_PAYMENT,Payment Gateway,8.0,4.8,false
+SLA_01329,SVC_INV,Inventory Service,24.0,17.88,false
+SLA_01330,SVC_WEB,Web Frontend,8.0,3.8,false
+SLA_01331,SVC_INV,Inventory Service,8.0,1.75,false
+SLA_01332,SVC_ORD,Order Management,4.0,1.28,false
+SLA_01333,SVC_ORD,Order Management,4.0,0.87,false
+SLA_01334,SVC_DB,Core Database Cluster,4.0,0.94,false
+SLA_01335,SVC_PAYMENT,Payment Gateway,2.0,1.62,false
+SLA_01336,SVC_EMAIL,Email Service,24.0,18.93,false
+SLA_01337,SVC_PAYMENT,Payment Gateway,4.0,2.74,false
+SLA_01338,SVC_ECOM,E-Commerce Platform,8.0,0.76,false
+SLA_01339,SVC_ECOM,E-Commerce Platform,4.0,2.07,false
+SLA_01340,SVC_AUTH,Authentication Service,2.0,0.38,false
+SLA_01341,SVC_PAYMENT,Payment Gateway,8.0,1.63,false
+SLA_01342,SVC_PAYMENT,Payment Gateway,8.0,4.05,false
+SLA_01343,SVC_PAYMENT,Payment Gateway,4.0,0.33,false
+SLA_01344,SVC_SHIP,Shipping Service,24.0,1.31,false
+SLA_01345,SVC_REP,Reporting Service,24.0,8.36,false
+SLA_01346,SVC_EMAIL,Email Service,24.0,10.73,false
+SLA_01347,SVC_EMAIL,Email Service,4.0,0.79,false
+SLA_01348,SVC_INV,Inventory Service,24.0,7.3,false
+SLA_01349,SVC_ECOM,E-Commerce Platform,8.0,5.75,false
+SLA_01350,SVC_EMAIL,Email Service,8.0,15.31,true
+SLA_01351,SVC_INV,Inventory Service,24.0,1.95,false
+SLA_01352,SVC_DB,Core Database Cluster,4.0,0.62,false
+SLA_01353,SVC_ORD,Order Management,24.0,5.84,false
+SLA_01354,SVC_WEB,Web Frontend,4.0,1.43,false
+SLA_01355,SVC_SHIP,Shipping Service,8.0,3.56,false
+SLA_01356,SVC_AUTH,Authentication Service,8.0,3.17,false
+SLA_01357,SVC_EMAIL,Email Service,4.0,2.54,false
+SLA_01358,SVC_DB,Core Database Cluster,8.0,3.49,false
+SLA_01359,SVC_SHIP,Shipping Service,4.0,1.01,false
+SLA_01360,SVC_EMAIL,Email Service,4.0,2.48,false
+SLA_01361,SVC_DB,Core Database Cluster,24.0,4.83,false
+SLA_01362,SVC_AUTH,Authentication Service,24.0,7.29,false
+SLA_01363,SVC_DB,Core Database Cluster,24.0,6.21,false
+SLA_01364,SVC_INV,Inventory Service,24.0,4.6,false
+SLA_01365,SVC_ORD,Order Management,8.0,12.79,true
+SLA_01366,SVC_WEB,Web Frontend,24.0,8.91,false
+SLA_01367,SVC_ECOM,E-Commerce Platform,8.0,15.85,true
+SLA_01368,SVC_ORD,Order Management,2.0,1.16,false
+SLA_01369,SVC_REP,Reporting Service,24.0,0.78,false
+SLA_01370,SVC_DB,Core Database Cluster,24.0,18.92,false
+SLA_01371,SVC_REP,Reporting Service,2.0,4.07,true
+SLA_01372,SVC_EMAIL,Email Service,4.0,7.33,true
+SLA_01373,SVC_DB,Core Database Cluster,24.0,8.48,false
+SLA_01374,SVC_SHIP,Shipping Service,2.0,0.24,false
+SLA_01375,SVC_ORD,Order Management,2.0,1.27,false
+SLA_01376,SVC_ECOM,E-Commerce Platform,8.0,0.49,false
+SLA_01377,SVC_EMAIL,Email Service,2.0,0.8,false
+SLA_01378,SVC_SHIP,Shipping Service,24.0,1.95,false
+SLA_01379,SVC_REP,Reporting Service,2.0,0.31,false
+SLA_01380,SVC_REP,Reporting Service,24.0,12.17,false
+SLA_01381,SVC_PAYMENT,Payment Gateway,2.0,1.52,false
+SLA_01382,SVC_REP,Reporting Service,4.0,1.34,false
+SLA_01383,SVC_ORD,Order Management,4.0,1.03,false
+SLA_01384,SVC_PAYMENT,Payment Gateway,24.0,13.11,false
+SLA_01385,SVC_AUTH,Authentication Service,2.0,1.35,false
+SLA_01386,SVC_INV,Inventory Service,24.0,7.13,false
+SLA_01387,SVC_DB,Core Database Cluster,8.0,5.84,false
+SLA_01388,SVC_REP,Reporting Service,4.0,2.68,false
+SLA_01389,SVC_SHIP,Shipping Service,8.0,0.75,false
+SLA_01390,SVC_PAYMENT,Payment Gateway,4.0,0.75,false
+SLA_01391,SVC_AUTH,Authentication Service,2.0,4.15,true
+SLA_01392,SVC_DB,Core Database Cluster,4.0,1.65,false
+SLA_01393,SVC_SHIP,Shipping Service,4.0,0.78,false
+SLA_01394,SVC_PAYMENT,Payment Gateway,4.0,1.83,false
+SLA_01395,SVC_SHIP,Shipping Service,2.0,1.27,false
+SLA_01396,SVC_DB,Core Database Cluster,2.0,1.36,false
+SLA_01397,SVC_AUTH,Authentication Service,2.0,0.62,false
+SLA_01398,SVC_ORD,Order Management,4.0,0.41,false
+SLA_01399,SVC_AUTH,Authentication Service,24.0,14.95,false
+SLA_01400,SVC_PAYMENT,Payment Gateway,2.0,0.94,false
+SLA_01401,SVC_DB,Core Database Cluster,8.0,2.31,false
+SLA_01402,SVC_EMAIL,Email Service,8.0,0.92,false
+SLA_01403,SVC_AUTH,Authentication Service,4.0,5.23,true
+SLA_01404,SVC_EMAIL,Email Service,24.0,19.0,false
+SLA_01405,SVC_SHIP,Shipping Service,24.0,16.83,false
+SLA_01406,SVC_DB,Core Database Cluster,8.0,5.49,false
+SLA_01407,SVC_ECOM,E-Commerce Platform,8.0,3.17,false
+SLA_01408,SVC_ORD,Order Management,8.0,3.39,false
+SLA_01409,SVC_REP,Reporting Service,24.0,12.92,false
+SLA_01410,SVC_EMAIL,Email Service,4.0,2.41,false
+SLA_01411,SVC_DB,Core Database Cluster,2.0,0.7,false
+SLA_01412,SVC_DB,Core Database Cluster,8.0,0.25,false
+SLA_01413,SVC_INV,Inventory Service,4.0,2.82,false
+SLA_01414,SVC_INV,Inventory Service,8.0,2.49,false
+SLA_01415,SVC_REP,Reporting Service,8.0,2.19,false
+SLA_01416,SVC_WEB,Web Frontend,4.0,2.5,false
+SLA_01417,SVC_ORD,Order Management,2.0,1.03,false
+SLA_01418,SVC_PAYMENT,Payment Gateway,24.0,17.86,false
+SLA_01419,SVC_WEB,Web Frontend,8.0,4.1,false
+SLA_01420,SVC_EMAIL,Email Service,8.0,2.52,false
+SLA_01421,SVC_AUTH,Authentication Service,2.0,0.93,false
+SLA_01422,SVC_WEB,Web Frontend,2.0,0.21,false
+SLA_01423,SVC_REP,Reporting Service,4.0,0.87,false
+SLA_01424,SVC_EMAIL,Email Service,8.0,4.99,false
+SLA_01425,SVC_AUTH,Authentication Service,2.0,0.98,false
+SLA_01426,SVC_WEB,Web Frontend,8.0,5.0,false
+SLA_01427,SVC_ECOM,E-Commerce Platform,8.0,1.71,false
+SLA_01428,SVC_DB,Core Database Cluster,8.0,1.9,false
+SLA_01429,SVC_INV,Inventory Service,4.0,9.92,true
+SLA_01430,SVC_ORD,Order Management,4.0,3.07,false
+SLA_01431,SVC_DB,Core Database Cluster,8.0,6.52,false
+SLA_01432,SVC_WEB,Web Frontend,24.0,35.19,true
+SLA_01433,SVC_ORD,Order Management,2.0,0.98,false
+SLA_01434,SVC_INV,Inventory Service,2.0,0.92,false
+SLA_01435,SVC_PAYMENT,Payment Gateway,8.0,3.46,false
+SLA_01436,SVC_INV,Inventory Service,8.0,1.4,false
+SLA_01437,SVC_AUTH,Authentication Service,4.0,9.48,true
+SLA_01438,SVC_PAYMENT,Payment Gateway,8.0,1.19,false
+SLA_01439,SVC_EMAIL,Email Service,4.0,10.0,true
+SLA_01440,SVC_DB,Core Database Cluster,4.0,1.94,false
+SLA_01441,SVC_DB,Core Database Cluster,8.0,5.27,false
+SLA_01442,SVC_DB,Core Database Cluster,8.0,5.44,false
+SLA_01443,SVC_WEB,Web Frontend,2.0,1.29,false
+SLA_01444,SVC_DB,Core Database Cluster,4.0,1.53,false
+SLA_01445,SVC_EMAIL,Email Service,4.0,1.28,false
+SLA_01446,SVC_ORD,Order Management,8.0,4.2,false
+SLA_01447,SVC_INV,Inventory Service,8.0,0.95,false
+SLA_01448,SVC_DB,Core Database Cluster,8.0,2.28,false
+SLA_01449,SVC_ECOM,E-Commerce Platform,4.0,2.11,false
+SLA_01450,SVC_INV,Inventory Service,24.0,17.44,false
+SLA_01451,SVC_SHIP,Shipping Service,8.0,1.23,false
+SLA_01452,SVC_DB,Core Database Cluster,2.0,1.02,false
+SLA_01453,SVC_ORD,Order Management,2.0,0.83,false
+SLA_01454,SVC_DB,Core Database Cluster,4.0,0.79,false
+SLA_01455,SVC_REP,Reporting Service,2.0,0.35,false
+SLA_01456,SVC_EMAIL,Email Service,2.0,0.46,false
+SLA_01457,SVC_SHIP,Shipping Service,24.0,15.47,false
+SLA_01458,SVC_EMAIL,Email Service,2.0,1.21,false
+SLA_01459,SVC_EMAIL,Email Service,2.0,3.4,true
+SLA_01460,SVC_EMAIL,Email Service,24.0,2.13,false
+SLA_01461,SVC_WEB,Web Frontend,24.0,13.14,false
+SLA_01462,SVC_EMAIL,Email Service,2.0,1.41,false
+SLA_01463,SVC_ECOM,E-Commerce Platform,2.0,0.57,false
+SLA_01464,SVC_ECOM,E-Commerce Platform,24.0,11.62,false
+SLA_01465,SVC_DB,Core Database Cluster,8.0,2.35,false
+SLA_01466,SVC_ECOM,E-Commerce Platform,2.0,1.0,false
+SLA_01467,SVC_WEB,Web Frontend,4.0,2.1,false
+SLA_01468,SVC_EMAIL,Email Service,24.0,7.11,false
+SLA_01469,SVC_ORD,Order Management,24.0,15.14,false
+SLA_01470,SVC_ECOM,E-Commerce Platform,24.0,5.72,false
+SLA_01471,SVC_REP,Reporting Service,4.0,3.15,false
+SLA_01472,SVC_EMAIL,Email Service,2.0,0.93,false
+SLA_01473,SVC_SHIP,Shipping Service,24.0,15.11,false
+SLA_01474,SVC_DB,Core Database Cluster,4.0,0.73,false
+SLA_01475,SVC_SHIP,Shipping Service,2.0,1.16,false
+SLA_01476,SVC_DB,Core Database Cluster,24.0,51.72,true
+SLA_01477,SVC_WEB,Web Frontend,2.0,0.54,false
+SLA_01478,SVC_AUTH,Authentication Service,24.0,10.6,false
+SLA_01479,SVC_INV,Inventory Service,8.0,1.94,false
+SLA_01480,SVC_INV,Inventory Service,24.0,18.72,false
+SLA_01481,SVC_DB,Core Database Cluster,4.0,0.4,false
+SLA_01482,SVC_AUTH,Authentication Service,2.0,0.58,false
+SLA_01483,SVC_AUTH,Authentication Service,4.0,2.13,false
+SLA_01484,SVC_AUTH,Authentication Service,24.0,14.61,false
+SLA_01485,SVC_ECOM,E-Commerce Platform,4.0,1.98,false
+SLA_01486,SVC_INV,Inventory Service,8.0,9.03,true
+SLA_01487,SVC_EMAIL,Email Service,2.0,1.07,false
+SLA_01488,SVC_SHIP,Shipping Service,8.0,4.81,false
+SLA_01489,SVC_REP,Reporting Service,8.0,1.0,false
+SLA_01490,SVC_AUTH,Authentication Service,24.0,8.09,false
+SLA_01491,SVC_EMAIL,Email Service,4.0,1.62,false
+SLA_01492,SVC_PAYMENT,Payment Gateway,8.0,6.7,false
+SLA_01493,SVC_WEB,Web Frontend,8.0,5.79,false
+SLA_01494,SVC_REP,Reporting Service,4.0,0.3,false
+SLA_01495,SVC_AUTH,Authentication Service,2.0,0.72,false
+SLA_01496,SVC_EMAIL,Email Service,4.0,1.98,false
+SLA_01497,SVC_AUTH,Authentication Service,2.0,1.17,false
+SLA_01498,SVC_SHIP,Shipping Service,4.0,0.32,false
+SLA_01499,SVC_AUTH,Authentication Service,4.0,1.35,false
+SLA_01500,SVC_SHIP,Shipping Service,24.0,8.29,false
+SLA_01501,SVC_DB,Core Database Cluster,2.0,0.28,false
+SLA_01502,SVC_AUTH,Authentication Service,2.0,0.86,false
+SLA_01503,SVC_PAYMENT,Payment Gateway,8.0,17.47,true
+SLA_01504,SVC_SHIP,Shipping Service,8.0,3.16,false
+SLA_01505,SVC_PAYMENT,Payment Gateway,4.0,2.35,false
+SLA_01506,SVC_ORD,Order Management,8.0,4.51,false
+SLA_01507,SVC_WEB,Web Frontend,4.0,2.02,false
+SLA_01508,SVC_REP,Reporting Service,8.0,3.52,false
+SLA_01509,SVC_INV,Inventory Service,24.0,48.67,true
+SLA_01510,SVC_REP,Reporting Service,24.0,15.65,false
+SLA_01511,SVC_REP,Reporting Service,8.0,1.36,false
+SLA_01512,SVC_WEB,Web Frontend,4.0,1.41,false
+SLA_01513,SVC_ECOM,E-Commerce Platform,4.0,0.34,false
+SLA_01514,SVC_ORD,Order Management,4.0,0.92,false
+SLA_01515,SVC_WEB,Web Frontend,24.0,19.67,false
+SLA_01516,SVC_DB,Core Database Cluster,24.0,5.16,false
+SLA_01517,SVC_REP,Reporting Service,24.0,6.67,false
+SLA_01518,SVC_AUTH,Authentication Service,24.0,12.74,false
+SLA_01519,SVC_EMAIL,Email Service,24.0,18.71,false
+SLA_01520,SVC_REP,Reporting Service,24.0,51.21,true
+SLA_01521,SVC_PAYMENT,Payment Gateway,24.0,2.58,false
+SLA_01522,SVC_ORD,Order Management,8.0,6.69,false
+SLA_01523,SVC_REP,Reporting Service,8.0,0.49,false
+SLA_01524,SVC_ORD,Order Management,24.0,11.39,false
+SLA_01525,SVC_ORD,Order Management,24.0,41.17,true
+SLA_01526,SVC_SHIP,Shipping Service,8.0,1.11,false
+SLA_01527,SVC_SHIP,Shipping Service,24.0,16.34,false
+SLA_01528,SVC_SHIP,Shipping Service,4.0,2.25,false
+SLA_01529,SVC_AUTH,Authentication Service,4.0,2.54,false
+SLA_01530,SVC_DB,Core Database Cluster,24.0,47.65,true
+SLA_01531,SVC_INV,Inventory Service,8.0,18.52,true
+SLA_01532,SVC_DB,Core Database Cluster,24.0,9.28,false
+SLA_01533,SVC_REP,Reporting Service,2.0,0.88,false
+SLA_01534,SVC_INV,Inventory Service,2.0,0.68,false
+SLA_01535,SVC_REP,Reporting Service,2.0,1.63,false
+SLA_01536,SVC_AUTH,Authentication Service,4.0,2.88,false
+SLA_01537,SVC_ECOM,E-Commerce Platform,8.0,2.3,false
+SLA_01538,SVC_ORD,Order Management,4.0,2.6,false
+SLA_01539,SVC_DB,Core Database Cluster,24.0,14.46,false
+SLA_01540,SVC_AUTH,Authentication Service,4.0,5.2,true
+SLA_01541,SVC_WEB,Web Frontend,4.0,0.39,false
+SLA_01542,SVC_EMAIL,Email Service,4.0,0.94,false
+SLA_01543,SVC_SHIP,Shipping Service,4.0,1.17,false
+SLA_01544,SVC_REP,Reporting Service,24.0,14.67,false
+SLA_01545,SVC_DB,Core Database Cluster,24.0,18.69,false
+SLA_01546,SVC_AUTH,Authentication Service,4.0,1.27,false
+SLA_01547,SVC_INV,Inventory Service,4.0,2.22,false
+SLA_01548,SVC_ECOM,E-Commerce Platform,2.0,1.1,false
+SLA_01549,SVC_SHIP,Shipping Service,4.0,3.04,false
+SLA_01550,SVC_AUTH,Authentication Service,4.0,0.25,false
+SLA_01551,SVC_EMAIL,Email Service,8.0,6.02,false
+SLA_01552,SVC_PAYMENT,Payment Gateway,8.0,4.98,false
+SLA_01553,SVC_INV,Inventory Service,8.0,0.72,false
+SLA_01554,SVC_AUTH,Authentication Service,4.0,1.92,false
+SLA_01555,SVC_DB,Core Database Cluster,24.0,15.32,false
+SLA_01556,SVC_SHIP,Shipping Service,4.0,0.67,false
+SLA_01557,SVC_ORD,Order Management,4.0,1.96,false
+SLA_01558,SVC_PAYMENT,Payment Gateway,4.0,7.55,true
+SLA_01559,SVC_DB,Core Database Cluster,24.0,15.29,false
+SLA_01560,SVC_DB,Core Database Cluster,24.0,14.73,false
+SLA_01561,SVC_PAYMENT,Payment Gateway,8.0,2.93,false
+SLA_01562,SVC_SHIP,Shipping Service,8.0,6.07,false
+SLA_01563,SVC_ORD,Order Management,2.0,1.28,false
+SLA_01564,SVC_REP,Reporting Service,2.0,1.17,false
+SLA_01565,SVC_PAYMENT,Payment Gateway,24.0,12.51,false
+SLA_01566,SVC_EMAIL,Email Service,4.0,3.06,false
+SLA_01567,SVC_SHIP,Shipping Service,4.0,0.96,false
+SLA_01568,SVC_SHIP,Shipping Service,24.0,11.9,false
+SLA_01569,SVC_ECOM,E-Commerce Platform,4.0,0.67,false
+SLA_01570,SVC_AUTH,Authentication Service,2.0,3.77,true
+SLA_01571,SVC_REP,Reporting Service,2.0,3.55,true
+SLA_01572,SVC_DB,Core Database Cluster,4.0,0.65,false
+SLA_01573,SVC_INV,Inventory Service,8.0,13.73,true
+SLA_01574,SVC_DB,Core Database Cluster,2.0,1.54,false
+SLA_01575,SVC_EMAIL,Email Service,8.0,3.56,false
+SLA_01576,SVC_REP,Reporting Service,4.0,3.21,false
+SLA_01577,SVC_EMAIL,Email Service,4.0,1.75,false
+SLA_01578,SVC_WEB,Web Frontend,8.0,2.18,false
+SLA_01579,SVC_INV,Inventory Service,8.0,3.34,false
+SLA_01580,SVC_INV,Inventory Service,2.0,1.08,false
+SLA_01581,SVC_REP,Reporting Service,4.0,2.13,false
+SLA_01582,SVC_ECOM,E-Commerce Platform,24.0,46.46,true
+SLA_01583,SVC_AUTH,Authentication Service,2.0,0.56,false
+SLA_01584,SVC_SHIP,Shipping Service,24.0,14.42,false
+SLA_01585,SVC_WEB,Web Frontend,4.0,9.44,true
+SLA_01586,SVC_PAYMENT,Payment Gateway,4.0,6.08,true
+SLA_01587,SVC_ECOM,E-Commerce Platform,2.0,1.23,false
+SLA_01588,SVC_DB,Core Database Cluster,2.0,0.76,false
+SLA_01589,SVC_WEB,Web Frontend,24.0,6.13,false
+SLA_01590,SVC_AUTH,Authentication Service,24.0,9.65,false
+SLA_01591,SVC_ORD,Order Management,24.0,9.67,false
+SLA_01592,SVC_ORD,Order Management,24.0,11.57,false
+SLA_01593,SVC_ORD,Order Management,4.0,0.26,false
+SLA_01594,SVC_WEB,Web Frontend,24.0,14.53,false
+SLA_01595,SVC_AUTH,Authentication Service,2.0,4.13,true
+SLA_01596,SVC_EMAIL,Email Service,2.0,0.24,false
+SLA_01597,SVC_WEB,Web Frontend,8.0,15.92,true
+SLA_01598,SVC_DB,Core Database Cluster,2.0,0.35,false
+SLA_01599,SVC_INV,Inventory Service,24.0,17.27,false
+SLA_01600,SVC_ECOM,E-Commerce Platform,2.0,0.43,false
+SLA_01601,SVC_REP,Reporting Service,2.0,3.07,true
+SLA_01602,SVC_ORD,Order Management,2.0,0.61,false
+SLA_01603,SVC_SHIP,Shipping Service,2.0,0.26,false
+SLA_01604,SVC_EMAIL,Email Service,8.0,0.77,false
+SLA_01605,SVC_PAYMENT,Payment Gateway,8.0,0.53,false
+SLA_01606,SVC_EMAIL,Email Service,24.0,0.64,false
+SLA_01607,SVC_REP,Reporting Service,24.0,16.8,false
+SLA_01608,SVC_ECOM,E-Commerce Platform,4.0,0.72,false
+SLA_01609,SVC_REP,Reporting Service,8.0,1.74,false
+SLA_01610,SVC_DB,Core Database Cluster,8.0,0.56,false
+SLA_01611,SVC_WEB,Web Frontend,2.0,0.92,false
+SLA_01612,SVC_INV,Inventory Service,2.0,0.56,false
+SLA_01613,SVC_DB,Core Database Cluster,8.0,1.51,false
+SLA_01614,SVC_PAYMENT,Payment Gateway,24.0,6.47,false
+SLA_01615,SVC_AUTH,Authentication Service,8.0,0.55,false
+SLA_01616,SVC_REP,Reporting Service,4.0,3.38,false
+SLA_01617,SVC_PAYMENT,Payment Gateway,8.0,0.86,false
+SLA_01618,SVC_DB,Core Database Cluster,8.0,1.65,false
+SLA_01619,SVC_EMAIL,Email Service,2.0,1.17,false
+SLA_01620,SVC_REP,Reporting Service,4.0,2.84,false
+SLA_01621,SVC_ECOM,E-Commerce Platform,24.0,13.35,false
+SLA_01622,SVC_EMAIL,Email Service,4.0,0.94,false
+SLA_01623,SVC_EMAIL,Email Service,2.0,1.52,false
+SLA_01624,SVC_ECOM,E-Commerce Platform,2.0,0.74,false
+SLA_01625,SVC_REP,Reporting Service,8.0,0.22,false
+SLA_01626,SVC_ORD,Order Management,4.0,1.35,false
+SLA_01627,SVC_REP,Reporting Service,2.0,1.09,false
+SLA_01628,SVC_SHIP,Shipping Service,8.0,6.57,false
+SLA_01629,SVC_EMAIL,Email Service,4.0,0.83,false
+SLA_01630,SVC_DB,Core Database Cluster,2.0,1.68,false
+SLA_01631,SVC_SHIP,Shipping Service,4.0,1.42,false
+SLA_01632,SVC_ECOM,E-Commerce Platform,8.0,3.84,false
+SLA_01633,SVC_PAYMENT,Payment Gateway,4.0,0.23,false
+SLA_01634,SVC_REP,Reporting Service,2.0,1.02,false
+SLA_01635,SVC_EMAIL,Email Service,24.0,49.05,true
+SLA_01636,SVC_SHIP,Shipping Service,4.0,1.38,false
+SLA_01637,SVC_DB,Core Database Cluster,4.0,8.56,true
+SLA_01638,SVC_ORD,Order Management,8.0,1.45,false
+SLA_01639,SVC_ECOM,E-Commerce Platform,2.0,0.37,false
+SLA_01640,SVC_WEB,Web Frontend,2.0,0.6,false
+SLA_01641,SVC_INV,Inventory Service,4.0,0.22,false
+SLA_01642,SVC_INV,Inventory Service,2.0,1.18,false
+SLA_01643,SVC_PAYMENT,Payment Gateway,2.0,1.04,false
+SLA_01644,SVC_DB,Core Database Cluster,2.0,0.86,false
+SLA_01645,SVC_DB,Core Database Cluster,8.0,4.99,false
+SLA_01646,SVC_ORD,Order Management,4.0,1.38,false
+SLA_01647,SVC_DB,Core Database Cluster,4.0,2.72,false
+SLA_01648,SVC_ECOM,E-Commerce Platform,4.0,3.34,false
+SLA_01649,SVC_WEB,Web Frontend,24.0,3.94,false
+SLA_01650,SVC_WEB,Web Frontend,8.0,18.85,true
+SLA_01651,SVC_PAYMENT,Payment Gateway,2.0,1.06,false
+SLA_01652,SVC_INV,Inventory Service,8.0,0.75,false
+SLA_01653,SVC_DB,Core Database Cluster,8.0,0.5,false
+SLA_01654,SVC_WEB,Web Frontend,24.0,35.38,true
+SLA_01655,SVC_REP,Reporting Service,24.0,13.23,false
+SLA_01656,SVC_REP,Reporting Service,8.0,6.24,false
+SLA_01657,SVC_ECOM,E-Commerce Platform,2.0,1.61,false
+SLA_01658,SVC_PAYMENT,Payment Gateway,4.0,1.19,false
+SLA_01659,SVC_AUTH,Authentication Service,8.0,5.95,false
+SLA_01660,SVC_REP,Reporting Service,8.0,4.96,false
+SLA_01661,SVC_EMAIL,Email Service,8.0,4.49,false
+SLA_01662,SVC_WEB,Web Frontend,24.0,8.6,false
+SLA_01663,SVC_DB,Core Database Cluster,4.0,1.38,false
+SLA_01664,SVC_AUTH,Authentication Service,8.0,3.27,false
+SLA_01665,SVC_EMAIL,Email Service,8.0,1.45,false
+SLA_01666,SVC_DB,Core Database Cluster,2.0,0.58,false
+SLA_01667,SVC_EMAIL,Email Service,2.0,1.05,false
+SLA_01668,SVC_REP,Reporting Service,4.0,1.85,false
+SLA_01669,SVC_EMAIL,Email Service,8.0,4.64,false
+SLA_01670,SVC_DB,Core Database Cluster,2.0,3.97,true
+SLA_01671,SVC_PAYMENT,Payment Gateway,4.0,0.93,false
+SLA_01672,SVC_PAYMENT,Payment Gateway,2.0,1.39,false
+SLA_01673,SVC_PAYMENT,Payment Gateway,4.0,0.42,false
+SLA_01674,SVC_EMAIL,Email Service,2.0,0.76,false
+SLA_01675,SVC_SHIP,Shipping Service,24.0,9.03,false
+SLA_01676,SVC_AUTH,Authentication Service,24.0,5.3,false
+SLA_01677,SVC_EMAIL,Email Service,8.0,0.59,false
+SLA_01678,SVC_DB,Core Database Cluster,8.0,19.23,true
+SLA_01679,SVC_INV,Inventory Service,8.0,0.34,false
+SLA_01680,SVC_REP,Reporting Service,4.0,1.97,false
+SLA_01681,SVC_REP,Reporting Service,2.0,2.42,true
+SLA_01682,SVC_INV,Inventory Service,2.0,0.69,false
+SLA_01683,SVC_REP,Reporting Service,2.0,1.39,false
+SLA_01684,SVC_WEB,Web Frontend,24.0,7.89,false
+SLA_01685,SVC_ECOM,E-Commerce Platform,8.0,3.72,false
+SLA_01686,SVC_ORD,Order Management,24.0,18.62,false
+SLA_01687,SVC_REP,Reporting Service,24.0,4.43,false
+SLA_01688,SVC_WEB,Web Frontend,4.0,2.65,false
+SLA_01689,SVC_WEB,Web Frontend,24.0,12.51,false
+SLA_01690,SVC_DB,Core Database Cluster,4.0,2.42,false
+SLA_01691,SVC_PAYMENT,Payment Gateway,4.0,1.3,false
+SLA_01692,SVC_ECOM,E-Commerce Platform,4.0,1.99,false
+SLA_01693,SVC_PAYMENT,Payment Gateway,4.0,2.53,false
+SLA_01694,SVC_AUTH,Authentication Service,2.0,0.96,false
+SLA_01695,SVC_EMAIL,Email Service,2.0,1.32,false
+SLA_01696,SVC_AUTH,Authentication Service,8.0,3.61,false
+SLA_01697,SVC_WEB,Web Frontend,24.0,13.04,false
+SLA_01698,SVC_EMAIL,Email Service,2.0,0.59,false
+SLA_01699,SVC_EMAIL,Email Service,24.0,44.35,true
+SLA_01700,SVC_AUTH,Authentication Service,4.0,0.66,false
+SLA_01701,SVC_PAYMENT,Payment Gateway,24.0,1.65,false
+SLA_01702,SVC_EMAIL,Email Service,24.0,4.58,false
+SLA_01703,SVC_EMAIL,Email Service,24.0,14.82,false
+SLA_01704,SVC_INV,Inventory Service,2.0,1.35,false
+SLA_01705,SVC_ECOM,E-Commerce Platform,8.0,5.15,false
+SLA_01706,SVC_ORD,Order Management,4.0,1.96,false
+SLA_01707,SVC_EMAIL,Email Service,2.0,1.17,false
+SLA_01708,SVC_INV,Inventory Service,24.0,20.29,false
+SLA_01709,SVC_PAYMENT,Payment Gateway,24.0,45.37,true
+SLA_01710,SVC_WEB,Web Frontend,4.0,1.57,false
+SLA_01711,SVC_ECOM,E-Commerce Platform,4.0,1.37,false
+SLA_01712,SVC_AUTH,Authentication Service,8.0,0.2,false
+SLA_01713,SVC_WEB,Web Frontend,24.0,13.49,false
+SLA_01714,SVC_EMAIL,Email Service,8.0,5.85,false
+SLA_01715,SVC_SHIP,Shipping Service,4.0,4.5,true
+SLA_01716,SVC_ORD,Order Management,4.0,7.06,true
+SLA_01717,SVC_DB,Core Database Cluster,24.0,15.84,false
+SLA_01718,SVC_ECOM,E-Commerce Platform,4.0,0.78,false
+SLA_01719,SVC_EMAIL,Email Service,24.0,10.28,false
+SLA_01720,SVC_PAYMENT,Payment Gateway,8.0,5.52,false
+SLA_01721,SVC_EMAIL,Email Service,4.0,3.03,false
+SLA_01722,SVC_ORD,Order Management,4.0,0.41,false
+SLA_01723,SVC_WEB,Web Frontend,24.0,6.66,false
+SLA_01724,SVC_INV,Inventory Service,8.0,4.71,false
+SLA_01725,SVC_SHIP,Shipping Service,4.0,1.77,false
+SLA_01726,SVC_ECOM,E-Commerce Platform,4.0,0.25,false
+SLA_01727,SVC_DB,Core Database Cluster,8.0,6.22,false
+SLA_01728,SVC_REP,Reporting Service,24.0,15.97,false
+SLA_01729,SVC_SHIP,Shipping Service,4.0,2.4,false
+SLA_01730,SVC_DB,Core Database Cluster,8.0,4.25,false
+SLA_01731,SVC_ORD,Order Management,8.0,5.41,false
+SLA_01732,SVC_DB,Core Database Cluster,8.0,4.89,false
+SLA_01733,SVC_ECOM,E-Commerce Platform,24.0,2.32,false
+SLA_01734,SVC_ECOM,E-Commerce Platform,8.0,5.5,false
+SLA_01735,SVC_WEB,Web Frontend,24.0,1.84,false
+SLA_01736,SVC_REP,Reporting Service,4.0,8.51,true
+SLA_01737,SVC_PAYMENT,Payment Gateway,2.0,0.3,false
+SLA_01738,SVC_AUTH,Authentication Service,24.0,4.62,false
+SLA_01739,SVC_WEB,Web Frontend,2.0,1.16,false
+SLA_01740,SVC_INV,Inventory Service,8.0,5.55,false
+SLA_01741,SVC_EMAIL,Email Service,8.0,5.06,false
+SLA_01742,SVC_PAYMENT,Payment Gateway,8.0,6.09,false
+SLA_01743,SVC_INV,Inventory Service,24.0,19.34,false
+SLA_01744,SVC_SHIP,Shipping Service,2.0,0.41,false
+SLA_01745,SVC_ORD,Order Management,4.0,1.07,false
+SLA_01746,SVC_SHIP,Shipping Service,24.0,1.21,false
+SLA_01747,SVC_ORD,Order Management,4.0,3.36,false
+SLA_01748,SVC_SHIP,Shipping Service,4.0,0.89,false
+SLA_01749,SVC_REP,Reporting Service,2.0,0.94,false
+SLA_01750,SVC_DB,Core Database Cluster,8.0,1.66,false
+SLA_01751,SVC_WEB,Web Frontend,2.0,1.62,false
+SLA_01752,SVC_REP,Reporting Service,2.0,0.41,false
+SLA_01753,SVC_SHIP,Shipping Service,24.0,6.83,false
+SLA_01754,SVC_AUTH,Authentication Service,2.0,1.23,false
+SLA_01755,SVC_SHIP,Shipping Service,24.0,6.26,false
+SLA_01756,SVC_ORD,Order Management,8.0,0.21,false
+SLA_01757,SVC_SHIP,Shipping Service,8.0,4.66,false
+SLA_01758,SVC_INV,Inventory Service,4.0,2.93,false
+SLA_01759,SVC_ORD,Order Management,2.0,0.82,false
+SLA_01760,SVC_WEB,Web Frontend,2.0,1.06,false
+SLA_01761,SVC_WEB,Web Frontend,24.0,18.01,false
+SLA_01762,SVC_DB,Core Database Cluster,24.0,10.1,false
+SLA_01763,SVC_ORD,Order Management,4.0,1.43,false
+SLA_01764,SVC_ECOM,E-Commerce Platform,4.0,1.49,false
+SLA_01765,SVC_PAYMENT,Payment Gateway,24.0,0.43,false
+SLA_01766,SVC_PAYMENT,Payment Gateway,8.0,1.49,false
+SLA_01767,SVC_REP,Reporting Service,4.0,2.04,false
+SLA_01768,SVC_AUTH,Authentication Service,2.0,1.57,false
+SLA_01769,SVC_REP,Reporting Service,4.0,3.35,false
+SLA_01770,SVC_INV,Inventory Service,2.0,3.55,true
+SLA_01771,SVC_SHIP,Shipping Service,24.0,10.63,false
+SLA_01772,SVC_ECOM,E-Commerce Platform,24.0,8.57,false
+SLA_01773,SVC_EMAIL,Email Service,2.0,1.03,false
+SLA_01774,SVC_PAYMENT,Payment Gateway,4.0,2.0,false
+SLA_01775,SVC_WEB,Web Frontend,4.0,0.77,false
+SLA_01776,SVC_EMAIL,Email Service,8.0,3.06,false
+SLA_01777,SVC_ORD,Order Management,8.0,4.81,false
+SLA_01778,SVC_ECOM,E-Commerce Platform,24.0,20.25,false
+SLA_01779,SVC_ORD,Order Management,8.0,17.92,true
+SLA_01780,SVC_EMAIL,Email Service,4.0,1.9,false
+SLA_01781,SVC_DB,Core Database Cluster,4.0,3.3,false
+SLA_01782,SVC_REP,Reporting Service,8.0,4.01,false
+SLA_01783,SVC_AUTH,Authentication Service,4.0,3.05,false
+SLA_01784,SVC_AUTH,Authentication Service,24.0,5.35,false
+SLA_01785,SVC_REP,Reporting Service,8.0,6.64,false
+SLA_01786,SVC_EMAIL,Email Service,4.0,2.88,false
+SLA_01787,SVC_SHIP,Shipping Service,8.0,16.41,true
+SLA_01788,SVC_INV,Inventory Service,2.0,1.59,false
+SLA_01789,SVC_EMAIL,Email Service,24.0,15.4,false
+SLA_01790,SVC_WEB,Web Frontend,24.0,17.86,false
+SLA_01791,SVC_ECOM,E-Commerce Platform,4.0,1.52,false
+SLA_01792,SVC_SHIP,Shipping Service,8.0,0.93,false
+SLA_01793,SVC_SHIP,Shipping Service,2.0,0.81,false
+SLA_01794,SVC_PAYMENT,Payment Gateway,24.0,14.64,false
+SLA_01795,SVC_PAYMENT,Payment Gateway,2.0,4.77,true
+SLA_01796,SVC_SHIP,Shipping Service,24.0,7.94,false
+SLA_01797,SVC_PAYMENT,Payment Gateway,2.0,0.22,false
+SLA_01798,SVC_DB,Core Database Cluster,24.0,2.84,false
+SLA_01799,SVC_REP,Reporting Service,4.0,1.3,false
+SLA_01800,SVC_WEB,Web Frontend,4.0,1.19,false
+SLA_01801,SVC_WEB,Web Frontend,8.0,16.13,true
+SLA_01802,SVC_ORD,Order Management,4.0,0.55,false
+SLA_01803,SVC_PAYMENT,Payment Gateway,4.0,3.4,false
+SLA_01804,SVC_PAYMENT,Payment Gateway,8.0,6.03,false
+SLA_01805,SVC_SHIP,Shipping Service,24.0,7.23,false
+SLA_01806,SVC_ECOM,E-Commerce Platform,8.0,5.32,false
+SLA_01807,SVC_ECOM,E-Commerce Platform,24.0,11.52,false
+SLA_01808,SVC_ORD,Order Management,8.0,6.4,false
+SLA_01809,SVC_PAYMENT,Payment Gateway,4.0,1.84,false
+SLA_01810,SVC_SHIP,Shipping Service,24.0,19.85,false
+SLA_01811,SVC_WEB,Web Frontend,2.0,4.06,true
+SLA_01812,SVC_DB,Core Database Cluster,2.0,0.49,false
+SLA_01813,SVC_PAYMENT,Payment Gateway,24.0,4.97,false
+SLA_01814,SVC_WEB,Web Frontend,8.0,15.27,true
+SLA_01815,SVC_EMAIL,Email Service,24.0,13.51,false
+SLA_01816,SVC_PAYMENT,Payment Gateway,24.0,14.93,false
+SLA_01817,SVC_REP,Reporting Service,2.0,0.39,false
+SLA_01818,SVC_INV,Inventory Service,2.0,0.65,false
+SLA_01819,SVC_PAYMENT,Payment Gateway,24.0,2.31,false
+SLA_01820,SVC_ORD,Order Management,8.0,6.51,false
+SLA_01821,SVC_PAYMENT,Payment Gateway,24.0,18.37,false
+SLA_01822,SVC_INV,Inventory Service,8.0,0.37,false
+SLA_01823,SVC_SHIP,Shipping Service,2.0,1.4,false
+SLA_01824,SVC_INV,Inventory Service,2.0,1.64,false
+SLA_01825,SVC_REP,Reporting Service,24.0,14.72,false
+SLA_01826,SVC_REP,Reporting Service,8.0,5.22,false
+SLA_01827,SVC_WEB,Web Frontend,24.0,1.29,false
+SLA_01828,SVC_SHIP,Shipping Service,24.0,16.06,false
+SLA_01829,SVC_DB,Core Database Cluster,4.0,4.42,true
+SLA_01830,SVC_PAYMENT,Payment Gateway,8.0,1.89,false
+SLA_01831,SVC_DB,Core Database Cluster,4.0,3.08,false
+SLA_01832,SVC_ORD,Order Management,8.0,1.01,false
+SLA_01833,SVC_PAYMENT,Payment Gateway,8.0,6.42,false
+SLA_01834,SVC_WEB,Web Frontend,2.0,1.65,false
+SLA_01835,SVC_REP,Reporting Service,24.0,7.78,false
+SLA_01836,SVC_DB,Core Database Cluster,4.0,1.75,false
+SLA_01837,SVC_AUTH,Authentication Service,4.0,0.74,false
+SLA_01838,SVC_AUTH,Authentication Service,2.0,0.86,false
+SLA_01839,SVC_EMAIL,Email Service,24.0,17.53,false
+SLA_01840,SVC_INV,Inventory Service,4.0,1.21,false
+SLA_01841,SVC_EMAIL,Email Service,2.0,0.83,false
+SLA_01842,SVC_INV,Inventory Service,4.0,0.77,false
+SLA_01843,SVC_DB,Core Database Cluster,4.0,2.06,false
+SLA_01844,SVC_SHIP,Shipping Service,4.0,1.72,false
+SLA_01845,SVC_ORD,Order Management,2.0,0.27,false
+SLA_01846,SVC_ECOM,E-Commerce Platform,4.0,0.33,false
+SLA_01847,SVC_ECOM,E-Commerce Platform,24.0,5.67,false
+SLA_01848,SVC_INV,Inventory Service,4.0,1.07,false
+SLA_01849,SVC_ORD,Order Management,24.0,5.51,false
+SLA_01850,SVC_DB,Core Database Cluster,4.0,2.5,false
+SLA_01851,SVC_PAYMENT,Payment Gateway,2.0,1.45,false
+SLA_01852,SVC_PAYMENT,Payment Gateway,4.0,1.81,false
+SLA_01853,SVC_PAYMENT,Payment Gateway,4.0,2.65,false
+SLA_01854,SVC_DB,Core Database Cluster,24.0,13.69,false
+SLA_01855,SVC_PAYMENT,Payment Gateway,4.0,1.85,false
+SLA_01856,SVC_PAYMENT,Payment Gateway,24.0,6.23,false
+SLA_01857,SVC_PAYMENT,Payment Gateway,24.0,9.44,false
+SLA_01858,SVC_EMAIL,Email Service,8.0,3.98,false
+SLA_01859,SVC_AUTH,Authentication Service,24.0,20.32,false
+SLA_01860,SVC_REP,Reporting Service,8.0,2.73,false
+SLA_01861,SVC_SHIP,Shipping Service,4.0,3.09,false
+SLA_01862,SVC_PAYMENT,Payment Gateway,4.0,1.56,false
+SLA_01863,SVC_EMAIL,Email Service,24.0,15.92,false
+SLA_01864,SVC_ECOM,E-Commerce Platform,24.0,51.46,true
+SLA_01865,SVC_WEB,Web Frontend,2.0,4.82,true
+SLA_01866,SVC_SHIP,Shipping Service,8.0,17.58,true
+SLA_01867,SVC_WEB,Web Frontend,2.0,1.24,false
+SLA_01868,SVC_SHIP,Shipping Service,8.0,2.82,false
+SLA_01869,SVC_AUTH,Authentication Service,8.0,2.78,false
+SLA_01870,SVC_REP,Reporting Service,8.0,5.18,false
+SLA_01871,SVC_DB,Core Database Cluster,8.0,6.78,false
+SLA_01872,SVC_WEB,Web Frontend,4.0,2.39,false
+SLA_01873,SVC_REP,Reporting Service,2.0,0.45,false
+SLA_01874,SVC_DB,Core Database Cluster,8.0,1.87,false
+SLA_01875,SVC_SHIP,Shipping Service,24.0,17.05,false
+SLA_01876,SVC_EMAIL,Email Service,8.0,3.51,false
+SLA_01877,SVC_ECOM,E-Commerce Platform,8.0,6.05,false
+SLA_01878,SVC_SHIP,Shipping Service,2.0,0.28,false
+SLA_01879,SVC_DB,Core Database Cluster,24.0,11.11,false
+SLA_01880,SVC_SHIP,Shipping Service,8.0,5.7,false
+SLA_01881,SVC_EMAIL,Email Service,8.0,2.81,false
+SLA_01882,SVC_WEB,Web Frontend,24.0,19.01,false
+SLA_01883,SVC_SHIP,Shipping Service,8.0,0.52,false
+SLA_01884,SVC_WEB,Web Frontend,2.0,3.67,true
+SLA_01885,SVC_SHIP,Shipping Service,2.0,0.2,false
+SLA_01886,SVC_INV,Inventory Service,24.0,1.23,false
+SLA_01887,SVC_REP,Reporting Service,2.0,0.23,false
+SLA_01888,SVC_SHIP,Shipping Service,4.0,3.25,false
+SLA_01889,SVC_INV,Inventory Service,24.0,3.05,false
+SLA_01890,SVC_INV,Inventory Service,4.0,1.93,false
+SLA_01891,SVC_AUTH,Authentication Service,4.0,8.3,true
+SLA_01892,SVC_SHIP,Shipping Service,2.0,0.42,false
+SLA_01893,SVC_DB,Core Database Cluster,4.0,1.34,false
+SLA_01894,SVC_REP,Reporting Service,8.0,5.35,false
+SLA_01895,SVC_PAYMENT,Payment Gateway,8.0,2.99,false
+SLA_01896,SVC_INV,Inventory Service,8.0,0.84,false
+SLA_01897,SVC_AUTH,Authentication Service,2.0,1.34,false
+SLA_01898,SVC_ECOM,E-Commerce Platform,8.0,2.25,false
+SLA_01899,SVC_REP,Reporting Service,8.0,4.67,false
+SLA_01900,SVC_ORD,Order Management,2.0,1.24,false
+SLA_01901,SVC_ORD,Order Management,2.0,0.94,false
+SLA_01902,SVC_DB,Core Database Cluster,24.0,11.93,false
+SLA_01903,SVC_INV,Inventory Service,4.0,2.18,false
+SLA_01904,SVC_ECOM,E-Commerce Platform,2.0,1.15,false
+SLA_01905,SVC_ORD,Order Management,2.0,1.5,false
+SLA_01906,SVC_WEB,Web Frontend,2.0,0.56,false
+SLA_01907,SVC_WEB,Web Frontend,8.0,2.2,false
+SLA_01908,SVC_PAYMENT,Payment Gateway,2.0,0.87,false
+SLA_01909,SVC_ECOM,E-Commerce Platform,24.0,59.77,true
+SLA_01910,SVC_DB,Core Database Cluster,8.0,0.66,false
+SLA_01911,SVC_ECOM,E-Commerce Platform,8.0,0.76,false
+SLA_01912,SVC_SHIP,Shipping Service,2.0,0.32,false
+SLA_01913,SVC_WEB,Web Frontend,24.0,8.78,false
+SLA_01914,SVC_INV,Inventory Service,24.0,6.13,false
+SLA_01915,SVC_SHIP,Shipping Service,4.0,0.86,false
+SLA_01916,SVC_WEB,Web Frontend,2.0,0.98,false
+SLA_01917,SVC_AUTH,Authentication Service,24.0,7.36,false
+SLA_01918,SVC_AUTH,Authentication Service,2.0,0.91,false
+SLA_01919,SVC_PAYMENT,Payment Gateway,2.0,0.77,false
+SLA_01920,SVC_REP,Reporting Service,24.0,1.35,false
+SLA_01921,SVC_WEB,Web Frontend,24.0,4.81,false
+SLA_01922,SVC_SHIP,Shipping Service,4.0,1.45,false
+SLA_01923,SVC_REP,Reporting Service,4.0,3.3,false
+SLA_01924,SVC_ORD,Order Management,8.0,5.29,false
+SLA_01925,SVC_REP,Reporting Service,4.0,2.68,false
+SLA_01926,SVC_DB,Core Database Cluster,24.0,8.92,false
+SLA_01927,SVC_EMAIL,Email Service,24.0,10.11,false
+SLA_01928,SVC_WEB,Web Frontend,4.0,1.02,false
+SLA_01929,SVC_SHIP,Shipping Service,4.0,2.28,false
+SLA_01930,SVC_DB,Core Database Cluster,4.0,3.23,false
+SLA_01931,SVC_ORD,Order Management,2.0,1.23,false
+SLA_01932,SVC_EMAIL,Email Service,24.0,8.2,false
+SLA_01933,SVC_WEB,Web Frontend,24.0,7.69,false
+SLA_01934,SVC_ECOM,E-Commerce Platform,24.0,13.66,false
+SLA_01935,SVC_WEB,Web Frontend,24.0,17.49,false
+SLA_01936,SVC_ORD,Order Management,2.0,1.65,false
+SLA_01937,SVC_REP,Reporting Service,2.0,0.71,false
+SLA_01938,SVC_PAYMENT,Payment Gateway,4.0,1.45,false
+SLA_01939,SVC_AUTH,Authentication Service,24.0,9.0,false
+SLA_01940,SVC_EMAIL,Email Service,8.0,1.17,false
+SLA_01941,SVC_AUTH,Authentication Service,8.0,4.67,false
+SLA_01942,SVC_ECOM,E-Commerce Platform,24.0,1.62,false
+SLA_01943,SVC_ORD,Order Management,2.0,0.65,false
+SLA_01944,SVC_PAYMENT,Payment Gateway,2.0,0.66,false
+SLA_01945,SVC_ORD,Order Management,24.0,26.74,true
+SLA_01946,SVC_ECOM,E-Commerce Platform,4.0,0.9,false
+SLA_01947,SVC_INV,Inventory Service,4.0,1.73,false
+SLA_01948,SVC_ORD,Order Management,4.0,2.53,false
+SLA_01949,SVC_WEB,Web Frontend,8.0,1.36,false
+SLA_01950,SVC_EMAIL,Email Service,4.0,1.2,false
+SLA_01951,SVC_AUTH,Authentication Service,4.0,2.33,false
+SLA_01952,SVC_ORD,Order Management,2.0,1.3,false
+SLA_01953,SVC_WEB,Web Frontend,24.0,31.76,true
+SLA_01954,SVC_SHIP,Shipping Service,24.0,11.66,false
+SLA_01955,SVC_EMAIL,Email Service,2.0,1.24,false
+SLA_01956,SVC_PAYMENT,Payment Gateway,24.0,2.66,false
+SLA_01957,SVC_INV,Inventory Service,8.0,0.8,false
+SLA_01958,SVC_PAYMENT,Payment Gateway,8.0,15.06,true
+SLA_01959,SVC_INV,Inventory Service,4.0,2.73,false
+SLA_01960,SVC_ORD,Order Management,8.0,0.4,false
+SLA_01961,SVC_WEB,Web Frontend,8.0,6.42,false
+SLA_01962,SVC_ORD,Order Management,8.0,15.7,true
+SLA_01963,SVC_REP,Reporting Service,24.0,1.61,false
+SLA_01964,SVC_WEB,Web Frontend,2.0,0.37,false
+SLA_01965,SVC_WEB,Web Frontend,2.0,0.95,false
+SLA_01966,SVC_EMAIL,Email Service,24.0,0.36,false
+SLA_01967,SVC_ORD,Order Management,24.0,57.29,true
+SLA_01968,SVC_WEB,Web Frontend,4.0,0.6,false
+SLA_01969,SVC_PAYMENT,Payment Gateway,24.0,5.13,false
+SLA_01970,SVC_REP,Reporting Service,2.0,0.91,false
+SLA_01971,SVC_SHIP,Shipping Service,8.0,16.52,true
+SLA_01972,SVC_DB,Core Database Cluster,8.0,1.69,false
+SLA_01973,SVC_AUTH,Authentication Service,4.0,0.26,false
+SLA_01974,SVC_ECOM,E-Commerce Platform,24.0,11.34,false
+SLA_01975,SVC_SHIP,Shipping Service,8.0,5.59,false
+SLA_01976,SVC_PAYMENT,Payment Gateway,8.0,0.58,false
+SLA_01977,SVC_ECOM,E-Commerce Platform,2.0,1.62,false
+SLA_01978,SVC_ORD,Order Management,24.0,0.46,false
+SLA_01979,SVC_REP,Reporting Service,2.0,1.05,false
+SLA_01980,SVC_EMAIL,Email Service,4.0,3.27,false
+SLA_01981,SVC_REP,Reporting Service,2.0,0.99,false
+SLA_01982,SVC_REP,Reporting Service,4.0,3.23,false
+SLA_01983,SVC_INV,Inventory Service,2.0,0.36,false
+SLA_01984,SVC_REP,Reporting Service,24.0,13.62,false
+SLA_01985,SVC_PAYMENT,Payment Gateway,4.0,2.15,false
+SLA_01986,SVC_WEB,Web Frontend,2.0,0.96,false
+SLA_01987,SVC_ORD,Order Management,8.0,5.88,false
+SLA_01988,SVC_SHIP,Shipping Service,2.0,0.92,false
+SLA_01989,SVC_AUTH,Authentication Service,8.0,16.37,true
+SLA_01990,SVC_REP,Reporting Service,4.0,8.9,true
+SLA_01991,SVC_AUTH,Authentication Service,8.0,1.65,false
+SLA_01992,SVC_ORD,Order Management,24.0,17.34,false
+SLA_01993,SVC_EMAIL,Email Service,8.0,2.07,false
+SLA_01994,SVC_EMAIL,Email Service,4.0,1.14,false
+SLA_01995,SVC_WEB,Web Frontend,24.0,42.05,true
+SLA_01996,SVC_EMAIL,Email Service,8.0,3.07,false
+SLA_01997,SVC_AUTH,Authentication Service,2.0,1.6,false
+SLA_01998,SVC_ORD,Order Management,2.0,1.58,false
+SLA_01999,SVC_SHIP,Shipping Service,24.0,1.36,false
+SLA_02000,SVC_INV,Inventory Service,24.0,8.63,false
+SLA_02001,SVC_AUTH,Authentication Service,24.0,31.69,true
+SLA_02002,SVC_SHIP,Shipping Service,24.0,17.69,false
+SLA_02003,SVC_EMAIL,Email Service,24.0,9.34,false
+SLA_02004,SVC_REP,Reporting Service,2.0,1.1,false
+SLA_02005,SVC_WEB,Web Frontend,24.0,2.46,false
+SLA_02006,SVC_SHIP,Shipping Service,24.0,17.74,false
+SLA_02007,SVC_EMAIL,Email Service,24.0,16.26,false
+SLA_02008,SVC_WEB,Web Frontend,2.0,1.51,false
+SLA_02009,SVC_ORD,Order Management,8.0,6.21,false
+SLA_02010,SVC_REP,Reporting Service,8.0,3.85,false
+SLA_02011,SVC_REP,Reporting Service,8.0,5.76,false
+SLA_02012,SVC_REP,Reporting Service,2.0,1.52,false
+SLA_02013,SVC_EMAIL,Email Service,2.0,0.76,false
+SLA_02014,SVC_SHIP,Shipping Service,8.0,19.41,true
+SLA_02015,SVC_INV,Inventory Service,4.0,0.41,false
+SLA_02016,SVC_ORD,Order Management,24.0,12.23,false
+SLA_02017,SVC_INV,Inventory Service,4.0,1.3,false
+SLA_02018,SVC_ORD,Order Management,2.0,0.23,false
+SLA_02019,SVC_DB,Core Database Cluster,4.0,2.99,false
+SLA_02020,SVC_ORD,Order Management,4.0,0.49,false
+SLA_02021,SVC_SHIP,Shipping Service,8.0,3.5,false
+SLA_02022,SVC_SHIP,Shipping Service,24.0,9.57,false
+SLA_02023,SVC_ORD,Order Management,8.0,2.9,false
+SLA_02024,SVC_INV,Inventory Service,2.0,1.46,false
+SLA_02025,SVC_INV,Inventory Service,8.0,11.78,true
+SLA_02026,SVC_SHIP,Shipping Service,24.0,13.0,false
+SLA_02027,SVC_SHIP,Shipping Service,24.0,17.13,false
+SLA_02028,SVC_AUTH,Authentication Service,2.0,0.67,false
+SLA_02029,SVC_DB,Core Database Cluster,8.0,0.59,false
+SLA_02030,SVC_PAYMENT,Payment Gateway,4.0,2.08,false
+SLA_02031,SVC_ORD,Order Management,4.0,1.53,false
+SLA_02032,SVC_ORD,Order Management,24.0,15.87,false
+SLA_02033,SVC_REP,Reporting Service,4.0,2.79,false
+SLA_02034,SVC_WEB,Web Frontend,24.0,59.16,true
+SLA_02035,SVC_DB,Core Database Cluster,2.0,1.4,false
+SLA_02036,SVC_WEB,Web Frontend,8.0,4.04,false
+SLA_02037,SVC_AUTH,Authentication Service,4.0,0.34,false
+SLA_02038,SVC_INV,Inventory Service,24.0,9.47,false
+SLA_02039,SVC_ECOM,E-Commerce Platform,24.0,13.1,false
+SLA_02040,SVC_INV,Inventory Service,2.0,1.13,false
+SLA_02041,SVC_REP,Reporting Service,4.0,8.7,true
+SLA_02042,SVC_EMAIL,Email Service,8.0,6.0,false
+SLA_02043,SVC_ORD,Order Management,8.0,3.42,false
+SLA_02044,SVC_AUTH,Authentication Service,8.0,3.05,false
+SLA_02045,SVC_ORD,Order Management,8.0,14.94,true
+SLA_02046,SVC_DB,Core Database Cluster,2.0,0.69,false
+SLA_02047,SVC_INV,Inventory Service,24.0,16.37,false
+SLA_02048,SVC_SHIP,Shipping Service,4.0,2.96,false
+SLA_02049,SVC_PAYMENT,Payment Gateway,2.0,1.59,false
+SLA_02050,SVC_ECOM,E-Commerce Platform,24.0,6.38,false
+SLA_02051,SVC_AUTH,Authentication Service,8.0,4.41,false
+SLA_02052,SVC_AUTH,Authentication Service,2.0,0.63,false
+SLA_02053,SVC_WEB,Web Frontend,2.0,1.7,false
+SLA_02054,SVC_REP,Reporting Service,24.0,3.69,false
+SLA_02055,SVC_INV,Inventory Service,2.0,1.29,false
+SLA_02056,SVC_ORD,Order Management,24.0,0.76,false
+SLA_02057,SVC_REP,Reporting Service,2.0,1.12,false
+SLA_02058,SVC_WEB,Web Frontend,2.0,0.85,false
+SLA_02059,SVC_AUTH,Authentication Service,4.0,1.05,false
+SLA_02060,SVC_ECOM,E-Commerce Platform,4.0,6.62,true
+SLA_02061,SVC_ECOM,E-Commerce Platform,2.0,1.21,false
+SLA_02062,SVC_AUTH,Authentication Service,24.0,7.43,false
+SLA_02063,SVC_AUTH,Authentication Service,4.0,1.5,false
+SLA_02064,SVC_WEB,Web Frontend,4.0,0.69,false
+SLA_02065,SVC_PAYMENT,Payment Gateway,24.0,14.03,false
+SLA_02066,SVC_WEB,Web Frontend,2.0,0.23,false
+SLA_02067,SVC_ECOM,E-Commerce Platform,2.0,1.59,false
+SLA_02068,SVC_DB,Core Database Cluster,8.0,1.48,false
+SLA_02069,SVC_EMAIL,Email Service,2.0,0.79,false
+SLA_02070,SVC_REP,Reporting Service,4.0,1.62,false
+SLA_02071,SVC_PAYMENT,Payment Gateway,24.0,17.5,false
+SLA_02072,SVC_DB,Core Database Cluster,8.0,5.47,false
+SLA_02073,SVC_INV,Inventory Service,8.0,5.8,false
+SLA_02074,SVC_AUTH,Authentication Service,24.0,4.69,false
+SLA_02075,SVC_DB,Core Database Cluster,4.0,0.23,false
+SLA_02076,SVC_SHIP,Shipping Service,24.0,1.86,false
+SLA_02077,SVC_DB,Core Database Cluster,4.0,1.45,false
+SLA_02078,SVC_REP,Reporting Service,2.0,3.49,true
+SLA_02079,SVC_ORD,Order Management,24.0,17.83,false
+SLA_02080,SVC_ECOM,E-Commerce Platform,2.0,1.13,false
+SLA_02081,SVC_REP,Reporting Service,4.0,4.75,true
+SLA_02082,SVC_PAYMENT,Payment Gateway,8.0,3.57,false
+SLA_02083,SVC_ORD,Order Management,24.0,12.34,false
+SLA_02084,SVC_AUTH,Authentication Service,4.0,0.61,false
+SLA_02085,SVC_PAYMENT,Payment Gateway,2.0,3.22,true
+SLA_02086,SVC_PAYMENT,Payment Gateway,8.0,1.7,false
+SLA_02087,SVC_AUTH,Authentication Service,24.0,7.29,false
+SLA_02088,SVC_ORD,Order Management,24.0,32.64,true
+SLA_02089,SVC_AUTH,Authentication Service,4.0,3.16,false
+SLA_02090,SVC_PAYMENT,Payment Gateway,4.0,7.29,true
+SLA_02091,SVC_AUTH,Authentication Service,2.0,1.22,false
+SLA_02092,SVC_ECOM,E-Commerce Platform,4.0,1.05,false
+SLA_02093,SVC_WEB,Web Frontend,8.0,5.86,false
+SLA_02094,SVC_PAYMENT,Payment Gateway,24.0,18.47,false
+SLA_02095,SVC_AUTH,Authentication Service,8.0,1.37,false
+SLA_02096,SVC_WEB,Web Frontend,4.0,2.09,false
+SLA_02097,SVC_ORD,Order Management,8.0,2.75,false
+SLA_02098,SVC_REP,Reporting Service,4.0,1.99,false
+SLA_02099,SVC_ECOM,E-Commerce Platform,8.0,0.98,false
+SLA_02100,SVC_DB,Core Database Cluster,4.0,2.75,false
+SLA_02101,SVC_INV,Inventory Service,4.0,1.41,false
+SLA_02102,SVC_PAYMENT,Payment Gateway,8.0,1.35,false
+SLA_02103,SVC_REP,Reporting Service,2.0,0.37,false
+SLA_02104,SVC_INV,Inventory Service,2.0,1.58,false
+SLA_02105,SVC_DB,Core Database Cluster,8.0,3.62,false
+SLA_02106,SVC_EMAIL,Email Service,24.0,3.22,false
+SLA_02107,SVC_EMAIL,Email Service,4.0,3.04,false
+SLA_02108,SVC_ECOM,E-Commerce Platform,24.0,4.71,false
+SLA_02109,SVC_ECOM,E-Commerce Platform,8.0,2.29,false
+SLA_02110,SVC_PAYMENT,Payment Gateway,24.0,16.15,false
+SLA_02111,SVC_INV,Inventory Service,4.0,2.44,false
+SLA_02112,SVC_ORD,Order Management,2.0,1.53,false
+SLA_02113,SVC_AUTH,Authentication Service,24.0,1.94,false
+SLA_02114,SVC_DB,Core Database Cluster,24.0,14.39,false
+SLA_02115,SVC_AUTH,Authentication Service,24.0,8.0,false
+SLA_02116,SVC_INV,Inventory Service,4.0,0.37,false
+SLA_02117,SVC_WEB,Web Frontend,8.0,5.39,false
+SLA_02118,SVC_ORD,Order Management,4.0,1.91,false
+SLA_02119,SVC_PAYMENT,Payment Gateway,4.0,0.26,false
+SLA_02120,SVC_SHIP,Shipping Service,2.0,0.54,false
+SLA_02121,SVC_AUTH,Authentication Service,4.0,2.86,false
+SLA_02122,SVC_EMAIL,Email Service,2.0,1.4,false
+SLA_02123,SVC_DB,Core Database Cluster,2.0,1.26,false
+SLA_02124,SVC_REP,Reporting Service,4.0,1.74,false
+SLA_02125,SVC_DB,Core Database Cluster,2.0,0.89,false
+SLA_02126,SVC_SHIP,Shipping Service,24.0,10.89,false
+SLA_02127,SVC_INV,Inventory Service,2.0,1.61,false
+SLA_02128,SVC_PAYMENT,Payment Gateway,8.0,1.73,false
+SLA_02129,SVC_INV,Inventory Service,24.0,0.65,false
+SLA_02130,SVC_SHIP,Shipping Service,2.0,1.61,false
+SLA_02131,SVC_INV,Inventory Service,24.0,14.7,false
+SLA_02132,SVC_INV,Inventory Service,2.0,0.89,false
+SLA_02133,SVC_ECOM,E-Commerce Platform,4.0,2.89,false
+SLA_02134,SVC_SHIP,Shipping Service,2.0,0.99,false
+SLA_02135,SVC_EMAIL,Email Service,2.0,1.49,false
+SLA_02136,SVC_INV,Inventory Service,8.0,4.64,false
+SLA_02137,SVC_ECOM,E-Commerce Platform,2.0,0.74,false
+SLA_02138,SVC_EMAIL,Email Service,4.0,0.86,false
+SLA_02139,SVC_EMAIL,Email Service,2.0,1.28,false
+SLA_02140,SVC_REP,Reporting Service,8.0,6.23,false
+SLA_02141,SVC_PAYMENT,Payment Gateway,4.0,0.53,false
+SLA_02142,SVC_AUTH,Authentication Service,2.0,1.2,false
+SLA_02143,SVC_EMAIL,Email Service,8.0,2.44,false
+SLA_02144,SVC_SHIP,Shipping Service,24.0,16.84,false
+SLA_02145,SVC_PAYMENT,Payment Gateway,24.0,16.85,false
+SLA_02146,SVC_ECOM,E-Commerce Platform,8.0,3.47,false
+SLA_02147,SVC_INV,Inventory Service,8.0,3.58,false
+SLA_02148,SVC_REP,Reporting Service,2.0,1.39,false
+SLA_02149,SVC_REP,Reporting Service,4.0,0.61,false
+SLA_02150,SVC_INV,Inventory Service,2.0,1.27,false
+SLA_02151,SVC_PAYMENT,Payment Gateway,2.0,0.43,false
+SLA_02152,SVC_SHIP,Shipping Service,24.0,20.36,false
+SLA_02153,SVC_ORD,Order Management,4.0,1.99,false
+SLA_02154,SVC_AUTH,Authentication Service,8.0,0.68,false
+SLA_02155,SVC_EMAIL,Email Service,2.0,0.23,false
+SLA_02156,SVC_PAYMENT,Payment Gateway,8.0,2.45,false
+SLA_02157,SVC_SHIP,Shipping Service,24.0,11.83,false
+SLA_02158,SVC_WEB,Web Frontend,4.0,1.42,false
+SLA_02159,SVC_ORD,Order Management,2.0,1.62,false
+SLA_02160,SVC_PAYMENT,Payment Gateway,2.0,0.61,false
+SLA_02161,SVC_REP,Reporting Service,8.0,2.31,false
+SLA_02162,SVC_EMAIL,Email Service,24.0,18.83,false
+SLA_02163,SVC_AUTH,Authentication Service,4.0,2.49,false
+SLA_02164,SVC_EMAIL,Email Service,24.0,49.5,true
+SLA_02165,SVC_PAYMENT,Payment Gateway,24.0,7.07,false
+SLA_02166,SVC_SHIP,Shipping Service,4.0,1.07,false
+SLA_02167,SVC_DB,Core Database Cluster,8.0,6.32,false
+SLA_02168,SVC_ECOM,E-Commerce Platform,2.0,0.54,false
+SLA_02169,SVC_ORD,Order Management,8.0,1.5,false
+SLA_02170,SVC_DB,Core Database Cluster,4.0,2.01,false
+SLA_02171,SVC_ECOM,E-Commerce Platform,8.0,4.27,false
+SLA_02172,SVC_REP,Reporting Service,4.0,1.79,false
+SLA_02173,SVC_INV,Inventory Service,24.0,15.55,false
+SLA_02174,SVC_EMAIL,Email Service,4.0,9.98,true
+SLA_02175,SVC_AUTH,Authentication Service,8.0,5.78,false
+SLA_02176,SVC_ORD,Order Management,24.0,5.89,false
+SLA_02177,SVC_ECOM,E-Commerce Platform,8.0,5.41,false
+SLA_02178,SVC_WEB,Web Frontend,8.0,1.54,false
+SLA_02179,SVC_EMAIL,Email Service,24.0,12.28,false
+SLA_02180,SVC_EMAIL,Email Service,8.0,6.34,false
+SLA_02181,SVC_EMAIL,Email Service,2.0,0.98,false
+SLA_02182,SVC_SHIP,Shipping Service,8.0,1.63,false
+SLA_02183,SVC_REP,Reporting Service,4.0,0.94,false
+SLA_02184,SVC_REP,Reporting Service,2.0,1.17,false
+SLA_02185,SVC_REP,Reporting Service,24.0,13.35,false
+SLA_02186,SVC_SHIP,Shipping Service,4.0,3.14,false
+SLA_02187,SVC_PAYMENT,Payment Gateway,2.0,1.65,false
+SLA_02188,SVC_ECOM,E-Commerce Platform,24.0,3.52,false
+SLA_02189,SVC_DB,Core Database Cluster,24.0,8.44,false
+SLA_02190,SVC_PAYMENT,Payment Gateway,2.0,0.84,false
+SLA_02191,SVC_SHIP,Shipping Service,2.0,0.57,false
+SLA_02192,SVC_ORD,Order Management,8.0,16.53,true
+SLA_02193,SVC_SHIP,Shipping Service,8.0,9.16,true
+SLA_02194,SVC_ECOM,E-Commerce Platform,2.0,0.67,false
+SLA_02195,SVC_EMAIL,Email Service,24.0,5.07,false
+SLA_02196,SVC_PAYMENT,Payment Gateway,4.0,1.84,false
+SLA_02197,SVC_REP,Reporting Service,8.0,5.69,false
+SLA_02198,SVC_AUTH,Authentication Service,24.0,3.53,false
+SLA_02199,SVC_REP,Reporting Service,8.0,5.86,false
+SLA_02200,SVC_DB,Core Database Cluster,4.0,2.84,false
+SLA_02201,SVC_PAYMENT,Payment Gateway,4.0,0.67,false
+SLA_02202,SVC_AUTH,Authentication Service,24.0,13.48,false
+SLA_02203,SVC_AUTH,Authentication Service,2.0,0.46,false
+SLA_02204,SVC_REP,Reporting Service,2.0,1.42,false
+SLA_02205,SVC_ECOM,E-Commerce Platform,2.0,0.88,false
+SLA_02206,SVC_SHIP,Shipping Service,2.0,1.16,false
+SLA_02207,SVC_AUTH,Authentication Service,8.0,5.92,false
+SLA_02208,SVC_SHIP,Shipping Service,24.0,14.5,false
+SLA_02209,SVC_ORD,Order Management,4.0,3.09,false
+SLA_02210,SVC_PAYMENT,Payment Gateway,8.0,5.09,false
+SLA_02211,SVC_INV,Inventory Service,24.0,44.1,true
+SLA_02212,SVC_EMAIL,Email Service,4.0,2.26,false
+SLA_02213,SVC_EMAIL,Email Service,8.0,4.23,false
+SLA_02214,SVC_EMAIL,Email Service,24.0,19.72,false
+SLA_02215,SVC_INV,Inventory Service,4.0,3.2,false
+SLA_02216,SVC_PAYMENT,Payment Gateway,4.0,1.07,false
+SLA_02217,SVC_AUTH,Authentication Service,24.0,16.61,false
+SLA_02218,SVC_WEB,Web Frontend,4.0,2.29,false
+SLA_02219,SVC_ECOM,E-Commerce Platform,4.0,2.86,false
+SLA_02220,SVC_AUTH,Authentication Service,4.0,2.78,false
+SLA_02221,SVC_AUTH,Authentication Service,8.0,0.23,false
+SLA_02222,SVC_AUTH,Authentication Service,4.0,0.63,false
+SLA_02223,SVC_INV,Inventory Service,2.0,1.3,false
+SLA_02224,SVC_EMAIL,Email Service,2.0,0.72,false
+SLA_02225,SVC_ORD,Order Management,4.0,1.78,false
+SLA_02226,SVC_EMAIL,Email Service,4.0,1.72,false
+SLA_02227,SVC_INV,Inventory Service,8.0,1.76,false
+SLA_02228,SVC_DB,Core Database Cluster,8.0,1.93,false
+SLA_02229,SVC_WEB,Web Frontend,4.0,1.91,false
+SLA_02230,SVC_EMAIL,Email Service,24.0,8.37,false
+SLA_02231,SVC_PAYMENT,Payment Gateway,2.0,0.66,false
+SLA_02232,SVC_SHIP,Shipping Service,2.0,1.57,false
+SLA_02233,SVC_AUTH,Authentication Service,4.0,2.14,false
+SLA_02234,SVC_ECOM,E-Commerce Platform,2.0,0.65,false
+SLA_02235,SVC_REP,Reporting Service,8.0,6.26,false
+SLA_02236,SVC_PAYMENT,Payment Gateway,2.0,0.96,false
+SLA_02237,SVC_SHIP,Shipping Service,24.0,0.36,false
+SLA_02238,SVC_EMAIL,Email Service,24.0,5.67,false
+SLA_02239,SVC_EMAIL,Email Service,8.0,5.11,false
+SLA_02240,SVC_SHIP,Shipping Service,24.0,38.51,true
+SLA_02241,SVC_ORD,Order Management,2.0,0.64,false
+SLA_02242,SVC_PAYMENT,Payment Gateway,2.0,0.69,false
+SLA_02243,SVC_WEB,Web Frontend,2.0,0.24,false
+SLA_02244,SVC_AUTH,Authentication Service,8.0,3.04,false
+SLA_02245,SVC_SHIP,Shipping Service,8.0,0.85,false
+SLA_02246,SVC_AUTH,Authentication Service,24.0,3.95,false
+SLA_02247,SVC_SHIP,Shipping Service,8.0,1.35,false
+SLA_02248,SVC_PAYMENT,Payment Gateway,4.0,2.97,false
+SLA_02249,SVC_AUTH,Authentication Service,8.0,5.0,false
+SLA_02250,SVC_INV,Inventory Service,4.0,2.34,false
+SLA_02251,SVC_DB,Core Database Cluster,24.0,1.0,false
+SLA_02252,SVC_INV,Inventory Service,4.0,0.52,false
+SLA_02253,SVC_DB,Core Database Cluster,24.0,10.32,false
+SLA_02254,SVC_INV,Inventory Service,8.0,3.59,false
+SLA_02255,SVC_SHIP,Shipping Service,8.0,5.92,false
+SLA_02256,SVC_ECOM,E-Commerce Platform,4.0,1.22,false
+SLA_02257,SVC_DB,Core Database Cluster,8.0,5.06,false
+SLA_02258,SVC_SHIP,Shipping Service,8.0,1.98,false
+SLA_02259,SVC_EMAIL,Email Service,4.0,0.37,false
+SLA_02260,SVC_DB,Core Database Cluster,24.0,6.0,false
+SLA_02261,SVC_PAYMENT,Payment Gateway,8.0,2.87,false
+SLA_02262,SVC_PAYMENT,Payment Gateway,24.0,13.34,false
+SLA_02263,SVC_EMAIL,Email Service,8.0,2.59,false
+SLA_02264,SVC_PAYMENT,Payment Gateway,24.0,5.21,false
+SLA_02265,SVC_INV,Inventory Service,8.0,3.99,false
+SLA_02266,SVC_PAYMENT,Payment Gateway,2.0,0.73,false
+SLA_02267,SVC_PAYMENT,Payment Gateway,2.0,0.5,false
+SLA_02268,SVC_ECOM,E-Commerce Platform,8.0,2.49,false
+SLA_02269,SVC_ECOM,E-Commerce Platform,4.0,7.78,true
+SLA_02270,SVC_ECOM,E-Commerce Platform,4.0,2.91,false
+SLA_02271,SVC_EMAIL,Email Service,24.0,10.35,false
+SLA_02272,SVC_PAYMENT,Payment Gateway,8.0,13.24,true
+SLA_02273,SVC_DB,Core Database Cluster,8.0,0.85,false
+SLA_02274,SVC_REP,Reporting Service,4.0,3.4,false
+SLA_02275,SVC_WEB,Web Frontend,24.0,5.49,false
+SLA_02276,SVC_INV,Inventory Service,2.0,0.61,false
+SLA_02277,SVC_SHIP,Shipping Service,8.0,4.36,false
+SLA_02278,SVC_ORD,Order Management,4.0,0.92,false
+SLA_02279,SVC_PAYMENT,Payment Gateway,4.0,0.59,false
+SLA_02280,SVC_EMAIL,Email Service,8.0,3.97,false
+SLA_02281,SVC_PAYMENT,Payment Gateway,8.0,2.8,false
+SLA_02282,SVC_DB,Core Database Cluster,8.0,1.61,false
+SLA_02283,SVC_SHIP,Shipping Service,24.0,9.03,false
+SLA_02284,SVC_DB,Core Database Cluster,8.0,2.94,false
+SLA_02285,SVC_PAYMENT,Payment Gateway,8.0,3.45,false
+SLA_02286,SVC_DB,Core Database Cluster,2.0,0.7,false
+SLA_02287,SVC_EMAIL,Email Service,4.0,0.8,false
+SLA_02288,SVC_DB,Core Database Cluster,4.0,3.36,false
+SLA_02289,SVC_DB,Core Database Cluster,2.0,1.23,false
+SLA_02290,SVC_PAYMENT,Payment Gateway,2.0,1.65,false
+SLA_02291,SVC_PAYMENT,Payment Gateway,4.0,1.71,false
+SLA_02292,SVC_REP,Reporting Service,2.0,1.62,false
+SLA_02293,SVC_INV,Inventory Service,2.0,1.24,false
+SLA_02294,SVC_REP,Reporting Service,24.0,49.7,true
+SLA_02295,SVC_ORD,Order Management,24.0,43.51,true
+SLA_02296,SVC_REP,Reporting Service,8.0,18.02,true
+SLA_02297,SVC_AUTH,Authentication Service,24.0,12.27,false
+SLA_02298,SVC_DB,Core Database Cluster,4.0,0.41,false
+SLA_02299,SVC_WEB,Web Frontend,24.0,6.13,false
+SLA_02300,SVC_PAYMENT,Payment Gateway,2.0,0.6,false
+SLA_02301,SVC_ECOM,E-Commerce Platform,8.0,4.13,false
+SLA_02302,SVC_EMAIL,Email Service,24.0,43.76,true
+SLA_02303,SVC_REP,Reporting Service,8.0,1.82,false
+SLA_02304,SVC_EMAIL,Email Service,4.0,2.81,false
+SLA_02305,SVC_INV,Inventory Service,4.0,8.44,true
+SLA_02306,SVC_PAYMENT,Payment Gateway,2.0,0.7,false
+SLA_02307,SVC_DB,Core Database Cluster,8.0,3.97,false
+SLA_02308,SVC_WEB,Web Frontend,2.0,0.47,false
+SLA_02309,SVC_DB,Core Database Cluster,2.0,0.37,false
+SLA_02310,SVC_SHIP,Shipping Service,4.0,1.91,false
+SLA_02311,SVC_ORD,Order Management,2.0,0.94,false
+SLA_02312,SVC_REP,Reporting Service,8.0,2.6,false
+SLA_02313,SVC_ECOM,E-Commerce Platform,2.0,1.14,false
+SLA_02314,SVC_AUTH,Authentication Service,24.0,18.89,false
+SLA_02315,SVC_AUTH,Authentication Service,8.0,5.42,false
+SLA_02316,SVC_WEB,Web Frontend,8.0,2.92,false
+SLA_02317,SVC_INV,Inventory Service,2.0,1.14,false
+SLA_02318,SVC_AUTH,Authentication Service,2.0,0.26,false
+SLA_02319,SVC_WEB,Web Frontend,24.0,12.68,false
+SLA_02320,SVC_DB,Core Database Cluster,8.0,3.35,false
+SLA_02321,SVC_REP,Reporting Service,8.0,11.78,true
+SLA_02322,SVC_ECOM,E-Commerce Platform,4.0,2.58,false
+SLA_02323,SVC_AUTH,Authentication Service,24.0,12.0,false
+SLA_02324,SVC_AUTH,Authentication Service,2.0,0.55,false
+SLA_02325,SVC_WEB,Web Frontend,8.0,2.74,false
+SLA_02326,SVC_DB,Core Database Cluster,24.0,5.4,false
+SLA_02327,SVC_EMAIL,Email Service,2.0,0.24,false
+SLA_02328,SVC_PAYMENT,Payment Gateway,2.0,0.47,false
+SLA_02329,SVC_AUTH,Authentication Service,4.0,1.4,false
+SLA_02330,SVC_PAYMENT,Payment Gateway,24.0,59.69,true
+SLA_02331,SVC_WEB,Web Frontend,8.0,2.64,false
+SLA_02332,SVC_INV,Inventory Service,24.0,2.45,false
+SLA_02333,SVC_WEB,Web Frontend,8.0,1.35,false
+SLA_02334,SVC_INV,Inventory Service,4.0,7.12,true
+SLA_02335,SVC_WEB,Web Frontend,2.0,3.94,true
+SLA_02336,SVC_PAYMENT,Payment Gateway,8.0,14.1,true
+SLA_02337,SVC_SHIP,Shipping Service,2.0,0.92,false
+SLA_02338,SVC_ORD,Order Management,2.0,0.99,false
+SLA_02339,SVC_EMAIL,Email Service,2.0,0.78,false
+SLA_02340,SVC_DB,Core Database Cluster,4.0,2.1,false
+SLA_02341,SVC_AUTH,Authentication Service,8.0,6.24,false
+SLA_02342,SVC_ECOM,E-Commerce Platform,2.0,0.56,false
+SLA_02343,SVC_DB,Core Database Cluster,4.0,2.13,false
+SLA_02344,SVC_REP,Reporting Service,24.0,17.47,false
+SLA_02345,SVC_REP,Reporting Service,4.0,2.89,false
+SLA_02346,SVC_SHIP,Shipping Service,8.0,3.48,false
+SLA_02347,SVC_EMAIL,Email Service,24.0,4.87,false
+SLA_02348,SVC_EMAIL,Email Service,8.0,13.17,true
+SLA_02349,SVC_DB,Core Database Cluster,8.0,3.37,false
+SLA_02350,SVC_SHIP,Shipping Service,24.0,11.67,false
+SLA_02351,SVC_DB,Core Database Cluster,2.0,0.31,false
+SLA_02352,SVC_ECOM,E-Commerce Platform,4.0,2.5,false
+SLA_02353,SVC_REP,Reporting Service,2.0,1.33,false
+SLA_02354,SVC_ECOM,E-Commerce Platform,2.0,0.84,false
+SLA_02355,SVC_REP,Reporting Service,24.0,10.47,false
+SLA_02356,SVC_REP,Reporting Service,4.0,0.96,false
+SLA_02357,SVC_ECOM,E-Commerce Platform,2.0,1.18,false
+SLA_02358,SVC_ECOM,E-Commerce Platform,4.0,2.5,false
+SLA_02359,SVC_SHIP,Shipping Service,8.0,0.33,false
+SLA_02360,SVC_AUTH,Authentication Service,24.0,13.51,false
+SLA_02361,SVC_PAYMENT,Payment Gateway,2.0,4.03,true
+SLA_02362,SVC_WEB,Web Frontend,8.0,5.81,false
+SLA_02363,SVC_DB,Core Database Cluster,2.0,0.64,false
+SLA_02364,SVC_EMAIL,Email Service,4.0,6.86,true
+SLA_02365,SVC_INV,Inventory Service,8.0,4.69,false
+SLA_02366,SVC_ECOM,E-Commerce Platform,2.0,3.44,true
+SLA_02367,SVC_DB,Core Database Cluster,4.0,1.5,false
+SLA_02368,SVC_EMAIL,Email Service,24.0,9.26,false
+SLA_02369,SVC_AUTH,Authentication Service,8.0,0.69,false
+SLA_02370,SVC_ORD,Order Management,8.0,4.64,false
+SLA_02371,SVC_AUTH,Authentication Service,24.0,11.47,false
+SLA_02372,SVC_EMAIL,Email Service,4.0,0.89,false
+SLA_02373,SVC_PAYMENT,Payment Gateway,2.0,0.34,false
+SLA_02374,SVC_INV,Inventory Service,4.0,0.76,false
+SLA_02375,SVC_WEB,Web Frontend,8.0,6.45,false
+SLA_02376,SVC_SHIP,Shipping Service,24.0,6.61,false
+SLA_02377,SVC_ORD,Order Management,8.0,6.0,false
+SLA_02378,SVC_AUTH,Authentication Service,2.0,0.6,false
+SLA_02379,SVC_PAYMENT,Payment Gateway,2.0,1.29,false
+SLA_02380,SVC_REP,Reporting Service,2.0,1.11,false
+SLA_02381,SVC_WEB,Web Frontend,2.0,1.51,false
+SLA_02382,SVC_SHIP,Shipping Service,24.0,14.26,false
+SLA_02383,SVC_SHIP,Shipping Service,2.0,1.12,false
+SLA_02384,SVC_SHIP,Shipping Service,24.0,11.84,false
+SLA_02385,SVC_AUTH,Authentication Service,4.0,1.98,false
+SLA_02386,SVC_INV,Inventory Service,2.0,4.06,true
+SLA_02387,SVC_REP,Reporting Service,24.0,1.75,false
+SLA_02388,SVC_INV,Inventory Service,8.0,6.34,false
+SLA_02389,SVC_AUTH,Authentication Service,24.0,1.56,false
+SLA_02390,SVC_ECOM,E-Commerce Platform,24.0,13.85,false
+SLA_02391,SVC_REP,Reporting Service,24.0,16.6,false
+SLA_02392,SVC_REP,Reporting Service,8.0,3.01,false
+SLA_02393,SVC_WEB,Web Frontend,2.0,1.04,false
+SLA_02394,SVC_ECOM,E-Commerce Platform,4.0,1.37,false
+SLA_02395,SVC_SHIP,Shipping Service,8.0,0.64,false
+SLA_02396,SVC_ECOM,E-Commerce Platform,8.0,9.73,true
+SLA_02397,SVC_ECOM,E-Commerce Platform,2.0,1.38,false
+SLA_02398,SVC_REP,Reporting Service,8.0,3.79,false
+SLA_02399,SVC_AUTH,Authentication Service,2.0,1.38,false
+SLA_02400,SVC_INV,Inventory Service,24.0,10.53,false
+SLA_02401,SVC_PAYMENT,Payment Gateway,8.0,1.87,false
+SLA_02402,SVC_ORD,Order Management,24.0,9.45,false
+SLA_02403,SVC_AUTH,Authentication Service,24.0,6.07,false
+SLA_02404,SVC_WEB,Web Frontend,4.0,2.7,false
+SLA_02405,SVC_DB,Core Database Cluster,8.0,16.49,true
+SLA_02406,SVC_REP,Reporting Service,4.0,2.69,false
+SLA_02407,SVC_ORD,Order Management,8.0,6.57,false
+SLA_02408,SVC_SHIP,Shipping Service,8.0,0.5,false
+SLA_02409,SVC_ORD,Order Management,8.0,4.33,false
+SLA_02410,SVC_WEB,Web Frontend,8.0,6.42,false
+SLA_02411,SVC_WEB,Web Frontend,4.0,1.62,false
+SLA_02412,SVC_REP,Reporting Service,4.0,1.92,false
+SLA_02413,SVC_EMAIL,Email Service,24.0,16.85,false
+SLA_02414,SVC_EMAIL,Email Service,2.0,1.51,false
+SLA_02415,SVC_WEB,Web Frontend,24.0,11.58,false
+SLA_02416,SVC_WEB,Web Frontend,4.0,3.24,false
+SLA_02417,SVC_ECOM,E-Commerce Platform,4.0,0.74,false
+SLA_02418,SVC_PAYMENT,Payment Gateway,8.0,4.92,false
+SLA_02419,SVC_WEB,Web Frontend,24.0,16.31,false
+SLA_02420,SVC_PAYMENT,Payment Gateway,24.0,7.65,false
+SLA_02421,SVC_EMAIL,Email Service,2.0,1.07,false
+SLA_02422,SVC_DB,Core Database Cluster,2.0,0.69,false
+SLA_02423,SVC_DB,Core Database Cluster,24.0,7.76,false
+SLA_02424,SVC_PAYMENT,Payment Gateway,4.0,1.48,false
+SLA_02425,SVC_WEB,Web Frontend,8.0,5.85,false
+SLA_02426,SVC_PAYMENT,Payment Gateway,8.0,16.52,true
+SLA_02427,SVC_INV,Inventory Service,4.0,0.63,false
+SLA_02428,SVC_SHIP,Shipping Service,2.0,4.82,true
+SLA_02429,SVC_ORD,Order Management,4.0,2.17,false
+SLA_02430,SVC_PAYMENT,Payment Gateway,2.0,1.57,false
+SLA_02431,SVC_WEB,Web Frontend,2.0,1.29,false
+SLA_02432,SVC_REP,Reporting Service,4.0,7.64,true
+SLA_02433,SVC_SHIP,Shipping Service,24.0,11.54,false
+SLA_02434,SVC_INV,Inventory Service,24.0,1.6,false
+SLA_02435,SVC_WEB,Web Frontend,8.0,6.7,false
+SLA_02436,SVC_EMAIL,Email Service,4.0,3.16,false
+SLA_02437,SVC_WEB,Web Frontend,4.0,0.5,false
+SLA_02438,SVC_DB,Core Database Cluster,24.0,17.44,false
+SLA_02439,SVC_PAYMENT,Payment Gateway,2.0,1.7,false
+SLA_02440,SVC_ECOM,E-Commerce Platform,8.0,0.36,false
+SLA_02441,SVC_SHIP,Shipping Service,4.0,2.96,false
+SLA_02442,SVC_AUTH,Authentication Service,2.0,0.62,false
+SLA_02443,SVC_PAYMENT,Payment Gateway,24.0,16.82,false
+SLA_02444,SVC_REP,Reporting Service,4.0,3.18,false
+SLA_02445,SVC_EMAIL,Email Service,8.0,5.9,false
+SLA_02446,SVC_REP,Reporting Service,4.0,7.97,true
+SLA_02447,SVC_SHIP,Shipping Service,24.0,20.39,false
+SLA_02448,SVC_AUTH,Authentication Service,24.0,11.34,false
+SLA_02449,SVC_EMAIL,Email Service,24.0,5.42,false
+SLA_02450,SVC_WEB,Web Frontend,4.0,2.73,false
+SLA_02451,SVC_ORD,Order Management,8.0,2.41,false
+SLA_02452,SVC_EMAIL,Email Service,24.0,9.53,false
+SLA_02453,SVC_INV,Inventory Service,8.0,2.59,false
+SLA_02454,SVC_REP,Reporting Service,8.0,19.64,true
+SLA_02455,SVC_ORD,Order Management,24.0,18.63,false
+SLA_02456,SVC_EMAIL,Email Service,8.0,0.66,false
+SLA_02457,SVC_PAYMENT,Payment Gateway,2.0,1.16,false
+SLA_02458,SVC_AUTH,Authentication Service,2.0,0.81,false
+SLA_02459,SVC_INV,Inventory Service,24.0,2.24,false
+SLA_02460,SVC_SHIP,Shipping Service,24.0,18.64,false
+SLA_02461,SVC_WEB,Web Frontend,24.0,2.07,false
+SLA_02462,SVC_REP,Reporting Service,8.0,5.03,false
+SLA_02463,SVC_WEB,Web Frontend,2.0,0.3,false
+SLA_02464,SVC_EMAIL,Email Service,2.0,1.58,false
+SLA_02465,SVC_WEB,Web Frontend,8.0,1.4,false
+SLA_02466,SVC_ECOM,E-Commerce Platform,8.0,2.47,false
+SLA_02467,SVC_ORD,Order Management,24.0,19.38,false
+SLA_02468,SVC_ORD,Order Management,2.0,0.94,false
+SLA_02469,SVC_EMAIL,Email Service,24.0,2.98,false
+SLA_02470,SVC_INV,Inventory Service,4.0,2.96,false
+SLA_02471,SVC_SHIP,Shipping Service,24.0,18.67,false
+SLA_02472,SVC_EMAIL,Email Service,8.0,0.31,false
+SLA_02473,SVC_INV,Inventory Service,8.0,16.99,true
+SLA_02474,SVC_INV,Inventory Service,2.0,0.31,false
+SLA_02475,SVC_ORD,Order Management,24.0,14.31,false
+SLA_02476,SVC_AUTH,Authentication Service,8.0,0.8,false
+SLA_02477,SVC_EMAIL,Email Service,2.0,1.04,false
+SLA_02478,SVC_AUTH,Authentication Service,4.0,8.12,true
+SLA_02479,SVC_EMAIL,Email Service,4.0,0.23,false
+SLA_02480,SVC_PAYMENT,Payment Gateway,4.0,0.91,false
+SLA_02481,SVC_SHIP,Shipping Service,8.0,0.96,false
+SLA_02482,SVC_DB,Core Database Cluster,8.0,3.43,false
+SLA_02483,SVC_ORD,Order Management,8.0,3.95,false
+SLA_02484,SVC_WEB,Web Frontend,4.0,1.62,false
+SLA_02485,SVC_AUTH,Authentication Service,24.0,6.07,false
+SLA_02486,SVC_PAYMENT,Payment Gateway,8.0,6.18,false
+SLA_02487,SVC_SHIP,Shipping Service,8.0,1.94,false
+SLA_02488,SVC_EMAIL,Email Service,4.0,2.72,false
+SLA_02489,SVC_ECOM,E-Commerce Platform,24.0,18.71,false
+SLA_02490,SVC_DB,Core Database Cluster,24.0,10.31,false
+SLA_02491,SVC_AUTH,Authentication Service,4.0,0.34,false
+SLA_02492,SVC_DB,Core Database Cluster,4.0,3.24,false
+SLA_02493,SVC_ECOM,E-Commerce Platform,24.0,12.27,false
+SLA_02494,SVC_ECOM,E-Commerce Platform,24.0,8.66,false
+SLA_02495,SVC_ORD,Order Management,24.0,8.21,false
+SLA_02496,SVC_INV,Inventory Service,8.0,16.8,true
+SLA_02497,SVC_DB,Core Database Cluster,8.0,0.88,false
+SLA_02498,SVC_SHIP,Shipping Service,8.0,1.6,false
+SLA_02499,SVC_EMAIL,Email Service,4.0,1.55,false
+SLA_02500,SVC_EMAIL,Email Service,8.0,1.1,false
